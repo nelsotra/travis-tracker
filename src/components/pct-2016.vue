@@ -15,17 +15,19 @@
             </b-col>
         </b-row>
 
-        <postList inputFile='/pct-2016.json'></postList>
+        <postList inputFile='/pct-2016.json' mapId='pct-2016'></postList>
         
     </b-container>
 </template>
 
 <script>
 import postList from './postList'
+//import postMap from './postMap'
 
 export default {
     components: {
         postList
+        //postMap
     }
     
 }

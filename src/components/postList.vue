@@ -4,6 +4,16 @@
             <b-spinner label="Spinning" class="spinner mt-3"></b-spinner>
         </div>
 
+        
+        <b-button variant="link" @click="toggleMap">
+            <span v-if="!showMap">Show Map</span>
+            <span v-if="showMap">Hide Map</span>
+        </b-button>
+
+        <div class="mt-3" v-if="showMap">
+            <postMap :name="mapName" :itemsList="items"></postMap>
+        </div>
+
         <!-- A modal to let users flip through all of the images in a carousel -->
         <b-modal id="carousel-modal" hide-footer hide-header>
             <b-carousel
@@ -25,30 +35,12 @@
             </b-carousel>
         </b-modal>
 
-        <!-- <div class="mb-3" v-for="item in items" v-bind:key="item.id">
-            <b-card no-body class="overflow-hidden" >
-                <b-row no-gutters>
-                <b-col md="3">
-                    <img 
-                        :src="getImgUrl(item.img)"  
-                        class="rounded-0"
-                        width="200"
-                        @click="$bvModal.show('carousel-modal')"
-                        style="cursor: pointer;" />
-                    
-                </b-col>
-                <b-col md="9">
-                    <b-card-body>
-                    <h5 slot="header">{{  item.title }}</h5>
-                    <b-card-text>
-                        <p> {{ item.date }} </p>
-                        <p> {{ item.text }} </p>
-                    </b-card-text>
-                    </b-card-body>
-                </b-col>
-                </b-row>
-            </b-card>
-        </div> -->
+        
+        <!-- <b-modal id="map-modal" hide-footer hide-header>
+            Map Modal
+           <postMap name="tmp"></postMap>
+        </b-modal> -->
+
         <!-- The main list of posts for the currently chosen adventure -->
         <b-list-group class="mt-4" >
             <b-list-group-item class="mb-3" v-for="item in items" v-bind:key="item.id">
@@ -73,24 +65,35 @@
     </b-container>
 </template>
 
+
 <script>
 import axios from 'axios'
+import postMap from './postMap'
 
 export default {
-    props: ['inputFile'],
+    props: ['inputFile', 'mapId'],
+    components: {
+        postMap
+    },
     data() {
         return {
         items: null,
+        mapName: this.mapId + "-map",
+        showMap: false,
         loading: false //For the spinner
         }
     },
     methods: {
+        toggleMap () {
+            console.log(typeof this.items)
+            this.showMap = !this.showMap
+        },
         getPosts () {
             this.loading = true
 
             axios.get('/json-files/' + this.inputFile)
                 .then((res) => {
-                    console.log(res.data)
+                    //console.log(res.data)
                     this.items = res.data
                 })
                 .catch((error) => {
@@ -106,6 +109,17 @@ export default {
             }
             return ""
             
+        },
+        getMap () {
+            console.log('map name: ' + this.mapName)
+            const element = document.getElementById(this.mapName)
+            const options = {
+                zoom: 14,
+                center: new google.maps.LatLng(51.5,-0.19)
+            }
+
+            const map = new google.maps.Map(element, options);
+            this.$bvModal.show('map-modal')
         }
     },
     created() {

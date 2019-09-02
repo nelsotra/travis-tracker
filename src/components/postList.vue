@@ -31,7 +31,7 @@
                     img-width="1024"
                     content-visible-up="sm">
                 </b-carousel-slide>
-                <!-- :text="item.text" -->
+                
             </b-carousel>
         </b-modal>
 
@@ -39,7 +39,10 @@
         <!-- <b-modal id="map-modal" hide-footer hide-header>
             Map Modal
            <postMap name="tmp"></postMap>
-        </b-modal> -->
+        </b-modal> 
+        :src="getImgUrl(item.img)" 
+        src="../assets/img/breck_snow.jpg"
+        -->
 
         <!-- The main list of posts for the currently chosen adventure -->
         <b-list-group class="mt-4" >
@@ -47,7 +50,8 @@
                 <b-media>
                     <b-img 
                         slot="aside" 
-                        :src="getImgUrl(item.img)"  
+                        :src="getImgUrl(item.img)" 
+                        
                         width="200" 
                         @click="$bvModal.show('carousel-modal')"
                         style="cursor: pointer;">
@@ -85,7 +89,7 @@ export default {
     },
     methods: {
         toggleMap () {
-            console.log(typeof this.items)
+            //console.log(typeof this.items)
             this.showMap = !this.showMap
         },
         getPosts () {
@@ -111,7 +115,7 @@ export default {
             
         },
         getMap () {
-            console.log('map name: ' + this.mapName)
+            //console.log('map name: ' + this.mapName)
             const element = document.getElementById(this.mapName)
             const options = {
                 zoom: 14,

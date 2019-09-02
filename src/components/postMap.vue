@@ -36,12 +36,15 @@ export default {
     const map = new google.maps.Map(element, options);
 
     for (var key in this.items) {
-        const position = new google.maps.LatLng(this.items[key].latitude, this.items[key].longitude);
-        const marker = new google.maps.Marker({
-            position,
-            map
-        });
-        map.fitBounds(bounds.extend(position))
+        if (this.isNumber(this.items[key].latitude) && this.isNumber(this.items[key].longitude) ){
+          const position = new google.maps.LatLng(this.items[key].latitude, this.items[key].longitude);
+          const marker = new google.maps.Marker({
+              position,
+              map
+          });
+
+          map.fitBounds(bounds.extend(position))
+        }   
     };
   }
 };

@@ -51,10 +51,11 @@
                     <b-img 
                         slot="aside" 
                         :src="getImgUrl(item.img)" 
-                        
+                        alt="image"
                         width="200" 
                         @click="$bvModal.show('carousel-modal')"
-                        style="cursor: pointer;">
+                        style="cursor: pointer;"
+                        @error="imageLoadError(item.img)">
                     </b-img>
                     <div class="listHeader" >
                     <h5>{{ item.title }}</h5>
@@ -88,6 +89,10 @@ export default {
         }
     },
     methods: {
+        imageLoadError (img) {
+            //alert("testing")
+            console.log('Image failed to load: ' + img)
+        },
         toggleMap () {
             //console.log(typeof this.items)
             this.showMap = !this.showMap
@@ -110,6 +115,7 @@ export default {
         getImgUrl(pic) {
             if (pic){
                 return require('../assets/img/' + pic)
+
             }
             return ""
             

@@ -49,7 +49,7 @@
 export default {
     data() {
         return {
-            backgroundImg: '/img/background/winds_wrong_pass.jpg',
+            backgroundImg: process.env.BASE_URL + '/img/background/winds_wrong_pass.jpg',
             showHome: true,
         }
     },

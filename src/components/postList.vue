@@ -100,7 +100,7 @@ export default {
         getPosts () {
             this.loading = true
 
-            axios.get('/json-files/' + this.inputFile)
+            axios.get('/json-files' + this.inputFile)
                 .then((res) => {
                     //console.log(res.data)
                     this.items = res.data

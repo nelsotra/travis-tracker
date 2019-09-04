@@ -1,5 +1,5 @@
 <template>
-    <div class="pb-5 pt-3" :style="{ backgroundImage: `url('${backgroundImg}')` }">
+    <div class="intro pb-5 pt-3" :style="{ backgroundImage: `url('${backgroundImg}')` }">
         <b-row>
             <b-col>
             </b-col>
@@ -23,9 +23,22 @@ export default {
     props: ['backImg', 'introTitle', 'introText'],
     data() {
         return {
-            backgroundImg: this.backImg,
+            backgroundImg: process.env.BASE_URL + this.backImg,
             title: this.introTitle,
             text: this.introText
+        }
+    },
+    methods: {
+        imageLoadError (img) {
+            console.log('Image failed to load: ' + img)
+        },
+        getImgUrl(pic) {
+            if (pic){
+                //return require('../assets/img/' + pic)
+                return this.publicPath + pic
+            }
+            return ""
+            
         }
     }
 }

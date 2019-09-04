@@ -20,5 +20,5 @@ module.exports = {
           return options
         })
     },
-    publicPath: "/travis-tracker"
+    publicPath: "/travis-tracker/"
   }

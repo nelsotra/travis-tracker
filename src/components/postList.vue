@@ -42,6 +42,7 @@
         </b-modal> 
         :src="getImgUrl(item.img)" 
         src="../assets/img/breck_snow.jpg"
+        :src="getImgUrl(item.img)"
         -->
 
         <!-- The main list of posts for the currently chosen adventure -->
@@ -50,7 +51,7 @@
                 <b-media>
                     <b-img 
                         slot="aside" 
-                        :src="getImgUrl(item.img)" 
+                        :src="getImgUrl(item.img)"
                         alt="image"
                         width="200" 
                         @click="$bvModal.show('carousel-modal')"
@@ -76,13 +77,14 @@ import axios from 'axios'
 import postMap from './postMap'
 
 export default {
-    props: ['inputFile', 'mapId'],
+    props: ['inputFile', 'mapId', 'inputItems'],
     components: {
         postMap
     },
     data() {
         return {
-        items: null,
+        publicPath: process.env.BASE_URL,
+        items: this.inputItems,
         mapName: this.mapId + "-map",
         showMap: false,
         loading: false //For the spinner
@@ -114,8 +116,10 @@ export default {
         },
         getImgUrl(pic) {
             if (pic){
-                return require('../assets/img/' + pic)
-
+                //return require('../assets/img/' + pic)
+                //return require('../../public/img/' + pic)
+                //console.log(this.publicPath + pic)
+                return this.publicPath + pic
             }
             return ""
             
@@ -133,7 +137,7 @@ export default {
         }
     },
     created() {
-        this.getPosts()
+        //this.getPosts()
     }
 }
 </script>

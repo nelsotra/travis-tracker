@@ -15,15 +15,22 @@
             </b-col>
         </b-row>
 
-        <postList inputFile='/pacificCoast-2014.json'></postList>
+        <postList inputFile='/pacificCoast-2014.json' :inputItems="data"></postList>
         
     </b-container>
 </template>
 
 <script>
 import postList from './postList'
+//import data from '../assets/json-files/pacificCoast-2014.json'
+import data from '../../public/json-files/pacificCoast-2014.json'
 
 export default {
+    data() {
+        return {
+            data
+        }
+    },
     components: {
         postList
     }

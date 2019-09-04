@@ -1,37 +1,29 @@
 <template>
     <b-container class="mt-3">
-        <b-row>
-            <b-col>
-            </b-col>
-            <b-col cols="8">
-                <b-card class="mt-2" border-variant="secondary" >
-                    <h4 slot="header"><center>AT 2016!!!</center></h4>
-                    <b-card-text>
-                        <b>AT!</b>
-                    </b-card-text>
-                </b-card>
-            </b-col>
-            <b-col>
-            </b-col>
-        </b-row>
-
-        <postList inputFile='/at-2016.json' :inputItems="data"></postList>
+        
+        <pageIntro :backImg="backgroundImg" :introTitle="title" :introText="text"></pageIntro>
+        <postList :inputItems="data"></postList>
         
     </b-container>
 </template>
 
 <script>
 import postList from './postList'
+import pageIntro from './pageIntro'
 import data from '../../public/json-files/at-2016.json'
 
 export default {
     data() {
         return {
-            data
+            backgroundImg: '/img/background/tent.jpg',
+            data,
+            title: 'AT 2016!!!',
+            text: 'The plan was to hike the southern portion of the PCT and then pop over to hike the AT. Well, that partially happened. I hiked about 200 miles of the PCT, broke a tooth, ended up in San Diego, and decided to just say f*&^ it and head east. Was this a good decision? Who knows. All I know is that I\'m definitely taking a much more relaxed attitude to my hiking than the last time around. Basically, whatever happens, happens.',
         }
     },
     components: {
-        postList
+        postList,
+        pageIntro
     }
     
 }

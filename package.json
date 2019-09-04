@@ -17,6 +17,7 @@
     "js-yaml": "^3.13.1",
     "read-yaml": "^1.1.0",
     "vue": "^2.6.10",
+    "vue-expandable-image": "0.0.2",
     "vue-router": "^3.0.3",
     "vue-toasted": "^1.1.27",
     "vuex": "^3.0.1"

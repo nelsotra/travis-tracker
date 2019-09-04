@@ -7,19 +7,8 @@
       "longitude" : "-118.48",
       "date" : "2016-03-02 03:11:18",
       "text" : "It took 2 planes and 3 buses to get to the PCT, but once I did, I realized that I had forgotten my spoon.  How am I supposed to eat my ice cream without a spoon?!?!? You'd think that with all of my years of hiking experience that I would remember something so essential, but yet I continually find ways to amaze and annoy myself.",
-      "title" : "Day0",
+      "title" : "Day 0",
       "img" : "/img/pct-2016/3-2-16.jpg"
-    },
-    "1197846525228181518" : {
-      "caption" : "Yup, that's what I hiked through all day",
-      "include_post" : "Y",
-      "id" : "1197846525228181518",
-      "latitude" : "35.524",
-      "longitude" : "-118.127",
-      "date" : "2016-03-03 14:14:14",
-      "text" : "My first day on the trail was, um, I guess painful would be the word.  The first day always is, especially for stupid people like me who try to do way too much.  Someday I'll learn.  Anyway, hopefully I get my hiking legs soon!",
-      "title" : "Day 1b",
-      "img" : "/img/pct-2016/3-3-16.jpg"
     },
     "1197846616429127697" : {
       "caption" : "Walker Pass - A gorgeous sunrise to start my hike!",
@@ -31,6 +20,17 @@
       "text" : "These coordinates are probably wrong, I took the sunrise picture but forgot to get the GPS coordinates too.  Oh well, it's still a pretty picture.",
       "title" : "Day 1a",
       "img" : "/img/pct-2016/3-3-16b.jpg"
+    },
+    "1197846525228181518" : {
+      "caption" : "Yup, that's what I hiked through all day",
+      "include_post" : "Y",
+      "id" : "1197846525228181518",
+      "latitude" : "35.524",
+      "longitude" : "-118.127",
+      "date" : "2016-03-03 14:14:14",
+      "text" : "My first day on the trail was, um, I guess painful would be the word.  The first day always is, especially for stupid people like me who try to do way too much.  Someday I'll learn.  Anyway, hopefully I get my hiking legs soon!",
+      "title" : "Day 1b",
+      "img" : "/img/pct-2016/3-3-16.jpg"
     },
     "1199645340243422154" : {
       "caption" : "There was lots of sand and Joshua trees today",
@@ -84,7 +84,7 @@
       "longitude" : "",
       "date" : "2016-03-08 00:29:58",
       "text" : "This was supposed to be a pic showing me battling the 30mph wind after Tehachapi.  I'm not sure how successful that attempt was...",
-      "title" : "",
+      "title" : "Day 6",
       "img" : "/img/pct-2016/3-8-16.jpg"
     },
     "1201059186476673690" : {
@@ -95,7 +95,7 @@
       "longitude" : "-118.606",
       "date" : "2016-03-08 00:37:14",
       "text" : "My stormy days continue.  It even snowed in the Mojave!  A tiny bit at least.  You can see more snow in the background hills in the picture.  While the snow is fun for now, I am a bit concerned about the mountains to the south, where I have to climb to 8000-9000 ft of elevation.  Yes, I'm a little worried.  We'll see what tomorrow looks like...",
-      "title" : "Day 6",
+      "title" : "Day 6b",
       "img" : "/img/pct-2016/3-9-16.jpg"
     },
     "1202591346752842619" : {
@@ -106,7 +106,7 @@
       "longitude" : "-118.312",
       "date" : "2016-03-10 03:21:21",
       "text" : "",
-      "title" : "Day 8",
+      "title" : "Day 7",
       "img" : "/img/pct-2016/3-10-16.jpg"
     },
     "1202591405053668222" : {
@@ -117,7 +117,7 @@
       "longitude" : "-118.389",
       "date" : "2016-03-10 03:21:28",
       "text" : "Today was mostly a road walk around a fire-closed section of trail.  Normally road walks are boring and monotonous, but not when you run into Kenny and his 3 dogs!  Just when I needed it the most, 3 dogs and an interesting human appeared to pull me out of my funk.  If you let it, the trail can be magical.",
-      "title" : "Day 7",
+      "title" : "Day 7b",
       "img" : "/img/pct-2016/3-10-16b.jpg"
     },
     "1202591460510755714" : {

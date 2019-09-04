@@ -186,17 +186,6 @@
       "title" : "Day 14",
       "img" : "/img/at-2016/3-30-16.jpg"
     },
-    "1219027076790184455" : {
-      "caption" : "Hmm....",
-      "include_post" : "Y",
-      "id" : "1219027076790184455",
-      "latitude" : "36.105",
-      "longitude" : "-82.12",
-      "date" : "2016-04-01 19:36:13",
-      "text" : "Sometimes you're hiking along and you come across a chimney in the middle of the trail.  Why wouldn't you put a chimney in the middle of a hiking trail, it just makes sense.  I'm surprised that more trails haven't picked up on this trend yet and installed chimneys in the middle of all of their trails.",
-      "title" : "Day 16",
-      "img" : "/img/at-2016/4-1-16.jpg"
-    },
     "1219027309028796943" : {
       "caption" : "Just a pretty little section of trail",
       "include_post" : "Y",
@@ -207,6 +196,17 @@
       "text" : "There's not much to say, the weather has been beautiful, the trail has been pretty reasonable, and I've just been hiking along; nothing exciting has happened.  I really shouldn't say things like that or I'll jinx it and something catastrophic will happen.  But yeah, everything has been going smoothly...",
       "title" : "Day 15",
       "img" : "/img/at-2016/4-1-16b.jpg"
+    },
+    "1219027076790184455" : {
+      "caption" : "Hmm....",
+      "include_post" : "Y",
+      "id" : "1219027076790184455",
+      "latitude" : "36.105",
+      "longitude" : "-82.12",
+      "date" : "2016-04-01 19:36:13",
+      "text" : "Sometimes you're hiking along and you come across a chimney in the middle of the trail.  Why wouldn't you put a chimney in the middle of a hiking trail, it just makes sense.  I'm surprised that more trails haven't picked up on this trend yet and installed chimneys in the middle of all of their trails.",
+      "title" : "Day 16",
+      "img" : "/img/at-2016/4-1-16.jpg"
     },
     "1219591022278437824" : {
       "caption" : "More pretty hiking along NC's balds",
@@ -318,17 +318,6 @@
       "title" : "Day 25",
       "img" : "/img/at-2016/4-12-16.jpg"
     },
-    "1226888681431329241" : {
-      "caption" : "He was hiking fast, way out of my hiking league",
-      "include_post" : "Y",
-      "id" : "1226888681431329241",
-      "latitude" : "37.384",
-      "longitude" : "-80.466",
-      "date" : "2016-04-12 15:55:49",
-      "text" : "Virginia has lots of nice hiking along ridges.  Sometimes you even get nice views.  Yeah, Virginia's been alright so far.",
-      "title" : "Day 27",
-      "img" : "/img/at-2016/4-12-16b.jpg"
-    },
     "1226888714348227034" : {
       "caption" : "It was a good day!",
       "include_post" : "Y",
@@ -339,6 +328,17 @@
       "text" : "I know what you all were thinking when you saw this picture: 'that's not enough food!!'. And you would be correct.  Luckily, however, this was a Chinese buffet, so about 4 more delicious plates followed this one.  Weather wise, it finally started to warm up today, but during the previous 2 cold, snowy days I saw a grand total of 1 other hiker.  Apparently the rest fled the trail for the closest town or hostel like rats from a sinking ship.  Anyone can hike when it's sunny and 60 degrees outside; embrace the brutality!!!",
       "title" : "Day 26",
       "img" : "/img/at-2016/4-12-16c.jpg"
+    },
+    "1226888681431329241" : {
+      "caption" : "He was hiking fast, way out of my hiking league",
+      "include_post" : "Y",
+      "id" : "1226888681431329241",
+      "latitude" : "37.384",
+      "longitude" : "-80.466",
+      "date" : "2016-04-12 15:55:49",
+      "text" : "Virginia has lots of nice hiking along ridges.  Sometimes you even get nice views.  Yeah, Virginia's been alright so far.",
+      "title" : "Day 27",
+      "img" : "/img/at-2016/4-12-16b.jpg"
     },
     "1227150752911813390" : {
       "caption" : "The Keffer Oak",
@@ -450,17 +450,6 @@
       "title" : "Day 37",
       "img" : "/img/at-2016/4-22-16b.jpg"
     },
-    "1235123739829037519" : {
-      "caption" : "Goodbye SNP!",
-      "include_post" : "Y",
-      "id" : "1235123739829037519",
-      "latitude" : "38.940",
-      "longitude" : "-78.036",
-      "date" : "2016-04-24 00:37:25",
-      "text" : "Today marked the end of my hike through the SNP.  It's not exactly the most scenic hiking ever, but it was pleasant enough.  The big draw of the park (for hikers at least) is the abundance of food: there's the restaurants, Waysides, and the random tourists who stop to hand you a blueberry scone from Panera (it was delicious!). I'll miss you, SNP, and all of your delicious food...",
-      "title" : "Day 39",
-      "img" : "/img/at-2016/4-24-16.jpg"
-    },
     "1235123845869431250" : {
       "caption" : "It finally rained!",
       "include_post" : "Y",
@@ -471,6 +460,17 @@
       "text" : "A random Travis quote from today: 'Yeah, the fire sucks, but it's fine, I found a breakfast buffet today so everything's going to be ok'.",
       "title" : "Day 38",
       "img" : "/img/at-2016/4-24-16b.jpg"
+    },
+    "1235123739829037519" : {
+      "caption" : "Goodbye SNP!",
+      "include_post" : "Y",
+      "id" : "1235123739829037519",
+      "latitude" : "38.940",
+      "longitude" : "-78.036",
+      "date" : "2016-04-24 00:37:25",
+      "text" : "Today marked the end of my hike through the SNP.  It's not exactly the most scenic hiking ever, but it was pleasant enough.  The big draw of the park (for hikers at least) is the abundance of food: there's the restaurants, Waysides, and the random tourists who stop to hand you a blueberry scone from Panera (it was delicious!). I'll miss you, SNP, and all of your delicious food...",
+      "title" : "Day 39",
+      "img" : "/img/at-2016/4-24-16.jpg"
     },
     "1236351477848042223" : {
       "caption" : "Drama on the AT!",
@@ -659,17 +659,6 @@
       "title" : "Day 55",
       "img" : "/img/at-2016/5-10-16.jpg"
     },
-    "1250252222750091653" : {
-      "caption" : "Why, NY?",
-      "include_post" : "Y",
-      "id" : "1250252222750091653",
-      "latitude" : "41.279",
-      "longitude" : "-74.059",
-      "date" : "2016-05-14 21:35:00",
-      "text" : "My guidebook for this section says: 'despite the unassuming elevation profile, many rocky abrupt ups and downs make this a challenging section'. I agree.  Sure, the motto of the AT seems to be:  if there's a big pile of rocks somewhere, we're going to go straight up and over it!  But NY takes it to a whole new level.  Look at you being an overachiever, NY.  Way to go!!",
-      "title" : "Day 57",
-      "img" : "/img/at-2016/5-14-16.jpg"
-    },
     "1250252266421184904" : {
       "caption" : "NJ",
       "include_post" : "Y",
@@ -680,6 +669,17 @@
       "text" : "Already, we're done with New Jersey and have moved on to New York.  There wasn't a whole lot of trail in NJ, so it's hard to come to any big conclusions about the state, but 2 things stick out for me:  1. It seemed really swampy, lots of areas were just boggy (as you can see in the picture above). Not that this is a bad thing, just different after very dry Pennsylvania.  2.  You never felt very far from civilization.  Often you were quite literally hiking behind someone's backyard.  It's hard to feel like you're out in the wilderness when you're watching some guy mow his lawn.  Anyway, that's it for NJ, we'll see what NY has in store for me!",
       "title" : "Day 56",
       "img" : "/img/at-2016/5-14-16b.jpg"
+    },
+    "1250252222750091653" : {
+      "caption" : "Why, NY?",
+      "include_post" : "Y",
+      "id" : "1250252222750091653",
+      "latitude" : "41.279",
+      "longitude" : "-74.059",
+      "date" : "2016-05-14 21:35:00",
+      "text" : "My guidebook for this section says: 'despite the unassuming elevation profile, many rocky abrupt ups and downs make this a challenging section'. I agree.  Sure, the motto of the AT seems to be:  if there's a big pile of rocks somewhere, we're going to go straight up and over it!  But NY takes it to a whole new level.  Look at you being an overachiever, NY.  Way to go!!",
+      "title" : "Day 57",
+      "img" : "/img/at-2016/5-14-16.jpg"
     },
     "1250252308490054026" : {
       "caption" : "If you look closely at the horizon you can see the NYC skyline",
@@ -714,17 +714,6 @@
       "title" : "Day 60",
       "img" : "/img/at-2016/5-14-16e.jpg"
     },
-    "1252996379176430134" : {
-      "caption" : "Pretty little waterfalls",
-      "include_post" : "Y",
-      "id" : "1252996379176430134",
-      "latitude" : "42.167",
-      "longitude" : "-73.304",
-      "date" : "5-15-16",
-      "text" : "Check another state off of the list, we're now in Massachusetts.  I started hiking the AT on March 16th, so I guess this is my 2 month mark.  2 months on the trail, does this mean that I only have one more month to go?!? Finishing the AT in 3 months is pretty crazy fast, but I only have about 662 miles to go (I've done 1527 to this point), so it's actually possible.  The northern part of the trail will slow me down quite a bit, the Whites in particular are beautiful but pretty nasty hiking, so who knows.  I guess it doesn't matter: 3 months, 4 months, 6 months, what difference does it make?",
-      "title" : "Day 62",
-      "img" : "/img/at-2016/5-15-16.jpg"
-    },
     "1252996463909759547" : {
       "caption" : "The Housatonic River",
       "include_post" : "Y",
@@ -735,6 +724,17 @@
       "text" : "For a good chunk of Connecticut the trail is either near or crossing the Housatonic River and the many small towns located near it.  Today, I ambled down to a town called Cornwall Bridge and found the scene in the photo above:  some sort of kayak race was going on, so I grabbed some food and sat there for awhile watching the racers go by.  It was a great afternoon!",
       "title" : "Day 61",
       "img" : "/img/at-2016/5-13-16.jpg"
+    },
+    "1252996379176430134" : {
+      "caption" : "Pretty little waterfalls",
+      "include_post" : "Y",
+      "id" : "1252996379176430134",
+      "latitude" : "42.167",
+      "longitude" : "-73.304",
+      "date" : "5-15-16",
+      "text" : "Check another state off of the list, we're now in Massachusetts.  I started hiking the AT on March 16th, so I guess this is my 2 month mark.  2 months on the trail, does this mean that I only have one more month to go?!? Finishing the AT in 3 months is pretty crazy fast, but I only have about 662 miles to go (I've done 1527 to this point), so it's actually possible.  The northern part of the trail will slow me down quite a bit, the Whites in particular are beautiful but pretty nasty hiking, so who knows.  I guess it doesn't matter: 3 months, 4 months, 6 months, what difference does it make?",
+      "title" : "Day 62",
+      "img" : "/img/at-2016/5-15-16.jpg"
     },
     "1252996545094707773" : {
       "caption" : "My favorite flower so far",

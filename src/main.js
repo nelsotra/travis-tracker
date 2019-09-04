@@ -9,6 +9,8 @@ import axios from 'axios'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+import VueExpandableImage from 'vue-expandable-image'
+
 axios.defaults.baseURL = process.env.VUE_APP_BASE_URL
 //axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 
@@ -24,6 +26,8 @@ Vue.use(Toasted, {
     }
   }
 })
+
+Vue.use(VueExpandableImage)
 
 new Vue({
   router,

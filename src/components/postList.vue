@@ -4,14 +4,18 @@
             <b-spinner label="Spinning" class="spinner mt-3"></b-spinner>
         </div>
 
-        
-        <b-button pill class="mb-3" variant="outline-primary" @click="toggleMap">
-            <span v-if="!showMap">Show Map</span>
-            <span v-if="showMap">Hide Map</span>
+        <b-button pill block class="mb-1" variant="outline-secondary" @click="toggleList">
+            <span v-if="!showList">Show List</span>
+            <span v-if="showList">Hide List</span>
         </b-button>
 
-        <b-button pill class="ml-3 mb-3" variant="outline-primary" @click="$bvModal.show('carousel-modal')">
-            All Photos
+        <b-button pill block class="mb-1" variant="outline-secondary" @click="$bvModal.show('carousel-modal')">
+            Photos
+        </b-button>
+
+        <b-button pill block class="mb-1" variant="outline-secondary" @click="toggleMap">
+            <span v-if="!showMap">Show Map</span>
+            <span v-if="showMap">Hide Map</span>
         </b-button>
 
         <div class="mt-3" v-if="showMap">
@@ -37,33 +41,37 @@
             </b-carousel>
         </b-modal>
 
-        <div v-for="item in items" v-bind:key="item.id">
-            <b-row class="mb-3 border">
-                <b-col cols="3">
-                    <figure class="mt-2">
-                    <expandable-image 
-                        slot="aside" 
-                        :src="getImgUrl(item.img)"
-                        alt="image"
-                        @error="imageLoadError(item.img)"
-                    />
-                    <figcaption>
-                        {{ item.caption }}
-                    </figcaption>
-                    </figure>
-                </b-col>
-                <b-col>
-                <b-card 
-                    style="border: none;" 
-                    v-bind:title="item.title" 
-                    v-bind:sub-title="item.date">     
-                <hr>
-                <b-card-text>
-                    {{ item.text }}
-                </b-card-text>
-            </b-card>
-                </b-col>
-            </b-row>
+        <!-- A list of all the posts for this adventure.  The expandable image lets you click on it
+        to see a full-screen version of the image. -->
+        <div v-if="showList">
+            <div v-for="item in items" v-bind:key="item.id">
+                <b-row class="mb-3 border">
+                    <b-col cols="3">
+                        <figure class="mt-2">
+                        <expandable-image 
+                            slot="aside" 
+                            :src="getImgUrl(item.img)"
+                            alt="image"
+                            @error="imageLoadError(item.img)"
+                        />
+                        <figcaption>
+                            {{ item.caption }}
+                        </figcaption>
+                        </figure>
+                    </b-col>
+                    <b-col>
+                    <b-card 
+                        style="border: none;" 
+                        v-bind:title="item.title" 
+                        v-bind:sub-title="item.date">     
+                    <hr>
+                    <b-card-text>
+                        {{ item.text }}
+                    </b-card-text>
+                </b-card>
+                    </b-col>
+                </b-row>
+            </div>
         </div>
         
     </b-container>
@@ -84,6 +92,7 @@ export default {
         items: this.inputItems,
         mapName: this.mapId + "-map",
         showMap: false,
+        showList: false,
         loading: false //For the spinner
         }
     },
@@ -93,6 +102,9 @@ export default {
         },
         toggleMap () {
             this.showMap = !this.showMap
+        },
+        toggleList () {
+            this.showList = !this.showList
         },
         getImgUrl(pic) {
             if (pic){

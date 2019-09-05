@@ -10,7 +10,6 @@
 import header from './components/header'
 import postList from './components/postList'
 import postMap from './components/postMap'
-import test from '../public/img/background/winds_wrong_pass.jpg'
 
 export default {
   name: 'app',
@@ -21,7 +20,7 @@ export default {
   },
   data() {
     return {
-        test
+        
     }
   }
 }

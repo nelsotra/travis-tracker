@@ -196,6 +196,17 @@
       "text" : "This is it, the end of the line for me, I've gone as far south as I can go without a passport. Mexico! It's been a great trip, Oregon is amazing and I would bike that portion again anytime. California had some spectacular sections, but I wouldn't be quite as eager to redo it. Anyway, I hope you enjoyed following along, and stay tuned, who knows what my next adventure will be!",
       "title" : "Mexico! (well, the border at least)",
       "img" : "/img/pacificCoast-2014/9-26-14.jpg"
+    },
+    "1152027924005218974" : {
+      "caption" : "Testing",
+      "include_post" : "Y",
+      "id" : "1152027924005218974",
+      "latitude" : "30.54",
+      "longitude" : "-115.12",
+      "date" : "2019-09-5",
+      "text" : "Testing Travis-CI",
+      "title" : "Testing CI",
+      "img" : "/img/pacificCoast-2014/9-5-19.jpg"
     }
   }
   

@@ -17,27 +17,26 @@
     </div>
 </template>
 
-
 <script>
 export default {
-    props: ['backImg', 'introTitle', 'introText'],
-    data() {
-        return {
-            backgroundImg: process.env.BASE_URL + this.backImg,
-            title: this.introTitle,
-            text: this.introText
-        }
-    },
-    methods: {
-        
+  props: ['backImg', 'introTitle', 'introText'],
+  data () {
+    return {
+      backgroundImg: process.env.BASE_URL + this.backImg,
+      title: this.introTitle,
+      text: this.introText
     }
+  },
+  methods: {
+
+  }
 }
 </script>
 
 <style>
 
 .specialCard {
-    opacity: .8;
+  opacity: .8;
 }
 
 </style>

@@ -11,8 +11,8 @@ import at2016 from './components/at-2016'
 Vue.use(Router)
 
 export default new Router({
-  //without the 'history' mode you'll get a # in the url, but refreshes work, so i'm leaving it out
-  //mode: 'history',
+  // without the 'history' mode you'll get a # in the url, but refreshes work, so i'm leaving it out
+  // mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {

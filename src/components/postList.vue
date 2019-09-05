@@ -33,12 +33,12 @@
                 indicators
                 background="#03173e">
 
-                <b-carousel-slide 
-                    v-for="item in items" 
+                <b-carousel-slide
+                    v-for="item in items"
                     v-bind:key="item.id"
                     :img-src="publicPath + item.img"
                     content-visible-up="sm">
-                </b-carousel-slide>  
+                </b-carousel-slide>
             </b-carousel>
         </b-modal>
 
@@ -60,7 +60,7 @@
                 <b-row class="mb-3 border">
                     <b-col cols="2">
                         <figure class="mt-2">
-                            <b-img  
+                            <b-img
                                 :src="publicPath + item.img"
                                 alt="image"
                                 fluid
@@ -76,10 +76,10 @@
                         </figure>
                     </b-col>
                     <b-col>
-                        <b-card 
-                            style="border: none;" 
-                            v-bind:title="item.title" 
-                            v-bind:sub-title="item.date">     
+                        <b-card
+                            style="border: none;"
+                            v-bind:title="item.title"
+                            v-bind:sub-title="item.date">
                             <hr>
                             <b-card-text>
                                 {{ item.text }}
@@ -93,43 +93,42 @@
     </b-container>
 </template>
 
-
 <script>
 import postMap from './postMap'
 
 export default {
-    props: ['mapId', 'inputItems'],
-    components: {
-        postMap
-    },
-    data() {
-        return {
-        publicPath: process.env.BASE_URL,
-        items: this.inputItems,
-        mapName: this.mapId + "-map",
-        showMap: false,
-        showList: false,
-        selectedItem: '',
-        loading: false //For the spinner
-        }
-    },
-    methods: {
-        //When an image is clicked, this will capture which item was clicked so the image modal can show it
-        sendInfo(item) {
-            this.selectedItem = item;
-        },
-        //Just writing image loading problems to the console
-        imageLoadError (img) {
-            console.log('Image failed to load: ' + img)
-        },
-        //Clicking on the button for the map will toggle it
-        toggleMap () {
-            this.showMap = !this.showMap
-        },
-        toggleList () {
-            this.showList = !this.showList
-        }
+  props: ['mapId', 'inputItems'],
+  components: {
+    postMap
+  },
+  data () {
+    return {
+      publicPath: process.env.BASE_URL,
+      items: this.inputItems,
+      mapName: this.mapId + '-map',
+      showMap: false,
+      showList: false,
+      selectedItem: '',
+      loading: false // For the spinner
     }
+  },
+  methods: {
+    // When an image is clicked, this will capture which item was clicked so the image modal can show it
+    sendInfo (item) {
+      this.selectedItem = item
+    },
+    // Just writing image loading problems to the console
+    imageLoadError (img) {
+      console.log('Image failed to load: ' + img)
+    },
+    // Clicking on the button for the map will toggle it
+    toggleMap () {
+      this.showMap = !this.showMap
+    },
+    toggleList () {
+      this.showList = !this.showList
+    }
+  }
 }
 </script>
 
@@ -143,6 +142,4 @@ export default {
     height: 6rem;
     color: #f8f5ec;
 }
-
-
 </style>

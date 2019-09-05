@@ -13,25 +13,19 @@
             <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/at-2016">AT - 2016</b-dropdown-item>
             <b-dropdown-item to="/pct-2016">PCT - 2016</b-dropdown-item>
-    
             <b-dropdown-item class="mt-3" disabled>Biking</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/iceland-2016">Iceland - 2016</b-dropdown-item>
             <b-dropdown-item to="/korea-2015">Korea - 2015</b-dropdown-item>
             <b-dropdown-item to="/japan-2015">Japan - 2015</b-dropdown-item>
             <b-dropdown-item to="/pacificCoast-2014">Pacific Coast - 2014</b-dropdown-item>
-            
             <b-dropdown-item class="mt-3" disabled>All 3 Trails in 1 Year</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
-            
           </b-dropdown>
-          
-          
         </b-nav-item>
         <b-nav-item >
           <router-link to="/home">Home</router-link>
         </b-nav-item>
-        
       </b-navbar-nav>
     </b-navbar>
   </div>
@@ -39,31 +33,30 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       items: null,
       selected: null,
-      loading: false //For the spinner
+      loading: false // For the spinner
     }
   },
   methods: {
-    selectAdventure(id, event){
+    selectAdventure (id, event) {
       console.log(id)
       console.log(event)
     }
   },
   computed: {
-    //Not using these, but keeping in case I change my mind later
-    getList() {
-        this.items = this.$store.getters.adventureList 
-        
-        return this.$store.getters.adventureList 
-    },
-    getHiking(){
-      let filteredItems = this.$store.getters.adventureList.filter((item) => {
-        return item.type.toLowerCase().includes('hiking')
-      })
-    }
+    // Not using these, but keeping in case I change my mind later
+    // getList () {
+    //     this.items = this.$store.getters.adventureList
+    //     return this.$store.getters.adventureList
+    // },
+    // getHiking () {
+    //   let filteredItems = this.$store.getters.adventureList.filter((item) => {
+    //     return item.type.toLowerCase().includes('hiking')
+    //   })
+    // }
   }
 }
 </script>

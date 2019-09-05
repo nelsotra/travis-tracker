@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import axios from 'axios'
+// import axios from 'axios'
 
 Vue.use(Vuex)
 
@@ -11,25 +11,24 @@ export default new Vuex.Store({
     isLoading: false
   },
   mutations: {
-    updateAdventure(state, data){
+    updateAdventure (state, data) {
       state.adventureJSON = data
     }
   },
   actions: {
-    //Not using this at the moment, but keeping in case I want it later
-    getAdventureList ({ commit }) {
-      axios.get('/adventures.json')
-        .then((res) => {
-            
-            commit('updateAdventure', res.data)
-        })
-        .catch((error) => {
-            console.log('header get adventures error: ' + error)
-        })
-        .finally(event => {
-            console.log('finally')
-        })
-    }
+    // Not using this at the moment, but keeping in case I want it later
+    // getAdventureList ({ commit }) {
+    //   axios.get('/adventures.json')
+    //     .then((res) => {
+    //         commit('updateAdventure', res.data)
+    //     })
+    //     .catch((error) => {
+    //         console.log('header get adventures error: ' + error)
+    //     })
+    //     .finally(event => {
+    //         console.log('finally')
+    //     })
+    // }
   },
   getters: {
     adventureList (state) {

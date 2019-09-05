@@ -31,9 +31,7 @@
         <b-nav-item >
           <router-link to="/home">Home</router-link>
         </b-nav-item>
-        <!-- <b-nav-item >
-          <router-link to="/about">About</router-link>
-        </b-nav-item> -->
+        
       </b-navbar-nav>
     </b-navbar>
   </div>
@@ -54,16 +52,11 @@ export default {
       console.log(event)
     }
   },
-  mounted() {
-    //this.$store.dispatch('getAdventureList')
-  },
   computed: {
+    //Not using these, but keeping in case I change my mind later
     getList() {
         this.items = this.$store.getters.adventureList 
-        //console.log("header...")
-        //console.log(typeof this.items)
-        //console.log(Object.keys(this.items))
-
+        
         return this.$store.getters.adventureList 
     },
     getHiking(){

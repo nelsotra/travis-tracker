@@ -2,7 +2,6 @@
     <b-container class="mt-3">
         
         <pageIntro :backImg="backgroundImg" :introTitle="title" :introText="text"></pageIntro>
-        
         <postList :inputItems="data"></postList>
         
     </b-container>

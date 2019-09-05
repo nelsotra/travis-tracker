@@ -4,6 +4,7 @@
             <b-spinner label="Spinning" class="spinner mt-3"></b-spinner>
         </div>
 
+        <!-- A series of buttons to display the content.  At the start nothing but the buttons should be shown -->
         <b-button pill block class="mb-1" variant="outline-secondary" @click="toggleList">
             <span v-if="!showList">Show List</span>
             <span v-if="showList">Hide List</span>
@@ -18,12 +19,13 @@
             <span v-if="showMap">Hide Map</span>
         </b-button>
 
+        <!-- A google map filled with markers from the latitute/longitude info -->
         <div class="mt-3" v-if="showMap">
             <postMap :name="mapName" :itemsList="items"></postMap>
         </div>
 
         <!-- A modal to let users flip through all of the images in a carousel -->
-        <b-modal id="carousel-modal" hide-footer hide-header>
+        <b-modal size="lg" id="carousel-modal" hide-footer hide-header>
             <b-carousel
                 id="carousel-1"
                 :interval="0"
@@ -34,46 +36,60 @@
                 <b-carousel-slide 
                     v-for="item in items" 
                     v-bind:key="item.id"
-                    :img-src="getImgUrl(item.img)"
+                    :img-src="publicPath + item.img"
                     content-visible-up="sm">
-                </b-carousel-slide>
-                
+                </b-carousel-slide>  
             </b-carousel>
         </b-modal>
 
-        <!-- A list of all the posts for this adventure.  The expandable image lets you click on it
-        to see a full-screen version of the image. -->
+        <!-- A modal to show a single image -->
+        <b-modal size="lg" class="full-modal" id="single-img-modal" centered hide-footer >
+            <figure class="mt-2">
+                <b-img :src="selectedItem.img" fluid alt="image" ></b-img>
+                <figcaption>
+                    {{ selectedItem.caption }}
+                </figcaption>
+            </figure>
+        </b-modal>
+
+        <!-- A list of all the posts for this adventure.  Tried expandable-image for the pictures, but didn't love
+        it, so went with a modal to display a single image.  Still not totally satisfied... -->
         <div v-if="showList">
             <div v-for="item in items" v-bind:key="item.id">
+                <!-- I'm using a grid row with 2 columns to show the image and then the text, seemed to be the best way to line everything up -->
                 <b-row class="mb-3 border">
-                    <b-col cols="3">
+                    <b-col cols="2">
                         <figure class="mt-2">
-                        <expandable-image 
-                            slot="aside" 
-                            :src="getImgUrl(item.img)"
-                            alt="image"
-                            @error="imageLoadError(item.img)"
-                        />
-                        <figcaption>
-                            {{ item.caption }}
-                        </figcaption>
+                            <b-img  
+                                :src="publicPath + item.img"
+                                alt="image"
+                                fluid
+                                thumbnail
+                                @error="imageLoadError(item.img)"
+                                v-b-modal="'single-img-modal'"
+                                @click="sendInfo(item)"
+                                style="cursor: pointer;">
+                            </b-img>
+                            <figcaption>
+                                {{ item.caption }}
+                            </figcaption>
                         </figure>
                     </b-col>
                     <b-col>
-                    <b-card 
-                        style="border: none;" 
-                        v-bind:title="item.title" 
-                        v-bind:sub-title="item.date">     
-                    <hr>
-                    <b-card-text>
-                        {{ item.text }}
-                    </b-card-text>
-                </b-card>
+                        <b-card 
+                            style="border: none;" 
+                            v-bind:title="item.title" 
+                            v-bind:sub-title="item.date">     
+                            <hr>
+                            <b-card-text>
+                                {{ item.text }}
+                            </b-card-text>
+                        </b-card>
                     </b-col>
                 </b-row>
             </div>
         </div>
-        
+
     </b-container>
 </template>
 
@@ -93,36 +109,25 @@ export default {
         mapName: this.mapId + "-map",
         showMap: false,
         showList: false,
+        selectedItem: '',
         loading: false //For the spinner
         }
     },
     methods: {
+        //When an image is clicked, this will capture which item was clicked so the image modal can show it
+        sendInfo(item) {
+            this.selectedItem = item;
+        },
+        //Just writing image loading problems to the console
         imageLoadError (img) {
             console.log('Image failed to load: ' + img)
         },
+        //Clicking on the button for the map will toggle it
         toggleMap () {
             this.showMap = !this.showMap
         },
         toggleList () {
             this.showList = !this.showList
-        },
-        getImgUrl(pic) {
-            if (pic){
-                //return require('../assets/img/' + pic)
-                return this.publicPath + pic
-            }
-            return ""
-            
-        },
-        getMap () {
-            const element = document.getElementById(this.mapName)
-            const options = {
-                zoom: 14,
-                center: new google.maps.LatLng(51.5,-0.19)
-            }
-
-            const map = new google.maps.Map(element, options);
-            this.$bvModal.show('map-modal')
         }
     }
 }
@@ -138,14 +143,6 @@ export default {
     height: 6rem;
     color: #f8f5ec;
 }
-
-.expandable-image{
-    width: 100%;
-    position: relative;
-    transition: 0.25s opacity;
-    cursor: pointer;
-}
-
 
 
 </style>

@@ -16,11 +16,10 @@ export default new Vuex.Store({
     }
   },
   actions: {
+    //Not using this at the moment, but keeping in case I want it later
     getAdventureList ({ commit }) {
       axios.get('/adventures.json')
         .then((res) => {
-            //console.log(JSON.parse(res.data))
-            //console.log(res.data)
             
             commit('updateAdventure', res.data)
         })

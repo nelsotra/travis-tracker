@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HomePage from './components/home'
-import AboutPage from './components/about'
 import pacificCoast2014 from './components/pacificCoast-2014'
 import japan2015 from './components/japan-2015'
 import korea2015 from './components/korea-2015'
@@ -12,6 +11,7 @@ import at2016 from './components/at-2016'
 Vue.use(Router)
 
 export default new Router({
+  //without the 'history' mode you'll get a # in the url, but refreshes work, so i'm leaving it out
   //mode: 'history',
   base: process.env.BASE_URL,
   routes: [
@@ -24,11 +24,6 @@ export default new Router({
       path: '/home',
       name: 'home',
       component: HomePage
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: AboutPage
     },
     {
       path: '/pacificCoast-2014',

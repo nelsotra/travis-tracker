@@ -29,17 +29,7 @@ export default {
         }
     },
     methods: {
-        imageLoadError (img) {
-            console.log('Image failed to load: ' + img)
-        },
-        getImgUrl(pic) {
-            if (pic){
-                //return require('../assets/img/' + pic)
-                return this.publicPath + pic
-            }
-            return ""
-            
-        }
+        
     }
 }
 </script>

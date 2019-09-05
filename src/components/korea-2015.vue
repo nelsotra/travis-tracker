@@ -1,7 +1,7 @@
 <template>
     <b-container class="mt-3">
-        <pageIntro :backImg="backgroundImg" :introTitle="title" :introText="text"></pageIntro>
         
+        <pageIntro :backImg="backgroundImg" :introTitle="title" :introText="text"></pageIntro>
         <postList inputFile='/korea-2015.json' :inputItems="data"></postList>
         
     </b-container>

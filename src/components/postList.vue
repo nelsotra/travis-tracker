@@ -45,7 +45,7 @@
         <!-- A modal to show a single image -->
         <b-modal size="lg" class="full-modal" id="single-img-modal" centered hide-footer >
             <figure class="mt-2">
-                <b-img :src="selectedItem.img" fluid alt="image" ></b-img>
+                <b-img :src="publicPath + selectedItem.img" fluid alt="image" ></b-img>
                 <figcaption>
                     {{ selectedItem.caption }}
                 </figcaption>

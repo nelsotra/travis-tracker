@@ -53,11 +53,13 @@
         </b-modal>
 
         <!-- A list of all the posts for this adventure.  Tried expandable-image for the pictures, but didn't love
-        it, so went with a modal to display a single image.  Still not totally satisfied... -->
+        it, so went with a modal to display a single image.  Still not totally satisfied...
+        {{ sortList }}-->
         <div v-if="showList">
-            <div v-for="item in items" v-bind:key="item.id">
-                <!-- I'm using a grid row with 2 columns to show the image and then the text, seemed to be the best way to line everything up -->
-                <b-row class="mb-3 border">
+            <div v-for="item in sortListById" v-bind:key="item.id">
+                <!-- I'm using a grid row with 2 columns to show the image and then the text, seemed to be the best way to line everything up
+                In case we don't want to show a post, there's an include_post item in the json.  true shows the post, false will hide it-->
+                <b-row class="mb-3 border" v-if="item.include_post">
                     <b-col cols="2">
                         <figure class="mt-2">
                             <b-img
@@ -105,6 +107,7 @@ export default {
     return {
       publicPath: process.env.BASE_URL,
       items: this.inputItems,
+      itemsSorted: null,
       mapName: this.mapId + '-map',
       showMap: false,
       showList: false,
@@ -127,6 +130,17 @@ export default {
     },
     toggleList () {
       this.showList = !this.showList
+    }
+  },
+  computed: {
+    // Need to sort the incoming json object so it's displayed consistently.
+    // So, first turn it into an array with Object.values, and then sorted it by the id
+    sortListById: {
+      get () {
+        let values = Object.values(this.items)
+        let sortedValues = values.sort((a, b) => a.id - b.id)
+        return sortedValues
+      }
     }
   }
 }

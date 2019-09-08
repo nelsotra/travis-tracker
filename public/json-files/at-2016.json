@@ -1,7 +1,7 @@
 {
     "1208692927869053563" : {
       "caption" : "Springer Mountain!!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1208692927869053563",
       "latitude" : "34.644",
       "longitude" : "-84.191",
@@ -12,7 +12,7 @@
     },
     "1208693015924271742" : {
       "caption" : "My first white blaze!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1208693015924271742",
       "latitude" : "",
       "longitude" : "",
@@ -23,7 +23,7 @@
     },
     "1208693419063995026" : {
       "caption" : "Gooches Gap",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1208693419063995026",
       "latitude" : "34.717",
       "longitude" : "-83.977",
@@ -34,7 +34,7 @@
     },
     "1208758951356230581" : {
       "caption" : "Mountain Crossings",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1208758951356230581",
       "latitude" : "34.735",
       "longitude" : "-83.918",
@@ -45,7 +45,7 @@
     },
     "1209488648776018250" : {
       "caption" : "A typical AT view",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1209488648776018250",
       "latitude" : "34.822",
       "longitude" : "-83.787",
@@ -56,7 +56,7 @@
     },
     "1209693386838731216" : {
       "caption" : "This felt very Pacific northwest-y to me",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1209693386838731216",
       "latitude" : "34.931",
       "longitude" : "-83.601",
@@ -67,7 +67,7 @@
     },
     "1211042213306919678" : {
       "caption" : "Yup, it snowed.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1211042213306919678",
       "latitude" : "35.067",
       "longitude" : "-83.488",
@@ -78,7 +78,7 @@
     },
     "1211668080387255200" : {
       "caption" : "It was a foggy day, perfect for a shot like this.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1211668080387255200",
       "latitude" : "35.271",
       "longitude" : "-83.577",
@@ -89,7 +89,7 @@
     },
     "1211914093983263260" : {
       "caption" : "My 2 new friends",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1211914093983263260",
       "latitude" : "35.364",
       "longitude" : "-83.716",
@@ -100,7 +100,7 @@
     },
     "1214545687764101932" : {
       "caption" : "Fontana Dam",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1214545687764101932",
       "latitude" : "35.546",
       "longitude" : "-83.794",
@@ -111,7 +111,7 @@
     },
     "1214546674717387617" : {
       "caption" : "Darn hikers always blocking my views",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1214546674717387617",
       "latitude" : "35.6",
       "longitude" : "-83.4",
@@ -122,7 +122,7 @@
     },
     "1214546917953465192" : {
       "caption" : "Hiking above the clouds is pretty awesome!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1214546917953465192",
       "latitude" : "35.728",
       "longitude" : "-83.181",
@@ -133,7 +133,7 @@
     },
     "1214831678445938955" : {
       "caption" : "Today was trail magic day!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1214831678445938955",
       "latitude" : "35.821",
       "longitude" : "-82.937",
@@ -144,7 +144,7 @@
     },
     "1214835545636170091" : {
       "caption" : "The first trail magic!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1214835545636170091",
       "latitude" : "",
       "longitude" : "",
@@ -155,7 +155,7 @@
     },
     "1215552015521376983" : {
       "caption" : "Max Patch!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1215552015521376983",
       "latitude" : "35.890",
       "longitude" : "-82.832",
@@ -166,7 +166,7 @@
     },
     "1216257549044115994" : {
       "caption" : "A thru-hiker Easter gathering!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1216257549044115994",
       "latitude" : "36.026",
       "longitude" : "-82.712",
@@ -177,7 +177,7 @@
     },
     "1216996159091468918" : {
       "caption" : "This picture didn't turn out how I expected",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1216996159091468918",
       "latitude" : "35.982",
       "longitude" : "-82.502",
@@ -188,7 +188,7 @@
     },
     "1219027309028796943" : {
       "caption" : "Just a pretty little section of trail",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1219027309028796943",
       "latitude" : "36.110",
       "longitude" : "-82.362",
@@ -199,7 +199,7 @@
     },
     "1219027076790184455" : {
       "caption" : "Hmm....",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1219027076790184455",
       "latitude" : "36.105",
       "longitude" : "-82.12",
@@ -210,7 +210,7 @@
     },
     "1219591022278437824" : {
       "caption" : "More pretty hiking along NC's balds",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1219591022278437824",
       "latitude" : "36.221",
       "longitude" : "-82.019",
@@ -221,7 +221,7 @@
     },
     "1219591049382030274" : {
       "caption" : "Foggy mornings!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1219591049382030274",
       "latitude" : "",
       "longitude" : "",
@@ -232,7 +232,7 @@
     },
     "1219909219040979335" : {
       "caption" : "Jones Falls",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1219909219040979335",
       "latitude" : "36.376",
       "longitude" : "-82.048",
@@ -243,7 +243,7 @@
     },
     "1220602052513196149" : {
       "caption" : "Virginia!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1220602052513196149",
       "latitude" : "36.617",
       "longitude" : "-81.813",
@@ -254,7 +254,7 @@
     },
     "1221756607611365720" : {
       "caption" : "Damascus, Virginia",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1221756607611365720",
       "latitude" : "36.647",
       "longitude" : "-81.672",
@@ -265,7 +265,7 @@
     },
     "1223160047675730181" : {
       "caption" : "The Grayson Highlands Ponies!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1223160047675730181",
       "latitude" : "36.696",
       "longitude" : "-81.506",
@@ -276,7 +276,7 @@
     },
     "1223160077321070854" : {
       "caption" : "It's amazing!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1223160077321070854",
       "latitude" : "36.854",
       "longitude" : "-81.364",
@@ -287,7 +287,7 @@
     },
     "1224123388313299390" : {
       "caption" : "1/4 Done!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1224123388313299390",
       "latitude" : "37.049",
       "longitude" : "-81.419",
@@ -298,7 +298,7 @@
     },
     "1224227980472576195" : {
       "caption" : "Winter's not quite done with us yet.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1224227980472576195",
       "latitude" : "37.132",
       "longitude" : "-81.051",
@@ -309,7 +309,7 @@
     },
     "1226888619271743954" : {
       "caption" : "...",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1226888619271743954",
       "latitude" : "37.274",
       "longitude" : "-80.828",
@@ -320,7 +320,7 @@
     },
     "1226888714348227034" : {
       "caption" : "It was a good day!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1226888714348227034",
       "latitude" : "37.373",
       "longitude" : "-80.746",
@@ -331,7 +331,7 @@
     },
     "1226888681431329241" : {
       "caption" : "He was hiking fast, way out of my hiking league",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1226888681431329241",
       "latitude" : "37.384",
       "longitude" : "-80.466",
@@ -342,7 +342,7 @@
     },
     "1227150752911813390" : {
       "caption" : "The Keffer Oak",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1227150752911813390",
       "latitude" : "37.390",
       "longitude" : "-80.192",
@@ -353,7 +353,7 @@
     },
     "1227879991701236263" : {
       "caption" : "McAfee Knob - the classic AT picture.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1227879991701236263",
       "latitude" : "37.416",
       "longitude" : "-79.955",
@@ -364,7 +364,7 @@
     },
     "1228675002168601250" : {
       "caption" : "Oh yes, I ate both of them",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1228675002168601250",
       "latitude" : "37.392",
       "longitude" : "-79.908",
@@ -375,7 +375,7 @@
     },
     "1229316886113118703" : {
       "caption" : "The Blue Ridge Parkway",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1229316886113118703",
       "latitude" : "37.530",
       "longitude" : "-79.634",
@@ -386,7 +386,7 @@
     },
     "1230505716023388241" : {
       "caption" : "They call this 'The Guillotine'",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1230505716023388241",
       "latitude" : "37.599",
       "longitude" : "-79.414",
@@ -397,7 +397,7 @@
     },
     "1232084475302210333" : {
       "caption" : "The James River",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1232084475302210333",
       "latitude" : "37.740",
       "longitude" : "-79.225",
@@ -408,7 +408,7 @@
     },
     "1232084507422190367" : {
       "caption" : "Pretty Flowers",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1232084507422190367",
       "latitude" : "37.893",
       "longitude" : "-78.992",
@@ -419,7 +419,7 @@
     },
     "1232127692781479938" : {
       "caption" : "Waynesboro, VA",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1232127692781479938",
       "latitude" : "38.031",
       "longitude" : "-78.859",
@@ -430,7 +430,7 @@
     },
     "1234058777790605866" : {
       "caption" : "Taken from a fast moving ranger truck",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1234058777790605866",
       "latitude" : "38.325",
       "longitude" : "-78.587",
@@ -441,7 +441,7 @@
     },
     "1234059497231182404" : {
       "caption" : "An evening visitor to my camp",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1234059497231182404",
       "latitude" : "38.555",
       "longitude" : "-78.404",
@@ -452,7 +452,7 @@
     },
     "1235123845869431250" : {
       "caption" : "It finally rained!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1235123845869431250",
       "latitude" : "38.754",
       "longitude" : "-78.289",
@@ -463,7 +463,7 @@
     },
     "1235123739829037519" : {
       "caption" : "Goodbye SNP!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1235123739829037519",
       "latitude" : "38.940",
       "longitude" : "-78.036",
@@ -474,7 +474,7 @@
     },
     "1236351477848042223" : {
       "caption" : "Drama on the AT!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1236351477848042223",
       "latitude" : "39.156",
       "longitude" : "-77.817",
@@ -485,7 +485,7 @@
     },
     "1236645815287114489" : {
       "caption" : "Harper's Ferry, WV",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1236645815287114489",
       "latitude" : "39.317",
       "longitude" : "-77.756",
@@ -496,7 +496,7 @@
     },
     "1238531052971583899" : {
       "caption" : "Tomb of the Unknown Soldier",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1238531052971583899",
       "latitude" : "38.876",
       "longitude" : "-77.072",
@@ -507,7 +507,7 @@
     },
     "1238543602421427065" : {
       "caption" : "Natural History Museum",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1238543602421427065",
       "latitude" : "38.891",
       "longitude" : "-77.026",
@@ -518,7 +518,7 @@
     },
     "1238795880260790626" : {
       "caption" : "The best view in DC",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1238795880260790626",
       "latitude" : "39.324",
       "longitude" : "-77.690",
@@ -529,7 +529,7 @@
     },
     "1239472279871121488" : {
       "caption" : "Civil War stuff",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1239472279871121488",
       "latitude" : "39.649",
       "longitude" : "-77.541",
@@ -540,7 +540,7 @@
     },
     "1240696477947881968" : {
       "caption" : "Beautiful, scenic Maryland.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1240696477947881968",
       "latitude" : "39.942",
       "longitude" : "-77.485",
@@ -551,7 +551,7 @@
     },
     "1242742490225273399" : {
       "caption" : "The halfway point!!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1242742490225273399",
       "latitude" : "40.110",
       "longitude" : "-77.110",
@@ -562,7 +562,7 @@
     },
     "1242742566586772026" : {
       "caption" : "Just in case you forget...",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1242742566586772026",
       "latitude" : "40.365",
       "longitude" : "-77.069",
@@ -573,7 +573,7 @@
     },
     "1242742633662081598" : {
       "caption" : "PA",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1242742633662081598",
       "latitude" : "40.486",
       "longitude" : "-76.633",
@@ -584,7 +584,7 @@
     },
     "1243100429880485913" : {
       "caption" : "The Doyle",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1243100429880485913",
       "latitude" : "",
       "longitude" : "",
@@ -595,7 +595,7 @@
     },
     "1243100619798571041" : {
       "caption" : "Tired of drinking plain water?  Well PA streams now come fully equipped with Gatorade!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1243100619798571041",
       "latitude" : "40.532",
       "longitude" : "-76.187",
@@ -606,7 +606,7 @@
     },
     "1244426707485158015" : {
       "caption" : "The view from The Pinnacle",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1244426707485158015",
       "latitude" : "40.606",
       "longitude" : "-75.958",
@@ -617,7 +617,7 @@
     },
     "1244553862701476236" : {
       "caption" : "Fun with Geology",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1244553862701476236",
       "latitude" : "40.794",
       "longitude" : "-75.599",
@@ -628,7 +628,7 @@
     },
     "1245272641861413257" : {
       "caption" : "His name was Sixty and he hated the rocks just as much as I did",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1245272641861413257",
       "latitude" : "40.938",
       "longitude" : "-75.183",
@@ -639,7 +639,7 @@
     },
     "1246007435880654960" : {
       "caption" : "Crossing the border into New Jersey",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1246007435880654960",
       "latitude" : "41.112",
       "longitude" : "-74.897",
@@ -650,7 +650,7 @@
     },
     "1246716048592955720" : {
       "caption" : "New Jersey's High Point",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1246716048592955720",
       "latitude" : "41.319",
       "longitude" : "-74.614",
@@ -661,7 +661,7 @@
     },
     "1250252266421184904" : {
       "caption" : "NJ",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1250252266421184904",
       "latitude" : "41.211",
       "longitude" : "-74.316",
@@ -672,7 +672,7 @@
     },
     "1250252222750091653" : {
       "caption" : "Why, NY?",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1250252222750091653",
       "latitude" : "41.279",
       "longitude" : "-74.059",
@@ -683,7 +683,7 @@
     },
     "1250252308490054026" : {
       "caption" : "If you look closely at the horizon you can see the NYC skyline",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1250252308490054026",
       "latitude" : "41.410",
       "longitude" : "-73.881",
@@ -694,7 +694,7 @@
     },
     "1250252401595214222" : {
       "caption" : "I think this was actually NJ, I just like the picture...",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1250252401595214222",
       "latitude" : "41.609",
       "longitude" : "-73.638",
@@ -705,7 +705,7 @@
     },
     "1250294865425165193" : {
       "caption" : "Connecticut",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1250294865425165193",
       "latitude" : "41.725",
       "longitude" : "-73.477",
@@ -716,7 +716,7 @@
     },
     "1252996463909759547" : {
       "caption" : "The Housatonic River",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1252996463909759547",
       "latitude" : "42.002",
       "longitude" : "-73.434",
@@ -727,7 +727,7 @@
     },
     "1252996379176430134" : {
       "caption" : "Pretty little waterfalls",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1252996379176430134",
       "latitude" : "42.167",
       "longitude" : "-73.304",
@@ -738,7 +738,7 @@
     },
     "1252996545094707773" : {
       "caption" : "My favorite flower so far",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1252996545094707773",
       "latitude" : "42.342",
       "longitude" : "-73.163",
@@ -749,7 +749,7 @@
     },
     "1253048943913822536" : {
       "caption" : "Care package day!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1253048943913822536",
       "latitude" : "42.482",
       "longitude" : "-73.178",
@@ -760,7 +760,7 @@
     },
     "1253983272475126426" : {
       "caption" : "Mt Greylock, the highest point in MA.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1253983272475126426",
       "latitude" : "42.785",
       "longitude" : "-73.124",
@@ -771,7 +771,7 @@
     },
     "1255233511441918018" : {
       "caption" : "Oh those silly hikers.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1255233511441918018",
       "latitude" : "43.031",
       "longitude" : "-73.039",
@@ -782,7 +782,7 @@
     },
     "1256042054168438809" : {
       "caption" : "View from Mt Bromley (a ski mountain).",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1256042054168438809",
       "latitude" : "43.256",
       "longitude" : "-72.937",
@@ -793,7 +793,7 @@
     },
     "1256604060227300152" : {
       "caption" : "A little fog makes everything better.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1256604060227300152",
       "latitude" : "43.524",
       "longitude" : "-72.913",
@@ -804,7 +804,7 @@
     },
     "1257276247045138967" : {
       "caption" : "Only 500 miles to go.  Ha. 'Only'.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1257276247045138967",
       "latitude" : "43.692",
       "longitude" : "-72.731",
@@ -815,7 +815,7 @@
     },
     "1258059390400424620" : {
       "caption" : "When cows attack",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1258059390400424620",
       "latitude" : "43.702",
       "longitude" : "-72.439",
@@ -826,7 +826,7 @@
     },
     "1258368431894915386" : {
       "caption" : "Yes, that really is the AT, it goes right up a ladder.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1258368431894915386",
       "latitude" : "43.702",
       "longitude" : "-72.289",
@@ -837,7 +837,7 @@
     },
     "1259055232397699656" : {
       "caption" : "The Holts Ledges",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1259055232397699656",
       "latitude" : "43.79",
       "longitude" : "-72.10",
@@ -848,7 +848,7 @@
     },
     "1260243652121815558" : {
       "caption" : "Bill Ackerly (aka The Ice Cream Man), may he rest in peace",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1260243652121815558",
       "latitude" : "43.951",
       "longitude" : "-71.946",
@@ -859,7 +859,7 @@
     },
     "1261018587064789500" : {
       "caption" : "On the way to Mt Moosilauke, the entrance to the Whites.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1261018587064789500",
       "latitude" : "44.101",
       "longitude" : "-71.742",
@@ -870,7 +870,7 @@
     },
     "1262363759002347556" : {
       "caption" : "This was hilarious",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1262363759002347556",
       "latitude" : "44.118",
       "longitude" : "-71.647",
@@ -881,7 +881,7 @@
     },
     "1262364036480722985" : {
       "caption" : "Views from the Franconia Ridge",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1262364036480722985",
       "latitude" : "44.193",
       "longitude" : "-71.489",
@@ -892,7 +892,7 @@
     },
     "1263870696948853368" : {
       "caption" : "That's not my tent, I just liked the image",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1263870696948853368",
       "latitude" : "44.310",
       "longitude" : "-71.168",
@@ -903,7 +903,7 @@
     },
     "1263870767010507387" : {
       "caption" : "Mt Washington (the one with the stuff on top)",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1263870767010507387",
       "latitude" : "44.279",
       "longitude" : "-71.255",
@@ -914,7 +914,7 @@
     },
     "1264107691214203198" : {
       "caption" : "A typical climb in the Whites",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1264107691214203198",
       "latitude" : "44.423",
       "longitude" : "-71.105",
@@ -925,7 +925,7 @@
     },
     "1265217176343243184" : {
       "caption" : "The Mahoosuc Notch",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1265217176343243184",
       "latitude" : "44.546",
       "longitude" : "-70.977",
@@ -936,7 +936,7 @@
     },
     "1266882214216952022" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1266882214216952022",
       "latitude" : "44.671",
       "longitude" : "-70.884",
@@ -947,7 +947,7 @@
     },
     "1266882244407552215" : {
       "caption" : "It rained all day and I didn't take a single picture, so you get pretty flowers from weeks ago instead",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1266882244407552215",
       "latitude" : "44.835",
       "longitude" : "-70.723",
@@ -958,7 +958,7 @@
     },
     "1266884296705665325" : {
       "caption" : "Not the greatest picture, sorry about that.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1266884296705665325",
       "latitude" : "44.965",
       "longitude" : "-70.643",
@@ -969,7 +969,7 @@
     },
     "1267738673226017143" : {
       "caption" : "View from Saddleback Mountain",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1267738673226017143",
       "latitude" : "45.011",
       "longitude" : "-70.329",
@@ -980,7 +980,7 @@
     },
     "1268473695121795240" : {
       "caption" : "2000 miles!  Woo hoo!!!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1268473695121795240",
       "latitude" : "45.146",
       "longitude" : "-70.282",
@@ -991,7 +991,7 @@
     },
     "1270492160754018639" : {
       "caption" : "Pretty moss-covered trail in Maine",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1270492160754018639",
       "latitude" : "45.240",
       "longitude" : "-70.055",
@@ -1002,7 +1002,7 @@
     },
     "1270492247265732946" : {
       "caption" : "This is why we love Maine, look at that view.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1270492247265732946",
       "latitude" : "45.283",
       "longitude" : "-69.730",
@@ -1013,7 +1013,7 @@
     },
     "1270495029272078785" : {
       "caption" : "Bigelow Mountain.  Obviously it was a beautiful day.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1270495029272078785",
       "latitude" : "45.286",
       "longitude" : "-69.501",
@@ -1024,7 +1024,7 @@
     },
     "1273456797053184247" : {
       "caption" : "Lots and lots of ponds in Maine",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1273456797053184247",
       "latitude" : "45.465",
       "longitude" : "-69.266",
@@ -1035,7 +1035,7 @@
     },
     "1273456942008330491" : {
       "caption" : "The Hiker Hut - an amazing hostel!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1273456942008330491",
       "latitude" : "45.640",
       "longitude" : "-69.088",
@@ -1046,7 +1046,7 @@
     },
     "1273457008840370431" : {
       "caption" : "There it is, my first view of Katahdin.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1273457008840370431",
       "latitude" : "45.799",
       "longitude" : "-69.170",
@@ -1057,7 +1057,7 @@
     },
     "1273584786583677100" : {
       "caption" : "One last picture of pretty trail in Maine.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1273584786583677100",
       "latitude" : "45.835",
       "longitude" : "-68.969",
@@ -1068,7 +1068,7 @@
     },
     "1274261055415609664" : {
       "caption" : "Katahdin",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1274261055415609664",
       "latitude" : "45.904",
       "longitude" : "-68.922",
@@ -1079,7 +1079,7 @@
     },
     "1274598223963057103" : {
       "caption" : "Tinman and Travis",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1274598223963057103",
       "latitude" : "44.491",
       "longitude" : "-68.373",
@@ -1090,7 +1090,7 @@
     },
     "1274611107447269695" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1274611107447269695",
       "latitude" : "",
       "longitude" : "",
@@ -1101,7 +1101,7 @@
     },
     "1274612855037585790" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1274612855037585790",
       "latitude" : "",
       "longitude" : "",
@@ -1112,7 +1112,7 @@
     },
     "1274614244392397241" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1274614244392397241",
       "latitude" : "",
       "longitude" : "",
@@ -1123,7 +1123,7 @@
     },
     "1274615308940306915" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1274615308940306915",
       "latitude" : "",
       "longitude" : "",
@@ -1134,7 +1134,7 @@
     },
     "1274616126192052729" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1274616126192052729",
       "latitude" : "",
       "longitude" : "",
@@ -1145,7 +1145,7 @@
     },
     "1274617886281394743" : {
       "caption" : "Sunrise in Acadia",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1274617886281394743",
       "latitude" : "",
       "longitude" : "",
@@ -1156,7 +1156,7 @@
     },
     "1274617886281394744" : {
       "caption" : "I agree",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1274617886281394744",
       "latitude" : "",
       "longitude" : "",

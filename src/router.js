@@ -7,6 +7,9 @@ import korea2015 from './components/korea-2015'
 import iceland2016 from './components/iceland-2016'
 import pct2016 from './components/pct-2016'
 import at2016 from './components/at-2016'
+import peru2017 from './components/peru-2017'
+import beijing2018 from './components/beijing-2018'
+import cambodia2019 from './components/cambodia-2019'
 
 Vue.use(Router)
 
@@ -54,6 +57,21 @@ export default new Router({
       path: '/at-2016',
       name: 'at-2016',
       component: at2016
+    },
+    {
+      path: '/peru-2017',
+      name: 'peru-2017',
+      component: peru2017
+    },
+    {
+      path: '/beijing-2018',
+      name: 'beijing-2018',
+      component: beijing2018
+    },
+    {
+      path: '/cambodia-2019',
+      name: 'cambodia-2019',
+      component: cambodia2019
     }
   ]
 })

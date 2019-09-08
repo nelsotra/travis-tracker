@@ -1,7 +1,7 @@
 {
     "1151579988007938096" : {
       "caption" : "My first night of camping. Very glamorous, 'eh?",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1151579988007938096",
       "latitude" : "44.0",
       "longitude" : "-123.66",
@@ -12,7 +12,7 @@
     },
     "1152017444352125359" : {
       "caption" : "Touching the ocean. Gotta do it at least once.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152017444352125359",
       "latitude" : "43.97",
       "longitude" : "-124.1",
@@ -23,7 +23,7 @@
     },
     "1152018109233195459" : {
       "caption" : "A typical hiker/biker site in an Oregon State Park.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152018109233195459",
       "latitude" : "43.15",
       "longitude" : "-124.4",
@@ -34,7 +34,7 @@
     },
     "1152018985188420062" : {
       "caption" : "Oregon is amazing.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152018985188420062",
       "latitude" : "42.07",
       "longitude" : "-124.31",
@@ -45,7 +45,7 @@
     },
     "1152019604603234794" : {
       "caption" : "This isn't where I had lunch, it's just a big tree.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152019604603234794",
       "latitude" : "41.53",
       "longitude" : "-124.04",
@@ -56,7 +56,7 @@
     },
     "1152020407820839414" : {
       "caption" : "A typical biker dinner (not the guys from England, unfortunately).",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152020407820839414",
       "latitude" : "40.02",
       "longitude" : "-123.8",
@@ -67,7 +67,7 @@
     },
     "1152021240641841665" : {
       "caption" : "Big trees. Pretty ride.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152021240641841665",
       "latitude" : "38.8",
       "longitude" : "-123.58",
@@ -78,7 +78,7 @@
     },
     "1152022093704555028" : {
       "caption" : "Look at how pretty that is.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152022093704555028",
       "latitude" : "38.34",
       "longitude" : "-123.05",
@@ -89,7 +89,7 @@
     },
     "1152022682433841696" : {
       "caption" : "Crossing the Golden Gate Bridge - not as bad as you might think.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152022682433841696",
       "latitude" : "38.02",
       "longitude" : "-122.73",
@@ -100,7 +100,7 @@
     },
     "1152023210396052014" : {
       "caption" : "One of my favorites.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152023210396052014",
       "latitude" : "37.47",
       "longitude" : "-122.45",
@@ -111,7 +111,7 @@
     },
     "1152023785217026624" : {
       "caption" : "Pretty amazing, 'eh?",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152023785217026624",
       "latitude" : "36.89",
       "longitude" : "-121.82",
@@ -122,7 +122,7 @@
     },
     "1152024405235821129" : {
       "caption" : "--",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152024405235821129",
       "latitude" : "35.11",
       "longitude" : "-120.62",
@@ -133,7 +133,7 @@
     },
     "1152024995391171154" : {
       "caption" : "Not the best riding ever, but certainly not the worst.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152024995391171154",
       "latitude" : "34.46",
       "longitude" : "-120.03",
@@ -144,7 +144,7 @@
     },
     "1152025761262692961" : {
       "caption" : "Proof that I went to the beach at least once on my trip.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152025761262692961",
       "latitude" : "34.05",
       "longitude" : "-118.93",
@@ -155,7 +155,7 @@
     },
     "1152026374646098541" : {
       "caption" : "Funkiness in LA",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152026374646098541",
       "latitude" : "33.46",
       "longitude" : "-117.68",
@@ -166,7 +166,7 @@
     },
     "1152026907079436926" : {
       "caption" : "Photo courtesy of Rachel. This was the only time I actually went in the ocean.  Obviously I only went in up to my knees, I'm not an idiot.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152026907079436926",
       "latitude" : "32.93",
       "longitude" : "-117.16",
@@ -177,7 +177,7 @@
     },
     "1152027404532279952" : {
       "caption" : "Rachel and Miss Ada checking out the elephants.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152027404532279952",
       "latitude" : "32.74",
       "longitude" : "-117.15",
@@ -188,7 +188,7 @@
     },
     "1152027924005218973" : {
       "caption" : "The sad, empty state park on the Mexican border.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152027924005218973",
       "latitude" : "32.54",
       "longitude" : "-117.12",
@@ -199,7 +199,7 @@
     },
     "1152027924005218974" : {
       "caption" : "Testing",
-      "include_post" : "Y",
+      "include_post" : false,
       "id" : "1152027924005218974",
       "latitude" : "30.54",
       "longitude" : "-115.12",

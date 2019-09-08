@@ -1,7 +1,7 @@
 {
     "1152694828491434285" : {
       "caption" : "The Japanese coast. It was very pretty.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152694828491434285",
       "latitude" : "34.369",
       "longitude" : "131.056",
@@ -12,7 +12,7 @@
     },
     "1152696189652134235" : {
       "caption" : "One of the first Japanese Temples that I stumbled upon.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152696189652134235",
       "latitude" : "34.417",
       "longitude" : "131.395",
@@ -23,7 +23,7 @@
     },
     "1152696784010176885" : {
       "caption" : "A 'highway' in Japan",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152696784010176885",
       "latitude" : "34.655",
       "longitude" : "131.664",
@@ -34,7 +34,7 @@
     },
     "1152697383091005840" : {
       "caption" : "A really big gate.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152697383091005840",
       "latitude" : "35.077",
       "longitude" : "132.328",
@@ -45,7 +45,7 @@
     },
     "1152698201013840307" : {
       "caption" : "Sunset on the beach.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152698201013840307",
       "latitude" : "35.526",
       "longitude" : "132.977",
@@ -56,7 +56,7 @@
     },
     "1152698747682646469" : {
       "caption" : "The Matsue Castle.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152698747682646469",
       "latitude" : "35.464",
       "longitude" : "133.06",
@@ -67,7 +67,7 @@
     },
     "1152699355798006235" : {
       "caption" : "The Tottori Sand Dunes.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152699355798006235",
       "latitude" : "35.536",
       "longitude" : "134.225",
@@ -78,7 +78,7 @@
     },
     "1152699886880778739" : {
       "caption" : "Entering the Mountains.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152699886880778739",
       "latitude" : "35.394",
       "longitude" : "134.743",
@@ -89,7 +89,7 @@
     },
     "1152700660847307280" : {
       "caption" : "The Ocean Arch.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152700660847307280",
       "latitude" : "35.297",
       "longitude" : "135.090",
@@ -100,7 +100,7 @@
     },
     "1152701375967750692" : {
       "caption" : "A tunnel through the mountains.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152701375967750692",
       "latitude" : "35.167",
       "longitude" : "135.419",
@@ -111,7 +111,7 @@
     },
     "1152702084930955837" : {
       "caption" : "The hiking trail where I slept to escape Kyoto.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152702084930955837",
       "latitude" : "35.075",
       "longitude" : "135.718",
@@ -122,7 +122,7 @@
     },
     "1152702882528193113" : {
       "caption" : "I don't even remember the name of this one. But it was pretty.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152702882528193113",
       "latitude" : "35.004",
       "longitude" : "135.734",
@@ -133,7 +133,7 @@
     },
     "1152703498696616559" : {
       "caption" : "One of the more memorable temples along the way: Kinkakuji (the Golden Temple).",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152703498696616559",
       "latitude" : "34.968",
       "longitude" : "135.772",
@@ -144,7 +144,7 @@
     },
     "1152704854287280788" : {
       "caption" : "This was suppose to be my super impressive picture of Mt. Fuji (that was sarcasm).  Instead you get a picture of a nice little temple.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152704854287280788",
       "latitude" : "35.300",
       "longitude" : "138.934",
@@ -155,7 +155,7 @@
     },
     "1152705513229216421" : {
       "caption" : "Tokyo at night.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152705513229216421",
       "latitude" : "35.660",
       "longitude" : "139.701",
@@ -166,7 +166,7 @@
     },
     "1152706235656137401" : {
       "caption" : "This was suppose to be a picture of the Fish Market.  Instead it's Shibuya Crossing.  How strange.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152706235656137401",
       "latitude" : "35.663",
       "longitude" : "139.860",
@@ -177,7 +177,7 @@
     },
     "1152707036944362196" : {
       "caption" : "everyday is a new beginning. enjoy your life!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152707036944362196",
       "latitude" : "35.769",
       "longitude" : "140.386",
@@ -188,7 +188,7 @@
     },
     "1152710787289672553" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152710787289672553",
       "latitude" : "",
       "longitude" : "",
@@ -199,7 +199,7 @@
     },
     "1152711121223379829" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152711121223379829",
       "latitude" : "",
       "longitude" : "",
@@ -210,7 +210,7 @@
     },
     "1152711501428648834" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152711501428648834",
       "latitude" : "",
       "longitude" : "",
@@ -221,7 +221,7 @@
     },
     "1152711873270475665" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152711873270475665",
       "latitude" : "",
       "longitude" : "",
@@ -232,7 +232,7 @@
     },
     "1152712611333761970" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152712611333761970",
       "latitude" : "",
       "longitude" : "",
@@ -243,7 +243,7 @@
     },
     "1152713164294024135" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152713164294024135",
       "latitude" : "",
       "longitude" : "",
@@ -254,7 +254,7 @@
     },
     "1152713771906067423" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152713771906067423",
       "latitude" : "",
       "longitude" : "",
@@ -265,7 +265,7 @@
     },
     "1152714568429562878" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152714568429562878",
       "latitude" : "",
       "longitude" : "",
@@ -276,7 +276,7 @@
     },
     "1152714991743887370" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152714991743887370",
       "latitude" : "",
       "longitude" : "",
@@ -287,7 +287,7 @@
     },
     "1152716056820279340" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152716056820279340",
       "latitude" : "",
       "longitude" : "",
@@ -298,7 +298,7 @@
     },
     "1152716369933461565" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152716369933461565",
       "latitude" : "",
       "longitude" : "",
@@ -309,7 +309,7 @@
     },
     "1152716839175415890" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152716839175415890",
       "latitude" : "",
       "longitude" : "",
@@ -320,7 +320,7 @@
     },
     "1152719631575247017" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152719631575247017",
       "latitude" : "",
       "longitude" : "",
@@ -331,7 +331,7 @@
     },
     "1152720028314462389" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152720028314462389",
       "latitude" : "",
       "longitude" : "",
@@ -342,7 +342,7 @@
     },
     "1152720555077101769" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152720555077101769",
       "latitude" : "",
       "longitude" : "",
@@ -353,7 +353,7 @@
     },
     "1152720828302452948" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152720828302452948",
       "latitude" : "",
       "longitude" : "",
@@ -364,7 +364,7 @@
     },
     "1152721104824527069" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152721104824527069",
       "latitude" : "",
       "longitude" : "",
@@ -375,7 +375,7 @@
     },
     "1152721515144898790" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152721515144898790",
       "latitude" : "",
       "longitude" : "",
@@ -386,7 +386,7 @@
     },
     "1152722104192952570" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152722104192952570",
       "latitude" : "",
       "longitude" : "",
@@ -397,7 +397,7 @@
     },
     "1152722409806719235" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152722409806719235",
       "latitude" : "",
       "longitude" : "",
@@ -408,7 +408,7 @@
     },
     "1152722658537335049" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152722658537335049",
       "latitude" : "",
       "longitude" : "",
@@ -419,7 +419,7 @@
     },
     "1152723050025281816" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152723050025281816",
       "latitude" : "",
       "longitude" : "",
@@ -430,7 +430,7 @@
     },
     "1152723545968175402" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152723545968175402",
       "latitude" : "",
       "longitude" : "",
@@ -441,7 +441,7 @@
     },
     "1152723831315065139" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152723831315065139",
       "latitude" : "",
       "longitude" : "",
@@ -452,7 +452,7 @@
     },
     "1152724189332465986" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152724189332465986",
       "latitude" : "",
       "longitude" : "",
@@ -463,7 +463,7 @@
     },
     "1152725454451992941" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152725454451992941",
       "latitude" : "",
       "longitude" : "",
@@ -474,7 +474,7 @@
     },
     "1152725835185744256" : {
       "caption" : "This was suppose to be a picture of a giant severed fish head.  Not sure what happened, but at least it's still a picture of the fish market.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152725835185744256",
       "latitude" : "",
       "longitude" : "",
@@ -485,7 +485,7 @@
     },
     "1152726345783536027" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152726345783536027",
       "latitude" : "",
       "longitude" : "",
@@ -496,7 +496,7 @@
     },
     "1152726711988218280" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152726711988218280",
       "latitude" : "",
       "longitude" : "",
@@ -507,7 +507,7 @@
     },
     "1152727030293948854" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152727030293948854",
       "latitude" : "",
       "longitude" : "",
@@ -518,7 +518,7 @@
     },
     "1152727030293948855" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152727030293948855",
       "latitude" : "",
       "longitude" : "",

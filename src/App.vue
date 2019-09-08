@@ -2,7 +2,6 @@
   <div id="app">
     <app-header />
     <router-view/>
-    
   </div>
 </template>
 
@@ -12,12 +11,10 @@ import header from './components/header'
 export default {
   name: 'app',
   components: {
-    'app-header': header,
-    
+    'app-header': header
   },
-  data() {
+  data () {
     return {
-        
     }
   }
 }
@@ -27,6 +24,5 @@ body, html{
     margin: 0;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   }
-
 
 </style>

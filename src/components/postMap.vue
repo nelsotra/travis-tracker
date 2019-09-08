@@ -8,7 +8,8 @@ export default {
   data: function () {
     return {
       mapName: this.name + '-map',
-      items: this.itemsList
+      items: this.itemsList,
+      publicPath: process.env.BASE_URL
     }
   },
   methods: {
@@ -37,6 +38,11 @@ export default {
     }
     const map = new google.maps.Map(element, options)
 
+    var infowindow = new google.maps.InfoWindow({
+      content: this.infoWindowContent,
+      maxWidth: 500
+    })
+
     // Once we have a center, we go through the list again and add each point with a valid lat/longitude to the map
     for (let key in this.items) {
       if (this.isNumber(this.items[key].latitude) && this.isNumber(this.items[key].longitude)) {
@@ -44,6 +50,18 @@ export default {
         const marker = new google.maps.Marker({
           position,
           map
+        })
+
+        let first = '<h5>' + this.items[key].title + '</h5>'
+        let second = '<p>' + this.items[key].date + '</p>'
+        let third = '<p>' + this.items[key].text + '</p>'
+        let pic = '<img width="100" style="padding: 5px;" align="left" src=' + this.publicPath + this.items[key].img + '/>'
+        // let infoText =  '<div>' + pic + first + second + '</div><br><hr>' + third
+        let infoText = pic + first + second + '<br><hr>' + third
+
+        marker.addListener('click', function (event) {
+          infowindow.setContent(infoText)
+          infowindow.open(map, marker)
         })
 
         map.fitBounds(bounds.extend(position))

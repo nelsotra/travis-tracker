@@ -19,6 +19,11 @@
             <b-dropdown-item to="/korea-2015">Korea - 2015</b-dropdown-item>
             <b-dropdown-item to="/japan-2015">Japan - 2015</b-dropdown-item>
             <b-dropdown-item to="/pacificCoast-2014">Pacific Coast - 2014</b-dropdown-item>
+            <b-dropdown-item class="mt-3" disabled>Regular Ole Touristy Stuff</b-dropdown-item>
+            <b-dropdown-divider></b-dropdown-divider>
+            <b-dropdown-item to="/cambodia-2019">Cambodia - 2019</b-dropdown-item>
+            <b-dropdown-item to="/beijing-2018">Beijing - 2018</b-dropdown-item>
+            <b-dropdown-item to="/peru-2017">Peru - 2017</b-dropdown-item>
             <b-dropdown-item class="mt-3" disabled>All 3 Trails in 1 Year</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
           </b-dropdown>
@@ -41,10 +46,6 @@ export default {
     }
   },
   methods: {
-    selectAdventure (id, event) {
-      console.log(id)
-      console.log(event)
-    }
   },
   computed: {
     // Not using these, but keeping in case I change my mind later

@@ -1,7 +1,7 @@
 {
     "1196788081096223347" : {
       "caption" : "On the bus to Bakersfield!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1196788081096223347",
       "latitude" : "35.628",
       "longitude" : "-118.48",
@@ -12,7 +12,7 @@
     },
     "1197846616429127697" : {
       "caption" : "Walker Pass - A gorgeous sunrise to start my hike!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1197846616429127697",
       "latitude" : "35.663",
       "longitude" : "-118.026",
@@ -23,7 +23,7 @@
     },
     "1197846525228181518" : {
       "caption" : "Yup, that's what I hiked through all day",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1197846525228181518",
       "latitude" : "35.524",
       "longitude" : "-118.127",
@@ -34,7 +34,7 @@
     },
     "1199645340243422154" : {
       "caption" : "There was lots of sand and Joshua trees today",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1199645340243422154",
       "latitude" : "35.426",
       "longitude" : "-118.308",
@@ -45,7 +45,7 @@
     },
     "1199645382874328015" : {
       "caption" : "Green!  It felt like I walked into the Shire.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1199645382874328015",
       "latitude" : "35.231",
       "longitude" : "-118.238",
@@ -56,7 +56,7 @@
     },
     "1199660056386824507" : {
       "caption" : "Sunrise on the PCT",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1199660056386824507",
       "latitude" : "35.075",
       "longitude" : "-118.319",
@@ -67,7 +67,7 @@
     },
     "1201022964853205756" : {
       "caption" : "It looks better than it was",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1201022964853205756",
       "latitude" : "34.964",
       "longitude" : "-118.472",
@@ -78,7 +78,7 @@
     },
     "1201055535762860603" : {
       "caption" : "Fun in the storm!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1201055535762860603",
       "latitude" : "",
       "longitude" : "",
@@ -89,7 +89,7 @@
     },
     "1201059186476673690" : {
       "caption" : "Snow in the Mojave",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1201059186476673690",
       "latitude" : "34.777",
       "longitude" : "-118.606",
@@ -111,7 +111,7 @@
     },
     "1202591405053668222" : {
       "caption" : "Kenny, Tiger, Bacon, and Donut.  Which is which?  I'll let you figure that out!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1202591405053668222",
       "latitude" : "34.632",
       "longitude" : "-118.389",
@@ -122,7 +122,7 @@
     },
     "1202591460510755714" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1202591460510755714",
       "latitude" : "",
       "longitude" : "",
@@ -133,7 +133,7 @@
     },
     "1202591509416340358" : {
       "caption" : "Sorry for the random tooth pic",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1202591509416340358",
       "latitude" : "",
       "longitude" : "",
@@ -144,7 +144,7 @@
     },
     "1205342342025407024" : {
       "caption" : "Vasquez Rocks",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1205342342025407024",
       "latitude" : "34.486",
       "longitude" : "-118.312",

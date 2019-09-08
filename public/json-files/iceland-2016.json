@@ -1,7 +1,7 @@
 {
     "1289863606715900356" : {
       "caption" : "Icelandic money",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1289863606715900356",
       "latitude" : "64.124",
       "longitude" : "-21.822",
@@ -12,7 +12,7 @@
     },
     "1290053211000117281" : {
       "caption" : "Near Borgarnes",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1290053211000117281",
       "latitude" : "64.553",
       "longitude" : "-21.907",
@@ -23,7 +23,7 @@
     },
     "1290759458116376200" : {
       "caption" : "I really liked that little bridge in front of the waterfall",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1290759458116376200",
       "latitude" : "65.326",
       "longitude" : "-20.892",
@@ -34,7 +34,7 @@
     },
     "1291298502944520497" : {
       "caption" : "2 things Iceland has a lot of: sheep and water.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1291298502944520497",
       "latitude" : "65.553",
       "longitude" : "-19.446",
@@ -45,7 +45,7 @@
     },
     "1292003910420206704" : {
       "caption" : "Old Town",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1292003910420206704",
       "latitude" : "65.684",
       "longitude" : "-18.095",
@@ -56,7 +56,7 @@
     },
     "1292100284503416361" : {
       "caption" : "Climbing a pass on the way to Akureyri.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1292100284503416361",
       "latitude" : "65.722",
       "longitude" : "-17.362",
@@ -67,7 +67,7 @@
     },
     "1292863485730060044" : {
       "caption" : "Geothermal goodness!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1292863485730060044",
       "latitude" : "65.639",
       "longitude" : "-16.810",
@@ -78,7 +78,7 @@
     },
     "1292866790959076263" : {
       "caption" : "The Bromie taking a break.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1292866790959076263",
       "latitude" : "65.258",
       "longitude" : "-14.409",
@@ -89,7 +89,7 @@
     },
     "1293686542224611818" : {
       "caption" : "Bulandstindur Mtn",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1293686542224611818",
       "latitude" : "64.656",
       "longitude" : "-14.284",
@@ -100,7 +100,7 @@
     },
     "1293687669477408180" : {
       "caption" : "View from Oxi pass",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1293687669477408180",
       "latitude" : "",
       "longitude" : "",
@@ -111,7 +111,7 @@
     },
     "1294000078167514473" : {
       "caption" : "Just a few stickers to class things up a bit",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1294000078167514473",
       "latitude" : "64.253",
       "longitude" : "-15.212",
@@ -122,7 +122,7 @@
     },
     "1294001365911166438" : {
       "caption" : "An extra picture from my morning ride along the coast.  I believe I took this right before I went through a 1.3km tunnel.  At least it was super early so there was no traffic in the tunnel, they're scary enough as is!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1294001365911166438",
       "latitude" : "",
       "longitude" : "--Day 7b",
@@ -133,7 +133,7 @@
     },
     "1294625394728697080" : {
       "caption" : "Flaajokull Glacier (maybe?)",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1294625394728697080",
       "latitude" : "64.016",
       "longitude" : "-16.976",
@@ -144,7 +144,7 @@
     },
     "1295051774016690006" : {
       "caption" : "Lava Fields",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1295051774016690006",
       "latitude" : "63.419",
       "longitude" : "-19.006",
@@ -155,7 +155,7 @@
     },
     "1295053242501308217" : {
       "caption" : "Isn't that beautiful?",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1295053242501308217",
       "latitude" : "",
       "longitude" : "",
@@ -166,7 +166,7 @@
     },
     "1295367542579326950" : {
       "caption" : "Icelandic Snacks!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1295367542579326950",
       "latitude" : "",
       "longitude" : "",
@@ -177,7 +177,7 @@
     },
     "1295769029578903245" : {
       "caption" : "Lunch stop in Hvolsvollur",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1295769029578903245",
       "latitude" : "63.751",
       "longitude" : "-20.233",
@@ -188,7 +188,7 @@
     },
     "1295772104012103594" : {
       "caption" : "This place was supposed to be haunted!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1295772104012103594",
       "latitude" : "63.933",
       "longitude" : "-20.989",
@@ -199,7 +199,7 @@
     },
     "1296511891887267179" : {
       "caption" : "Silly Icelanders",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1296511891887267179",
       "latitude" : "64.146",
       "longitude" : "-21.816",
@@ -210,7 +210,7 @@
     },
     "1296512921983046030" : {
       "caption" : "Street Art",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1296512921983046030",
       "latitude" : "",
       "longitude" : "",
@@ -221,7 +221,7 @@
     },
     "1297296640604048218" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1297296640604048218",
       "latitude" : "",
       "longitude" : "",
@@ -232,7 +232,7 @@
     },
     "1297299324497294583" : {
       "caption" : "Hallgrimstorg (the church)",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1297299324497294583",
       "latitude" : "",
       "longitude" : "",
@@ -243,7 +243,7 @@
     },
     "1298094958506505646" : {
       "caption" : "Yup, that's the Highlands",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1298094958506505646",
       "latitude" : "64.709",
       "longitude" : "-18.152",
@@ -254,7 +254,7 @@
     },
     "1298095007823213601" : {
       "caption" : "My 2 French friends",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1298095007823213601",
       "latitude" : "65.640",
       "longitude" : "-16.914",
@@ -265,7 +265,7 @@
     },
     "1298747868865129333" : {
       "caption" : "A very pretty coastal town",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1298747868865129333",
       "latitude" : "66.116",
       "longitude" : "-16.911",
@@ -276,7 +276,7 @@
     },
     "1298750648489103734" : {
       "caption" : "Dettifoss Waterfall",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1298750648489103734",
       "latitude" : "65.817",
       "longitude" : "-16.387",
@@ -287,7 +287,7 @@
     },
     "1299307162056559101" : {
       "caption" : "A humpback whale!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1299307162056559101",
       "latitude" : "66.033",
       "longitude" : "-17.581",
@@ -298,7 +298,7 @@
     },
     "1299307232948722905" : {
       "caption" : "Yes, it was raining.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1299307232948722905",
       "latitude" : "",
       "longitude" : "",
@@ -309,7 +309,7 @@
     },
     "1299307284916313848" : {
       "caption" : "Don't I look good in Icelandic rain gear?!?",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1299307284916313848",
       "latitude" : "",
       "longitude" : "",
@@ -320,7 +320,7 @@
     },
     "1301658401620854924" : {
       "caption" : "The Highlands, part 2",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1301658401620854924",
       "latitude" : "64.865",
       "longitude" : "-19.557",
@@ -331,7 +331,7 @@
     },
     "1301662176695634901" : {
       "caption" : "Gillfoss (the waterfall)",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1301662176695634901",
       "latitude" : "64.325",
       "longitude" : "-20.130",
@@ -342,7 +342,7 @@
     },
     "1301662263584971867" : {
       "caption" : "The Hot Springs",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1301662263584971867",
       "latitude" : "64.865",
       "longitude" : "-19.554",
@@ -353,7 +353,7 @@
     },
     "1301664781626992502" : {
       "caption" : "The Geysir area",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1301664781626992502",
       "latitude" : "64.312",
       "longitude" : "-20.301",
@@ -364,7 +364,7 @@
     },
     "1302360617625095922" : {
       "caption" : "I forget the name of this lake, but it probably has 20 letters in it.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1302360617625095922",
       "latitude" : "",
       "longitude" : "",
@@ -375,7 +375,7 @@
     },
     "1302363861583890551" : {
       "caption" : "Hot Springs!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1302363861583890551",
       "latitude" : "63.992",
       "longitude" : "-19.062",
@@ -386,7 +386,7 @@
     },
     "1302366840437145356" : {
       "caption" : "A hiking trail",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1302366840437145356",
       "latitude" : "",
       "longitude" : "",
@@ -397,7 +397,7 @@
     },
     "1302368230790294587" : {
       "caption" : "A river crossing",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1302368230790294587",
       "latitude" : "",
       "longitude" : "",
@@ -408,7 +408,7 @@
     },
     "1303301437652061340" : {
       "caption" : "The coast.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1303301437652061340",
       "latitude" : "64.317",
       "longitude" : "-22.084",
@@ -419,7 +419,7 @@
     },
     "1303870058430234886" : {
       "caption" : "Rockall",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1303870058430234886",
       "latitude" : "",
       "longitude" : "",
@@ -430,7 +430,7 @@
     },
     "1303870107461758817" : {
       "caption" : "Fish 'n Chips!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1303870107461758817",
       "latitude" : "",
       "longitude" : "",
@@ -441,7 +441,7 @@
     },
     "1303870192941545642" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1303870192941545642",
       "latitude" : "64.153",
       "longitude" : "-21.948",
@@ -452,7 +452,7 @@
     },
     "1306002991609941373" : {
       "caption" : "That's Greenland!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1306002991609941373",
       "latitude" : "65.691",
       "longitude" : "-35.855",
@@ -463,7 +463,7 @@
     },
     "1306007014064864007" : {
       "caption" : "A typical campground",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1306007014064864007",
       "latitude" : "",
       "longitude" : "",
@@ -474,7 +474,7 @@
     },
     "1306025105524107721" : {
       "caption" : "More of Greenland!",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1306025105524107721",
       "latitude" : "",
       "longitude" : "",

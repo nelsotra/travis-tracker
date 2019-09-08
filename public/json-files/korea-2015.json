@@ -1,7 +1,7 @@
 {
     "1152669024302754105" : {
       "caption" : "The right way to do a country-spanning bike path.  The red part isn't a road, it's all bike path.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152669024302754105",
       "latitude" : "37.495",
       "longitude" : "126.488",
@@ -12,7 +12,7 @@
     },
     "1152671979886176679" : {
       "caption" : "Yes, this is where I slept my first night in Korea; I was too lazy to actually set up my tent and so I thought: Why not?",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152671979886176679",
       "latitude" : "37.496",
       "longitude" : "127.479",
@@ -23,7 +23,7 @@
     },
     "1152672576643361206" : {
       "caption" : "Just some pretty Korean river scenery.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152672576643361206",
       "latitude" : "37.110",
       "longitude" : "127.810",
@@ -34,7 +34,7 @@
     },
     "1152674455876102662" : {
       "caption" : "Silleuksa Temple. Well, the gate to it, at least. Yes, I rode right up through it, I'm horrible like that, and didn't even realize that might not be a proper thing to do until it was too late. Or maybe it was fine, who knows.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152674455876102662",
       "latitude" : "36.763",
       "longitude" : "128.001",
@@ -45,7 +45,7 @@
     },
     "1152674908500224539" : {
       "caption" : "Friends that I met along the way.",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152674908500224539",
       "latitude" : "36.048",
       "longitude" : "128.406",
@@ -56,7 +56,7 @@
     },
     "1152675437334850096" : {
       "caption" : "An example of the festival food (and yes, I tried it!)",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152675437334850096",
       "latitude" : "35.381",
       "longitude" : "128.573",
@@ -67,7 +67,7 @@
     },
     "1152675894807587394" : {
       "caption" : "The end of the line in Korea. The red booths are 'certification centers' where you can get a stamp to prove you were there and if you complete the whole path you get some sort of certificate. I didn't know this until I was almost done, so no certificate for me :(",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152675894807587394",
       "latitude" : "35.109",
       "longitude" : "128.947",
@@ -78,7 +78,7 @@
     },
     "1152676322987305554" : {
       "caption" : "The Japanese Bath",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152676322987305554",
       "latitude" : "34.5",
       "longitude" : "129",
@@ -89,7 +89,7 @@
     },
     "1152677483442170493" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152677483442170493",
       "latitude" : "",
       "longitude" : "",
@@ -100,7 +100,7 @@
     },
     "1152677880030390931" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152677880030390931",
       "latitude" : "",
       "longitude" : "",
@@ -111,7 +111,7 @@
     },
     "1152678280284433060" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152678280284433060",
       "latitude" : "",
       "longitude" : "",
@@ -122,7 +122,7 @@
     },
     "1152678804572433101" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152678804572433101",
       "latitude" : "",
       "longitude" : "",
@@ -133,7 +133,7 @@
     },
     "1152680159039023865" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152680159039023865",
       "latitude" : "",
       "longitude" : "",
@@ -144,7 +144,7 @@
     },
     "1152681110827264801" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152681110827264801",
       "latitude" : "",
       "longitude" : "",
@@ -155,7 +155,7 @@
     },
     "1152682015865793349" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152682015865793349",
       "latitude" : "",
       "longitude" : "",
@@ -166,7 +166,7 @@
     },
     "1152682575906040670" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152682575906040670",
       "latitude" : "",
       "longitude" : "",
@@ -177,7 +177,7 @@
     },
     "1152683189448829817" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152683189448829817",
       "latitude" : "",
       "longitude" : "",
@@ -188,7 +188,7 @@
     },
     "1152688063322351679" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152688063322351679",
       "latitude" : "",
       "longitude" : "",
@@ -199,7 +199,7 @@
     },
     "1152688816871008344" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152688816871008344",
       "latitude" : "",
       "longitude" : "",
@@ -210,7 +210,7 @@
     },
     "1152689837034793076" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152689837034793076",
       "latitude" : "",
       "longitude" : "",
@@ -221,7 +221,7 @@
     },
     "1152690470592800909" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152690470592800909",
       "latitude" : "",
       "longitude" : "",
@@ -232,7 +232,7 @@
     },
     "1152690937846655137" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152690937846655137",
       "latitude" : "",
       "longitude" : "",
@@ -243,7 +243,7 @@
     },
     "1152692052382279878" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152692052382279878",
       "latitude" : "",
       "longitude" : "",
@@ -254,7 +254,7 @@
     },
     "1152692619829668063" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152692619829668063",
       "latitude" : "",
       "longitude" : "",
@@ -265,7 +265,7 @@
     },
     "1152693026517772524" : {
       "caption" : "",
-      "include_post" : "Y",
+      "include_post" : true,
       "id" : "1152693026517772524",
       "latitude" : "",
       "longitude" : "",

@@ -44,8 +44,9 @@ export default {
     })
 
     // Once we have a center, we go through the list again and add each point with a valid lat/longitude to the map
+    // Also check the include_post field in the json, if it's false, we exclude the point from the map
     for (let key in this.items) {
-      if (this.isNumber(this.items[key].latitude) && this.isNumber(this.items[key].longitude)) {
+      if (this.isNumber(this.items[key].latitude) && this.isNumber(this.items[key].longitude) && this.items[key].include_post) {
         const position = new google.maps.LatLng(this.items[key].latitude, this.items[key].longitude)
         const marker = new google.maps.Marker({
           position,

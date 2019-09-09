@@ -1,5 +1,5 @@
 <template>
-    <div class="pb-5 pt-3" :style="{ backgroundImage: `url('${backgroundImg}')` }">
+    <div class="customBackground pb-5 pt-3" :style="{ backgroundImage: `url('${backgroundImg}')` }">
     <b-container class="mt-3" >
         <b-row v-if="showHome">
             <b-col>
@@ -28,6 +28,13 @@
                                 <ul><li>Korea and Japan were a single 3-week trip in 2015.  I started in Korea and ended in Japan.  It was amazing, I want to go back</li></ul>
                             <li><b><i>Pacific Coast 2014</i></b></li>
                                 <ul><li>Biking down the Pacific Coast of the US is one of the most gorgeous bike rides that I've ever done</li></ul>
+                            <li><b><i>Peru/Beijing/Cambodia 2017-2019</i></b></li>
+                                <ul>
+                                    <li>Instead of doing big, thousand mile hikes and bikes, the last couple of years I've done smaller, international adventures.</li>
+                                    <li>It started with going to Peru to see Machu Picchu and Choquequirao, then a last-minute vacay to Beijing, and then a bucket-list trip to see Angkor Wat in Cambodia</li>
+                                </ul>
+                            <li><b><i>What's Next?!?</i></b></li>
+                                <ul><li>I currently don't have anything booked, but I'm thinking about heading to Spain to hike the Camino de Santiago.  Maybe in the fall?  We'll see what happens...</li></ul>
                         </ul>
 
                         <p>
@@ -58,5 +65,10 @@ export default {
 <style>
 .specialCard {
   opacity: .8;
+}
+
+.customBackground {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>

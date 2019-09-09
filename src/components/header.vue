@@ -2,8 +2,8 @@
   <div>
     <b-navbar id="header">
       <b-navbar-brand>
-        <router-link to="/">
-            <span class="logo ml-5">Travis Tracker</span>
+        <router-link to="/home">
+            <span class="logo ml-2">Travis Tracker</span>
         </router-link>
       </b-navbar-brand>
       <b-navbar-nav right>
@@ -116,18 +116,13 @@ export default {
   li a:hover,
   li a:active,
   li a.router-link-active {
-    color: #e05929;
+    color: #a6b7f0;
+    text-decoration: underline;
   }
 
-  .logout {
-    background-color: transparent;
-    border: none;
-    font: inherit;
-    color: white;
-    cursor: pointer;
-  }
-  button.logout:hover{
-    color: #e05929;
+  #adventure-dropdown{
+    text-decoration: none;
+    color: white !important;
   }
 
 </style>

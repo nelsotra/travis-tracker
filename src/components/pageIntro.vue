@@ -1,5 +1,5 @@
 <template>
-    <div class="intro pb-5 pt-3" :style="{ backgroundImage: `url('${backgroundImg}')` }">
+    <div class="customBackground pb-5 pt-3" :style="{ backgroundImage: `url('${backgroundImg}')` }">
         <b-row>
             <b-col>
             </b-col>
@@ -37,6 +37,11 @@ export default {
 
 .specialCard {
   opacity: .8;
+}
+
+.customBackground {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 </style>

@@ -361,5 +361,16 @@
         "text" : "That's it!  It was a great trip and I really enjoyed the hike, but it was over and done really quickly.  It only took me 5 days to hike the trail: Started at Longmire, then Golden Lakes, Mystic, White River, Snow Lake, and back to Longmire.",
         "title" : "Day 5 - Wonderland Trail",
         "img" : "/img/wonderland-2012/8-17-12b.jpg"
+    },
+    "34" : {
+        "caption" : "Rachel and Ty",
+        "include_post" : true,
+        "id" : "34",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "8-26-12",
+        "text" : "Rachel and Ty, a few days after I got back from the Wonderland Trail.  I assume this was someone's birthday?  I don't remember, but seeing this picture makes me smile.  I miss this house... and Seattle... and Rachel and Ty :(",
+        "title" : "Extra 1",
+        "img" : "/img/wonderland-2012/8-26-12b.jpg"
     }
 }

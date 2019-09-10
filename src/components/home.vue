@@ -25,6 +25,9 @@
                           <p>
                               Use the buttons in the header to navigate to the various adventures.
                           </p>
+                          <p>
+                              But here's little blurb about each one:
+                          </p>
                           <ul>
                               <li><b><i>AT 2016</i></b></li>
                                   <ul><li>Hiked the entire Appalachian Trail in 2016! </li></ul>

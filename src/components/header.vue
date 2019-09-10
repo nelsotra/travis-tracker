@@ -13,6 +13,7 @@
             <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/at-2016">AT - 2016</b-dropdown-item>
             <b-dropdown-item to="/pct-2016">PCT - 2016</b-dropdown-item>
+            <b-dropdown-item to="/wonderland-2012">Wonderland Trail - 2012</b-dropdown-item>
             <b-dropdown-item class="mt-3" disabled>Biking</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
             <b-dropdown-item to="/iceland-2016">Iceland - 2016</b-dropdown-item>

@@ -57,7 +57,6 @@ export default {
         let second = '<p>' + this.items[key].date + '</p>'
         let third = '<p>' + this.items[key].text + '</p>'
         let pic = '<img width="100" style="padding: 5px;" align="left" src="' + this.publicPath + this.items[key].img + '"/>'
-        // let infoText =  '<div>' + pic + first + second + '</div><br><hr>' + third
         let infoText = pic + first + second + '<br><hr>' + third
 
         marker.addListener('click', function (event) {

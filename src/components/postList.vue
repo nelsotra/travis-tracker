@@ -34,7 +34,7 @@
                 background="#03173e">
 
                 <b-carousel-slide
-                    v-for="item in items"
+                    v-for="item in sortListById"
                     v-bind:key="item.id"
                     :img-src="publicPath + item.img"
                     content-visible-up="sm">

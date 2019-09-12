@@ -44,6 +44,8 @@
                                   <ul><li>Korea and Japan were a single 3-week trip in 2015.  I started in Korea and ended in Japan.  It was amazing, I want to go back</li></ul>
                               <li><b><i>Pacific Coast 2014</i></b></li>
                                   <ul><li>Biking down the Pacific Coast of the US is one of the most gorgeous bike rides that I've ever done</li></ul>
+                              <li><b><i>Seattle to Maine 2013</i></b></li>
+                                  <ul><li>Biked from Seattle to Maine.  The long, northern route across country.</li></ul>
                               <li><b><i>Wonderland Trail 2012</i></b></li>
                                   <ul><li>Hiked the entire Wonderland Trail in 2012.  This would have been after the AT, PCT, and half of the CDT. </li></ul>
                               <li><b><i>PCT 2008</i></b></li>

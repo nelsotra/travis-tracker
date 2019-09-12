@@ -12,6 +12,7 @@ import beijing2018 from './components/beijing-2018'
 import cambodia2019 from './components/cambodia-2019'
 import wonderland2012 from './components/wonderland-2012'
 import pct2008 from './components/pct-2008'
+import seattleMaine2013 from './components/seattle-maine-2013'
 
 Vue.use(Router)
 
@@ -84,6 +85,11 @@ export default new Router({
       path: '/pct-2008',
       name: 'pct-2008',
       component: pct2008
+    },
+    {
+      path: '/seattle-maine-2013',
+      name: 'seattle-maine-2013',
+      component: seattleMaine2013
     }
   ]
 })

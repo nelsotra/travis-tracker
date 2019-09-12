@@ -48,6 +48,8 @@
                                   <ul><li>Biked from Seattle to Maine.  The long, northern route across country.</li></ul>
                               <li><b><i>Wonderland Trail 2012</i></b></li>
                                   <ul><li>Hiked the entire Wonderland Trail in 2012.  This would have been after the AT, PCT, and half of the CDT. </li></ul>
+                              <li><b><i>Breck CO to Seattle 2011</i></b></li>
+                                  <ul><li>After my failed CDT attempt, I decided to pick up an old bike, start riding west, and see where I got.  This was that trip, and from it was born a new love of long-distance bike touring</li></ul>
                               <li><b><i>PCT 2008</i></b></li>
                                   <ul><li>My second thru-hike, the amazing PCT.  Still my favorite of them all.</li></ul>
                               <li><b><i>What's Next?!?</i></b></li>

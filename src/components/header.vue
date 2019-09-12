@@ -24,6 +24,7 @@
             <b-dropdown-item to="/japan-2015">Japan - 2015</b-dropdown-item>
             <b-dropdown-item to="/pacificCoast-2014">Pacific Coast - 2014</b-dropdown-item>
             <b-dropdown-item to="/seattle-maine-2013">Seattle to Maine - 2013</b-dropdown-item>
+            <b-dropdown-item to="/breck-seattle-2011">Breck CO to Seattle - 2011</b-dropdown-item>
 
             <b-dropdown-item class="mt-3" disabled>Regular Ole Touristy Stuff</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>

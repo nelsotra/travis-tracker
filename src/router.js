@@ -14,6 +14,8 @@ import wonderland2012 from './components/wonderland-2012'
 import pct2008 from './components/pct-2008'
 import seattleMaine2013 from './components/seattle-maine-2013'
 import breckSeattle2011 from './components/breck-seattle-2011'
+import cdt2011 from './components/cdt-2011'
+import cdt2013 from './components/cdt-2013'
 
 Vue.use(Router)
 
@@ -96,8 +98,17 @@ export default new Router({
       path: '/breck-seattle-2011',
       name: 'breck-seattle-2011',
       component: breckSeattle2011
+    },
+    {
+      path: '/cdt-2011',
+      name: 'cdt-2011',
+      component: cdt2011
+    },
+    {
+      path: '/cdt-2013',
+      name: 'cdt-2013',
+      component: cdt2013
     }
 
-    
   ]
 })

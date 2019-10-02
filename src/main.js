@@ -12,7 +12,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VueExpandableImage from 'vue-expandable-image'
 
 axios.defaults.baseURL = process.env.VUE_APP_BASE_URL
-//axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
+// axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*'
+// axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false

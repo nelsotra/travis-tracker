@@ -37,7 +37,7 @@
         <b-col cols="12">
           <b-card no-body class="mt-2 border-0">
             <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-3 variant="outline-secondary">A little blurb about what I've done so far</b-button>
+              <b-button block v-b-toggle.accordion-3 variant="outline-secondary">Little blurbs about what I've done so far</b-button>
             </b-card-header>
             <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
               <b-card-body>
@@ -137,7 +137,7 @@ export default {
     return {
       backgroundImg: process.env.BASE_URL + '/img/background/winds_wrong_pass.jpg',
       showHome: false,
-      adventureInProgress: true
+      adventureInProgress: false
     }
   },
   methods: {

@@ -88,7 +88,7 @@
                 <b-card-text>
                   2 weeks of hiking in Spain.  Good food.  Lots of interesting people.
                 </b-card-text>
-                <b-button pill variant="outline-primary" @click="$router.push('/iceland-2016')">~ Last Update -> 10/2/19 ~</b-button>
+                <b-button pill variant="outline-primary" @click="$router.push('/camino-2019')">~ Last Update: {{lastUpdate}} ~</b-button>
               </b-card-body>
             </b-collapse>
           </b-card>
@@ -137,7 +137,8 @@ export default {
     return {
       backgroundImg: process.env.BASE_URL + '/img/background/winds_wrong_pass.jpg',
       showHome: false,
-      adventureInProgress: false
+      adventureInProgress: false,
+      lastUpdate: '10/14/19'
     }
   },
   methods: {

@@ -1,0 +1,13 @@
+{
+    "1" : {
+      "caption" : "Test",
+      "include_post" : true,
+      "id" : "1",
+      "latitude" : "",
+      "longitude" : "",
+      "date" : "10-18-19",
+      "text" : "Getting the camino page up and running...",
+      "title" : "Day 1",
+      "img" : "/img/camino-2019/camino.png"
+    }
+}

@@ -16,6 +16,7 @@ import seattleMaine2013 from './components/seattle-maine-2013'
 import breckSeattle2011 from './components/breck-seattle-2011'
 import cdt2011 from './components/cdt-2011'
 import cdt2013 from './components/cdt-2013'
+import camino2019 from './components/camino-2019'
 
 Vue.use(Router)
 
@@ -108,6 +109,11 @@ export default new Router({
       path: '/cdt-2013',
       name: 'cdt-2013',
       component: cdt2013
+    },
+    {
+      path: '/camino-2019',
+      name: 'camino-2019',
+      component: camino2019
     }
 
   ]

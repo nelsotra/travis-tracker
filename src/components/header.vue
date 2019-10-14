@@ -12,6 +12,7 @@
 
             <b-dropdown-item disabled>Hiking</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
+            <b-dropdown-item to="/camino-2019">Camino de Santiago - 2019</b-dropdown-item>
             <b-dropdown-item to="/at-2016">AT - 2016</b-dropdown-item>
             <b-dropdown-item to="/pct-2016">PCT - 2016</b-dropdown-item>
             <b-dropdown-item to="/cdt-2013">Northern CDT - 2013</b-dropdown-item>

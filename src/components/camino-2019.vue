@@ -13,7 +13,7 @@ import data from '../../public/json-files/camino-2019.json'
 export default {
   data () {
     return {
-      backgroundImg: '/img/background/camino.png',
+      backgroundImg: '/img/background/camino.jpg',
       data,
       title: 'Camino de Santiago 2019',
       text: 'I needed a vacation, but I\'m still working, so it needed to be something that could be done in a relatively short amount of time.  The Camino is perfect for that.  It\'s a pilgrimage trail in Spain.  ~450 miles, pretty Spanish country side, neat Spanish towns, good Spanish food, best of all - it draws an eclectic mix of people from all over the world.  It\'s time to hike the Camino.'

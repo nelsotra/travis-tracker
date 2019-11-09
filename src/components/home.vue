@@ -42,6 +42,8 @@
             <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
               <b-card-body>
                 <ul>
+                  <li><b><i>Camino de Santiago 2019</i></b></li>
+                      <ul><li>2 weeks of hiking the Camino de Santiago in Spain</li></ul>
                   <li><b><i>Peru/Beijing/Cambodia 2017-2019</i></b></li>
                       <ul>
                           <li>Instead of doing big, thousand mile hikes and bikes, the last couple of years I've done smaller, international adventures.</li>
@@ -69,6 +71,8 @@
                       <ul><li>An attempt to collect my Triple Crown and hike the CDT.  It did not go well.</li></ul>
                   <li><b><i>PCT 2008</i></b></li>
                       <ul><li>My second thru-hike, the amazing PCT.  Still my favorite of them all.</li></ul>
+                  <li><b><i>AT 2005</i></b></li>
+                      <ul><li>My very first thru-hike, the Appalachian Trail.  This is the one that started it all...</li></ul>
                 </ul>
               </b-card-body>
             </b-collapse>

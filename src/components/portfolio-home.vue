@@ -25,7 +25,7 @@
                             databases with Python.
                         </b-card-text>
                         <b-container class="mt-4">
-                            <b-card-img src="/img/portfolio-img/watchdog.png"></b-card-img>
+                            <b-card-img :src="publicPath + '/img/portfolio-img/watchdog.png'"></b-card-img>
                         </b-container>
                     </b-tab>
                     <b-tab title="Hadoop">
@@ -43,7 +43,7 @@
                             The UI was created with React, and the backend is Go
                         </b-card-text>
                         <b-container class="mt-4">
-                            <b-card-img src="/img/portfolio-img/healthchecks.png"></b-card-img>
+                            <b-card-img :src="publicPath + '/img/portfolio-img/healthchecks.png'"></b-card-img>
                         </b-container>
                     </b-tab>
                     <b-tab title="Airflow">
@@ -60,7 +60,7 @@
                             can be fitted with its own alerting, so we know exactly where a problem is happening.
                         </b-card-text>
                         <b-container class="mt-4">
-                            <b-card-img src="/img/portfolio-img/airflow_rcps.png"></b-card-img>
+                            <b-card-img :src="publicPath + '/img/portfolio-img/airflow_rcps.png'"></b-card-img>
                         </b-container>
                     </b-tab>
                     <b-tab title="Data Monitor">
@@ -78,7 +78,7 @@
                             The scripts in Airflow are Python
                         </b-card-text>
                         <b-container class="mt-4">
-                            <b-card-img src="/img/portfolio-img/airflow_nate.png"></b-card-img>
+                            <b-card-img :src="publicPath + '/img/portfolio-img/airflow_nate.png'"></b-card-img>
                         </b-container>
                     </b-tab>
                     <b-tab title="Call Helper">
@@ -102,7 +102,7 @@
                             The front end is Vue JS and the backend is Go.
                         </b-card-text>
                         <b-container class="mt-4">
-                            <b-card-img src="/img/portfolio-img/callhelper.png"></b-card-img>
+                            <b-card-img :src="publicPath + '/img/portfolio-img/callhelper.png'"></b-card-img>
                         </b-container>
                     </b-tab>
                 </b-tabs>
@@ -124,7 +124,7 @@ export default {
   },
   data () {
     return {
-
+      publicPath: process.env.BASE_URL
     }
   },
   methods: {

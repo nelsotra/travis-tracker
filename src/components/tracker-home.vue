@@ -108,12 +108,16 @@
             </b-card-header>
             <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
               <b-card-body>
-                <h3>The Camino de Santiago!!</h3>
+                <h3>Nothing planned :(</h3>
                 <b-card-text>
-                  2 weeks of hiking in Spain. Good food. Lots of interesting people.
+                  I recently hiked the Camino de Santiago, which I really enjoyed!
+                  <br>
+                  But after the end of an adventure, I'm always asking myself: "What's next?"
+                  <br>
+                  The Middle East?  Climb Kilimanjaro? Hike New Zealand? Take the cheapest flight I can find to wherever it goes?
                 </b-card-text>
                 <b-card-text>
-                  October 19th -> November 4th, 2019.
+                  I guess we'll find out what it ends up being eventually...
                 </b-card-text>
               </b-card-body>
             </b-collapse>

@@ -2,7 +2,7 @@
   <div>
     <b-navbar id="header">
       <b-navbar-brand>
-        <router-link to="/home">
+        <router-link to="/trackerhome">
             <span class="logo ml-2">Travis Tracker</span>
         </router-link>
       </b-navbar-brand>
@@ -34,12 +34,14 @@
             <b-dropdown-item to="/cambodia-2019">Cambodia - 2019</b-dropdown-item>
             <b-dropdown-item to="/beijing-2018">Beijing - 2018</b-dropdown-item>
             <b-dropdown-item to="/peru-2017">Peru - 2017</b-dropdown-item>
-            <b-dropdown-item class="mt-3" disabled>All 3 Trails in 1 Year</b-dropdown-item>
             <b-dropdown-divider></b-dropdown-divider>
           </b-dropdown>
         </b-nav-item>
         <b-nav-item >
-          <router-link to="/home">Home</router-link>
+          <router-link to="/trackerhome">Tracker Home</router-link>
+        </b-nav-item>
+        <b-nav-item >
+          <router-link to="/mainhome">Main</router-link>
         </b-nav-item>
       </b-navbar-nav>
     </b-navbar>

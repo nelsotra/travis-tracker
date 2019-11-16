@@ -1,14 +1,18 @@
 <template>
+    <div>
+    <TrackerHeader />
     <b-container class="mt-3">
         <pageIntro :backImg="backgroundImg" :introTitle="title" :introText="text"></pageIntro>
         <postList :inputItems="data"></postList>
     </b-container>
+    </div>
 </template>
 
 <script>
 import postList from './postList'
 import pageIntro from './pageIntro'
 import data from '../../public/json-files/seattle-maine-2013.json'
+import TrackerHeader from './header'
 
 export default {
   data () {
@@ -21,7 +25,8 @@ export default {
   },
   components: {
     postList,
-    pageIntro
+    pageIntro,
+    TrackerHeader
   }
 }
 </script>

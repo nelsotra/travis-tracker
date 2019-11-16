@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HomePage from './components/home'
+import MainHome from './components/main-home'
+import TrackerHome from './components/tracker-home'
+import PortfolioHome from './components/portfolio-home'
 import pacificCoast2014 from './components/pacificCoast-2014'
 import japan2015 from './components/japan-2015'
 import korea2015 from './components/korea-2015'
@@ -28,12 +30,22 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      component: HomePage
+      component: MainHome
     },
     {
-      path: '/home',
-      name: 'home',
-      component: HomePage
+      path: '/mainhome',
+      name: 'mainhome',
+      component: MainHome
+    },
+    {
+      path: '/trackerhome',
+      name: 'trackerhome',
+      component: TrackerHome
+    },
+    {
+      path: '/portfoliohome',
+      name: 'portfoliohome',
+      component: PortfolioHome
     },
     {
       path: '/pacificCoast-2014',

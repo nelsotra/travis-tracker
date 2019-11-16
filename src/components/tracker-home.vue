@@ -1,5 +1,6 @@
 <template>
     <div class="changeBackground">
+    <TrackerHeader />
     <div class="customBackground pb-5 pt-3" :style="{ backgroundImage: `url('${backgroundImg}')` }"></div>
 
     <b-container >
@@ -135,8 +136,15 @@
 <script>
 // vue-breakpoints is used to change to layout if for smaller screens.  I took it out but leaving it for possible future use.
 // import { showAt, hideAt } from 'vue-breakpoints'
+import TrackerHeader from './header'
 
 export default {
+  name: 'TrackerHome',
+  components: {
+    TrackerHeader
+    // hideAt,
+    // showAt
+  },
   data () {
     return {
       backgroundImg: process.env.BASE_URL + '/img/background/winds_wrong_pass.jpg',
@@ -147,10 +155,6 @@ export default {
   },
   methods: {
 
-  },
-  components: {
-    // hideAt,
-    // showAt
   }
 }
 </script>

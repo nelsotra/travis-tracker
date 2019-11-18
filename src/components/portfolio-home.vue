@@ -1,15 +1,27 @@
 <template>
+    <!--
+      This is the main page for the portfolio section of the site.
+
+      It displays my resume and a selection of projects that I have worked on.
+      It's setup as tabs, so each button navigates to different content.
+      I thought about creating a custom component to try and simplify the content, but I'm not
+      sure it would actually be helpful, so I haven't yet
+    -->
     <div>
         <topHeader titleLink="/portfoliohome" titleText="Portfolio"/>
 
         <div class="mt-0">
             <b-card no-body>
                 <b-tabs pills card>
+                    <!-- Each tab contains specific content for a project -->
+
+                    <!-- The resume is created in its own component -->
                     <b-tab title="Resume">
                         <b-card-text>
                             <resume />
                         </b-card-text>
                     </b-tab>
+
                     <b-tab title="Watchdog">
                         <b-card-title>The Watchdog UI</b-card-title>
                         <b-card-text>
@@ -28,6 +40,7 @@
                             <b-card-img :src="publicPath + '/img/portfolio-img/watchdog.png'"></b-card-img>
                         </b-container>
                     </b-tab>
+
                     <b-tab title="Hadoop">
                         <b-card-title>Hadoop Healthchecks UI</b-card-title>
                         <b-card-text>
@@ -46,6 +59,7 @@
                             <b-card-img :src="publicPath + '/img/portfolio-img/healthchecks.png'"></b-card-img>
                         </b-container>
                     </b-tab>
+
                     <b-tab title="Airflow">
                         <b-card-title>RCPS and Airflow</b-card-title>
                         <b-card-text>
@@ -63,6 +77,7 @@
                             <b-card-img :src="publicPath + '/img/portfolio-img/airflow_rcps.png'"></b-card-img>
                         </b-container>
                     </b-tab>
+
                     <b-tab title="Data Monitor">
                         <b-card-title>Nate Data Monitor</b-card-title>
                         <b-card-text>
@@ -81,6 +96,7 @@
                             <b-card-img :src="publicPath + '/img/portfolio-img/airflow_nate.png'"></b-card-img>
                         </b-container>
                     </b-tab>
+
                     <b-tab title="Call Helper">
                         <b-card-title>Critical Call Helper</b-card-title>
                         <b-card-text>

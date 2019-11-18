@@ -1,14 +1,26 @@
 <template>
+  <!--
+    This is the home page for the tracker, it does the following:
+    1. There is a an array of objects in the data section that get added to a select
+      - (i need to move this to a json file eventually)
+    2. The data is added to a select, so the user can pick an adventure
+    3. Picking an adventure loads a custom adventure component that displays the content
+
+    I set it up this way because all of the data for each adventure is in a json file, so I
+    import all of those json files to have the data available when the page loads.
+    There's probably a better way to do this...
+  -->
   <div class="changeBackground">
     <topHeader titleLink="/trackerhome" titleText="Travis Tracker"/>
 
     <div>
       <b-container fluid class="mt-4 mb-4">
         <b-row>
-          <b-col cols="4"></b-col>
-          <b-col cols="4">
-            <b-form-select v-model="current.selectedAdventure">
-              <option v-bind:key="o.id" v-bind:value="{id: o.id, name: o.name, background: o.background, title: o.title, text: o.text, data: o.data}" v-for="o in other">{{ o.name }}</option>
+          <b-col cols="3"></b-col>
+          <b-col cols="6">
+            <b-form-select size="lg" v-model="current.selectedAdventure">
+              <option v-if="current.selectedAdventure.id === 1" v-bind:key="otherSelect.id" v-bind:value="{id: otherSelect.id, name: otherSelect.name, background: otherSelect.background, title: otherSelect.title, text: otherSelect.text, data: otherSelect.data}">{{ otherSelect.name }}</option>
+              <option v-if="current.selectedAdventure.id !== 1" v-bind:key="otherSelect.id2" v-bind:value="{id: otherSelect.id, name: otherSelect.name, background: otherSelect.background, title: otherSelect.title, text: otherSelect.text, data: otherSelect.data}">{{ otherSelect.name2 }}</option>
                 <hr />
               <optgroup label="Hiking">
                 <option v-bind:key="h.id" v-bind:value="{id: h.id, name: h.name, background: h.background, title: h.title, text: h.text, data: h.data}" v-for="h in hiking">{{ h.name }}</option>
@@ -23,7 +35,7 @@
               </optgroup>
             </b-form-select>
           </b-col>
-          <b-col cols="4"></b-col>
+          <b-col cols="3"></b-col>
         </b-row>
       </b-container>
     </div>
@@ -106,16 +118,17 @@ export default {
         }
       },
 
-      other: [
+      otherSelect:
         {
           id: 1,
+          id2: 1111,
           name: 'Select an Adventure',
+          name2: 'Tracker Main Page',
           background: '',
           title: '',
           text: '',
           data: ''
-        }
-      ],
+        },
 
       hiking: [
         {

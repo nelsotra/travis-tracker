@@ -1,4 +1,8 @@
 <template>
+  <!--
+    A generic header for each page.
+    For now, it's just a blue banner with some text and a link back to the initial landing page
+  -->
   <div>
     <b-navbar id="header">
       <b-navbar-brand>

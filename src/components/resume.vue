@@ -1,4 +1,8 @@
 <template>
+    <!--
+        Since the resume has a lot of specific content, I decided to split it out into its own
+        component, instead of trying to add all of this to the portfolio-home component
+    -->
     <div>
         <h3>Travis Nelson</h3>
         <hr />

@@ -1,4 +1,10 @@
 <template>
+  <!--
+    This component does the work of displaying the map on the page.
+
+    Most of the work is done in a mounted function that iterates over each points, grabs the ones
+    with a latitude/longitude, and adds them to a google map
+  -->
   <div class="postMap" :id="mapName"></div>
 </template>
 

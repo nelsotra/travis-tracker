@@ -1,8 +1,18 @@
 <template>
+    <!--
+      This is a generic component to display the info for each adventure
+      It takes the background image, title, text, and data that is passed into it
+      and displays to via more components.
+
+      Originally, I had each adventure on its own separate page, because I envisioned
+      customizing each one and adding extra content, but of course that never happened,
+      so I moved to this system of having a single component and greatly simplified the
+      file structure.
+     -->
     <div>
     <b-container class="mt-3">
-        <pageIntro :backImg="backgroundImg" :introTitle="title" :introText="text"></pageIntro>
-        <postList :inputItems="data"></postList>
+      <postList class="mb-3" :inputItems="data"></postList>
+      <pageIntro class="mb-3" :backImg="backgroundImg" :introTitle="title" :introText="text"></pageIntro>
     </b-container>
     </div>
 </template>

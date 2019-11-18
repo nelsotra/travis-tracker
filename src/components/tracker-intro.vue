@@ -1,45 +1,30 @@
 <template>
+    <!--
+      This is a component for the main tracker page (different from the page for an adventure)
+      Since it had some custom features from a page for an adventure, I created a new component
+      for it.
+      All it does is display some accordion buttons with some helpful text and then an image
+    -->
     <div class="changeBackground">
-    <div class="customBackground pb-5 pt-3" :style="{ backgroundImage: `url('${backgroundImg}')` }"></div>
 
-    <b-container >
-      <b-row>
-        <b-col cols="12">
-          <b-card no-body class="mt-3 border-0 text-center">
-            <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-1 variant="outline-secondary">What's the point of the Travis-Tracker?</b-button>
-            </b-card-header>
-            <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
-              <b-card-body>
-                <b-card-text>Sometimes I hike or bike thousands of miles for no apparent reason.  This site lets my friends/family follow me as I stumble along.</b-card-text>
-              </b-card-body>
-            </b-collapse>
-          </b-card>
-        </b-col>
-      </b-row>
+      <div class="text-center">
+          <div>
+          <b-button-group size="lg" class="mb-3">
+            <b-button v-b-toggle.accordion-1 class="mr-2" variant="outline-primary">Why I made this</b-button>
+            <b-button v-b-toggle.accordion-2 class="mr-2" variant="outline-primary">How to use</b-button>
+            <b-button v-b-toggle.accordion-3 class="mr-2" variant="outline-primary">What I've already done</b-button>
+            <b-button v-b-toggle.accordion-4 class="mr-2" variant="outline-primary">What's next</b-button>
+          </b-button-group>
+          </div>
 
-      <b-row>
-        <b-col cols="12">
-          <b-card no-body class="mt-2 border-0 text-center">
-            <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-2 variant="outline-secondary">How do you use the Travis-Tracker?</b-button>
-            </b-card-header>
-            <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
-              <b-card-body>
-                <b-card-text>Pick an adventure...  Follow along...  Go out and have your own adventure...</b-card-text>
-              </b-card-body>
-            </b-collapse>
-          </b-card>
-        </b-col>
-      </b-row>
-
-      <b-row>
-        <b-col cols="12">
-          <b-card no-body class="mt-2 border-0">
-            <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-3 variant="outline-secondary">Little blurbs about what I've done so far</b-button>
-            </b-card-header>
-            <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+          <b-collapse id="accordion-1" accordion="intro-accordion">
+            <b-card>Sometimes I hike or bike thousands of miles for no apparent reason.  This site lets my friends/family follow me as I stumble along.</b-card>
+          </b-collapse>
+          <b-collapse id="accordion-2" accordion="intro-accordion">
+            <b-card>Pick an adventure...  Follow along...  Go out and have your own adventure...</b-card>
+          </b-collapse>
+          <b-collapse id="accordion-3" accordion="intro-accordion">
+            <b-card class="text-left">
               <b-card-body>
                 <ul>
                   <li><b><i>Camino de Santiago 2019</i></b></li>
@@ -75,37 +60,10 @@
                       <ul><li>My very first thru-hike, the Appalachian Trail.  This is the one that started it all...</li></ul>
                 </ul>
               </b-card-body>
-            </b-collapse>
-          </b-card>
-        </b-col>
-      </b-row>
-
-      <b-row v-if="adventureInProgress">
-        <b-col cols="12">
-          <b-card no-body class="mt-2 mb-3 border-0 text-center">
-            <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-4 variant="outline-secondary">The Current Adventure</b-button>
-            </b-card-header>
-            <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
-              <b-card-body>
-                <h3>The Camino de Santiago!!</h3>
-                <b-card-text>
-                  2 weeks of hiking in Spain.  Good food.  Lots of interesting people.
-                </b-card-text>
-                <b-button pill variant="outline-primary" @click="$router.push('/camino-2019')">~ Last Update: {{lastUpdate}} ~</b-button>
-              </b-card-body>
-            </b-collapse>
-          </b-card>
-        </b-col>
-      </b-row>
-
-      <b-row v-if="!adventureInProgress">
-        <b-col cols="12">
-          <b-card no-body class="mt-2 mb-3 border-0 text-center">
-            <b-card-header header-tag="header" class="p-0" role="tab">
-              <b-button block v-b-toggle.accordion-5 variant="outline-secondary">What's Next?</b-button>
-            </b-card-header>
-            <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
+            </b-card>
+          </b-collapse>
+          <b-collapse id="accordion-4" accordion="intro-accordion">
+            <b-card>
               <b-card-body>
                 <h3>Nothing planned :(</h3>
                 <b-card-text>
@@ -119,27 +77,22 @@
                   I guess we'll find out what it ends up being eventually...
                 </b-card-text>
               </b-card-body>
-            </b-collapse>
-          </b-card>
-        </b-col>
-      </b-row>
-    </b-container>
+            </b-card>
+          </b-collapse>
+      </div>
+
+      <div class="customBackground pb-5 pt-3" :style="{ backgroundImage: `url('${backgroundImg}')` }"></div>
 
     </div>
 </template>
 
 <script>
-// vue-breakpoints is used to change to layout if for smaller screens.  I took it out but leaving it for possible future use.
-// import { showAt, hideAt } from 'vue-breakpoints'
 
 export default {
   name: 'TrackerHome',
   data () {
     return {
-      backgroundImg: process.env.BASE_URL + '/img/background/winds_wrong_pass.jpg',
-      showHome: false,
-      adventureInProgress: false,
-      lastUpdate: '10/14/19'
+      backgroundImg: process.env.BASE_URL + '/img/background/winds_wrong_pass.jpg'
     }
   },
   methods: {
@@ -149,32 +102,15 @@ export default {
 </script>
 
 <style>
-.specialCard {
-  opacity: .8;
-}
-
 .customBackground {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  border: 1px solid silver;
 }
 
 .changeBackground {
   background-color: white;
 }
 
-#footer {
-  height: 100px;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #03173e;
-  padding: 0 20px;
-}
-
-.logo {
-  font-weight: bold;
-  color: white;
-}
 </style>

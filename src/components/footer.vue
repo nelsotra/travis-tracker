@@ -1,4 +1,8 @@
 <template>
+  <!--
+    A generic footer for the bottom of the page.
+    For now, it's just a blue banner with some text and a link
+  -->
   <div>
     <b-navbar id="footer">
       <b-navbar-brand>

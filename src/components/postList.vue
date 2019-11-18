@@ -1,24 +1,34 @@
 <template>
+    <!--
+      This is one of the more complicated components, it's responsible for displaying the actual
+      content for each adventure.  There are 3 pieces:
+      1. A list of every blog post for the adventure
+      2. An image gallery for the pictures
+      3. A map of the blog posts that have latitude/longitude data with them
+    -->
     <b-container class="mt-3">
         <div class="text-center" v-if="loading">
             <b-spinner label="Spinning" class="spinner mt-3"></b-spinner>
         </div>
 
         <!-- A series of buttons to display the content.  At the start nothing but the buttons should be shown -->
-        <b-button pill block class="mb-1" variant="outline-secondary" @click="toggleList">
-            <span v-if="!showList">Show List</span>
-            <span v-if="showList">Hide List</span>
-        </b-button>
+        <div class="text-center">
+            <b-button-group size="lg">
+              <b-button class="mb-1 mr-2" variant="outline-primary" @click="toggleList">
+                  <span v-if="!showList">Show List</span>
+                  <span v-if="showList">Hide List</span>
+              </b-button>
 
-        <b-button pill block class="mb-1" variant="outline-secondary" @click="$bvModal.show('carousel-modal')">
-            Photos
-        </b-button>
+              <b-button class="mb-1 mr-2" variant="outline-primary" @click="$bvModal.show('carousel-modal')">
+                  Photos
+              </b-button>
 
-        <b-button pill block class="mb-1" variant="outline-secondary" @click="toggleMap">
-            <span v-if="!showMap">Show Map</span>
-            <span v-if="showMap">Hide Map</span>
-        </b-button>
-
+              <b-button class="mb-1" variant="outline-primary" @click="toggleMap">
+                  <span v-if="!showMap">Show Map</span>
+                  <span v-if="showMap">Hide Map</span>
+              </b-button>
+            </b-button-group>
+        </div>
         <!-- A google map filled with markers from the latitute/longitude info -->
         <div class="mt-3" v-if="showMap">
             <postMap :name="mapName" :itemsList="items"></postMap>
@@ -53,8 +63,7 @@
         </b-modal>
 
         <!-- A list of all the posts for this adventure.  Tried expandable-image for the pictures, but didn't love
-        it, so went with a modal to display a single image.  Still not totally satisfied...
-        {{ sortList }}-->
+        it, so went with a modal to display a single image.  Still not totally satisfied...-->
         <div v-if="showList">
             <div v-for="item in sortListById" v-bind:key="item.id">
                 <!-- I'm using a grid row with 2 columns to show the image and then the text, seemed to be the best way to line everything up

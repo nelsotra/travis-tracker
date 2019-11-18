@@ -9,7 +9,7 @@
             and in addition to being an amazing engineer, I'm also passionate about long distance
             hiking and biking - I've hiked the triple crown and biked across countries.  <br>I realize that I have an
             unusual and eclectic background, but what all of these things have in common is that I'm constantly
-            searching for jobs and experiences that are meaningful and fulfilling.
+            searching for jobs and experiences that are meaningful/significant/fulfilling.
         </code>
         </div>
 

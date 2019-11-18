@@ -1,8 +1,8 @@
 <template>
     <div>
-        <PortfolioHeader />
+        <topHeader titleLink="/portfoliohome" titleText="Portfolio"/>
 
-        <div class="mt-3">
+        <div class="mt-0">
             <b-card no-body>
                 <b-tabs pills card>
                     <b-tab title="Resume">
@@ -109,17 +109,20 @@
             </b-card>
         </div>
 
+        <bttmFooter footerLink="/portfoliohome" footerText="Portfolio" />
     </div>
 </template>
 
 <script>
-import PortfolioHeader from './portfolio-header'
+import topHeader from './header'
+import bttmFooter from './footer'
 import resume from './resume'
 
 export default {
   name: 'PortfolioHome',
   components: {
-    PortfolioHeader,
+    topHeader,
+    bttmFooter,
     resume
   },
   data () {

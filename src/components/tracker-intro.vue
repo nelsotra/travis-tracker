@@ -134,10 +134,6 @@
 
 export default {
   name: 'TrackerHome',
-  components: {
-    // hideAt,
-    // showAt
-  },
   data () {
     return {
       backgroundImg: process.env.BASE_URL + '/img/background/winds_wrong_pass.jpg',

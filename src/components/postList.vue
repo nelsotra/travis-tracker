@@ -103,6 +103,7 @@ export default {
   components: {
     postMap
   },
+
   data () {
     return {
       publicPath: process.env.BASE_URL,

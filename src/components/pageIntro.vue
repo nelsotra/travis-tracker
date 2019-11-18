@@ -6,9 +6,11 @@
             <b-col cols="8">
                 <b-card class="specialCard mt-2" border-variant="secondary" >
                     <h4 slot="header"><center>{{ title }}</center></h4>
-                    <b-card-text>
-                        {{ text }}
-                    </b-card-text>
+                    <show-at breakpoint="mediumAndAbove">
+                      <b-card-text>
+                          {{ text }}
+                      </b-card-text>
+                    </show-at>
                 </b-card>
             </b-col>
             <b-col>
@@ -18,6 +20,8 @@
 </template>
 
 <script>
+import { showAt, hideAt } from 'vue-breakpoints'
+
 export default {
   props: ['backImg', 'introTitle', 'introText'],
   data () {
@@ -26,6 +30,10 @@ export default {
       title: this.introTitle,
       text: this.introText
     }
+  },
+  components: {
+    hideAt,
+    showAt
   },
   methods: {
 

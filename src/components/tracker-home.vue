@@ -127,7 +127,7 @@ export default {
           data: camino2019Data
         },
         {
-          id: 4,
+          id: 3,
           name: 'AT - 2016',
           background: '/img/background/tent.jpg',
           title: 'AT 2016!!!',
@@ -135,7 +135,7 @@ export default {
           data: at2016data
         },
         {
-          id: 14,
+          id: 4,
           name: 'PCT - 2016',
           background: '/img/background/pct.jpg',
           title: 'PCT 2016!!!',
@@ -143,7 +143,7 @@ export default {
           data: pct2016data
         },
         {
-          id: 9,
+          id: 5,
           name: 'CDT - 2013',
           background: '/img/background/cdt2013.jpg',
           title: 'The Northern Continental Divide Trail (CDT) - 2013',
@@ -151,7 +151,7 @@ export default {
           data: cdt2013data
         },
         {
-          id: 17,
+          id: 6,
           name: 'Wonderland - 2012',
           background: '/img/background/wonderland.jpg',
           title: 'Wonderland Trail 2012',
@@ -159,7 +159,7 @@ export default {
           data: wonderland2012data
         },
         {
-          id: 8,
+          id: 7,
           name: 'CDT - 2011',
           background: '/img/background/cdt2011.jpg',
           title: 'The Southern Continental Divide Trail (CDT) - 2011',
@@ -167,7 +167,7 @@ export default {
           data: cdt2011data
         },
         {
-          id: 13,
+          id: 8,
           name: 'PCT - 2008',
           background: '/img/background/pct2008.jpg',
           title: 'PCT 2008!',
@@ -178,7 +178,7 @@ export default {
 
       biking: [
         {
-          id: 10,
+          id: 9,
           name: 'Iceland - 2016',
           background: '/img/background/iceland.jpg',
           title: 'Iceland 2016!!!',
@@ -186,19 +186,19 @@ export default {
           data: iceland2016data
         },
         {
-          id: 11,
+          id: 10,
           name: 'Japan - 2015',
           background: '/img/background/japan.jpg',
           title: 'Japan 2015!!!',
-          text: 'Biking through South Korea was the first part of my Asian adventure, and it had a very defined plan.  What I mean by that is with the 4-rivers bike path through Korea, my route was laid out for me.  It was a well-marked, beautiful bike path and I knew exactly where it would take me.  Japan was different.  There is not beautiful bike path running the entire length of the country.  For Japan, I had to pick up a road map and figure it out myself.  It was much more ambiguous and unknown.  Where would I go?  Which route would I follow?  I didn\'t know, all I knew was that I could take a ferry from Korea to either Fukuoka or Shimonoseki because, well, that\'s where the ferries go, and from there I had to make my way somehow to Tokyo, because, well, that\'s where my flight left from.  That was it.  I had a starting point, an ending point, and nothing in-between.  In a way it was exciting for once to not have a pre-defined route (ALL of my previous bike trips have been on planned routes), but that also makes it a little more daunting.  Nonetheless, this was my Japanese portion of the trip and I was more than a little curious to see how it would all turn out...',
+          text: 'Biking through South Korea was the first part of my Asian adventure, and it had a very defined plan.  Japan was different.  There is not beautiful bike path running the entire length of the country.  For Japan, I had to pick up a road map and figure it out myself, it was much more ambiguous and unknown.  Where would I go?  Which route would I follow?  I didn\'t know, all I knew was that I could take a ferry from Korea to either Fukuoka or Shimonoseki because, well, that\'s where the ferries go, and from there I had to make my way somehow to Tokyo, because, well, that\'s where my flight left.  That was it.  In a way it was exciting for once to not have a pre-defined route (ALL of my previous bike trips have been on planned routes), but that also makes it a little more daunting.',
           data: japan2015data
         },
         {
-          id: 3,
+          id: 11,
           name: 'Korea - 2015',
           background: '/img/background/korea.jpg',
           title: 'Korea 2015!!!',
-          text: 'I decided that it was time for a vacation, and I wanted to do another bike trip, but where to go?!? With my schedule, if I take a week off of work I get 3 weeks for a vacation (gotta love that 7on/7off schedule!), but I was having a tough time picking a spot.  Then it hit me, why not go international? 3 weeks is a nice chunk of time to explore, so I started researching destinations and decided that I wanted to go to Asia (because I had never been to Asia), and settled on Japan, because I heard it was very bike friendly and a great country to explore. Then, I stumbled upon a blog describing a bike path in South Korea that will take you across the entire country from Seoul to Busan. Since South Korea isn\'t exactly a huge country, the entire trip could be done in under a week. If I was going to fly all the way across the Pacific, why not add on a little trip to Korea while I\'m over there? So that was how I came up with my 3-week Asian adventure: Fly into Seoul, bike to Busan, then take a ferry to Japan. That was the plan...',
+          text: 'I decided that it was time for a vacation, but where to go?!? I had a 3-week block of time, but I was having a tough time picking a spot.  Then it hit me, why not go international? 3 weeks is a nice chunk of time to explore, so I started researching destinations and decided that I wanted to go to Asia (because I had never been to Asia), and settled on Japan, because I heard it was very bike friendly and a great country to explore. Then, I stumbled upon a blog describing a bike path in South Korea that will take you across the entire country from Seoul to Busan. Since South Korea isn\'t exactly a huge country, the entire trip could be done in under a week. So that was how I came up with my 3-week Asian adventure: Fly into Seoul, bike to Busan, then take a ferry to Japan.',
           data: korea2015Data
         },
         {
@@ -210,7 +210,7 @@ export default {
           data: pacific2014data
         },
         {
-          id: 16,
+          id: 13,
           name: 'Seattle to Maine - 2013',
           background: '/img/background/seattleMaine2013.jpg',
           title: 'Biking from Seattle to Maine - 2013',
@@ -218,18 +218,18 @@ export default {
           data: seattle2013data
         },
         {
-          id: 6,
+          id: 14,
           name: 'Breck to Seattle - 2011',
           background: '/img/background/breckSeattle2011.jpg',
           title: 'Biking from Breckenridge CO to Seattle - 2011',
-          text: 'This bike ride was never supposed to happen.  In 2011 I was hiking the CDT.  I had started the CDT in New Mexico and everything was going fine until I hit a wall of snow in Colorado (2011 was a record-breaking snow year).  Sadly, I couldn\'t safely go on with the hike.  Afterwards, I was sitting around sad and depressed at my sisters house, kicking myself over my failed CDT hike when an idea hit me:  why not try cross-country biking?  I had been wanting to do it for some time, and I obviously had all of the camping equipment, I even had an old bike sitting in the garage.  Sure, it wasn\'t the best bike for the purpose, but it had wheels and handlebars, I figured it would work just fine.  So that was that.  I borrowed some paniers from a friend (the bags on the rack over the bike\'s rear wheel), got some maps, and headed out to bike from Breckenridge Colorado to Seattle.  A new adventure began from the ashes of a failed one.',
+          text: 'This bike ride was never supposed to happen.  In 2011 I was hiking the CDT and everything was going fine until I hit a wall of snow in Colorado (2011 was a record-breaking snow year) and had to stop.  Afterwards, I was sitting around sad and depressed at my sisters house, when an idea hit me:  why not try cross-country biking?  I had been wanting to do it for some time, and I even had an old bike sitting in the garage.  Sure, it wasn\'t the best bike for the purpose, but it had wheels and handlebars, I figured it would work just fine.  So that was that.  I borrowed some paniers from a friend, got some maps, and headed out.  A new adventure began from the ashes of a failed one.',
           data: breck2011data
         }
       ],
 
       tourist: [
         {
-          id: 7,
+          id: 15,
           name: 'Cambodia - 2019',
           background: '/img/background/cambodia.jpg',
           title: 'Cambodia 2019!!!',
@@ -237,7 +237,7 @@ export default {
           data: cambodia2019data
         },
         {
-          id: 5,
+          id: 16,
           name: 'Beijing - 2018',
           background: '/img/background/beijing.jpg',
           title: 'Beijing 2018!!!',
@@ -245,7 +245,7 @@ export default {
           data: beijing2018data
         },
         {
-          id: 15,
+          id: 17,
           name: 'Peru - 2017',
           background: '/img/background/peru.jpg',
           title: 'Peru 2017!!!',

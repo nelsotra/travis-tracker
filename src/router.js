@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import MainHome from './components/main-home'
-import TrackerHome from './components/tracker-home'
-import PortfolioHome from './components/portfolio-home'
+import TrackerHome from './components/tracker/tracker-home'
+import PortfolioHome from './components/portfolio/portfolio-home'
+import SpanishHome from './components/spanish/spanish-home'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
       path: '/portfoliohome',
       name: 'portfoliohome',
       component: PortfolioHome
+    },
+    {
+      path: '/spanishhome',
+      name: 'spanishhome',
+      component: SpanishHome
     }
   ]
 })

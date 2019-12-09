@@ -31,10 +31,10 @@
 </template>
 
 <script>
-import topHeader from './header'
-import bttmFooter from './footer'
+import topHeader from '../header'
+import bttmFooter from '../footer'
 import resume from './resume'
-import portfolioData from '../../public/json-files/portfolioData.json'
+import portfolioData from '../../../public/json-files/portfolio-data/portfolioData.json'
 import portfolioTab from './portfolioTab'
 
 export default {

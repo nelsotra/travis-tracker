@@ -36,9 +36,9 @@
 </template>
 
 <script>
-import genericBlock from './tracker-introBlocks/genericBlock'
-import nextBlock from './tracker-introBlocks/nextBlock'
-import previousBlock from './tracker-introBlocks/previousBlock'
+import genericBlock from './introBlocks/genericBlock'
+import nextBlock from './introBlocks/nextBlock'
+import previousBlock from './introBlocks/previousBlock'
 
 export default {
   name: 'TrackerHome',

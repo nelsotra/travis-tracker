@@ -9,7 +9,7 @@
             <b-row>
             <b-col md="2"></b-col>
             <b-col md="8">
-                <progressDisplay :text="message" :depth="recursionDepth" :index="currentIndex" :maxIndex="maxIndex" :correct="numberCorrect" :wrong="numberWrong"/>
+                <progressCard :text="message" :depth="recursionDepth" :index="currentIndex" :maxIndex="maxIndex" :correct="numberCorrect" :wrong="numberWrong"/>
 
                 <!-- the first time a question is displayed, this div should be shown -->
                 <div v-if="attempted === false" v-bind:key="currentIndex">
@@ -39,7 +39,7 @@
 
 <script>
 import doneCard from './doneCard'
-import progressDisplay from './progressDisplay'
+import progressCard from './progressCard'
 import questionCard from './questionCard'
 import resultCard from './resultCard'
 
@@ -48,7 +48,7 @@ export default {
   name: 'vocabTest',
   components: {
     doneCard,
-    progressDisplay,
+    progressCard,
     questionCard,
     resultCard
   },
@@ -99,7 +99,14 @@ export default {
     checkAnswer (msg) {
       this.userAnswer = msg
       this.attempted = true
-      if (this.answer.trim().toLowerCase() === msg.trim().toLowerCase()) {
+
+      // There are potentially several options for a single word, so I have them separated by a comma,
+      // then, split on the comma to get them into an array, and search the array for the user's answer.
+      // I orginally just did a substring find, but then you would get a false positive if you're answer
+      // was just part of the correct one, i.e. 'the' would match 'the dog', which is not great.  This
+      // way works much better.
+      const answerArray = this.answer.trim().toLowerCase().split(' | ')
+      if (answerArray.includes(msg.trim().toLowerCase())) {
         this.correct = true
         this.numberCorrect += 1
       } else {

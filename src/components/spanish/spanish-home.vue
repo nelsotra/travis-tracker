@@ -12,12 +12,33 @@
 
         <div class="mt-0">
           <b-container fluid class="mt-4 mb-4">
+              <b-row class="mb-3">
+              <b-col cols="3"></b-col>
+              <!-- This lets the user toggle between english to spanish, spanish to english, or random -->
+              <b-col cols="6">
+                <b-form-group>
+                  <b-form-radio-group
+                      id="directionRadio"
+                      buttons
+                      button-variant="outline-secondary"
+                      v-model="splitPercent"
+                      @change="changeSplitPercent"
+                      name="directionRadio">
+                    <b-form-radio value="1">Spanish to English</b-form-radio>
+                    <b-form-radio value="0">English to Spanish</b-form-radio>
+                    <b-form-radio value="0.5">Random</b-form-radio>
+                  </b-form-radio-group>
+                </b-form-group>
+              </b-col>
+              <b-col cols="3"></b-col>
+              </b-row>
+
               <b-row>
               <b-col cols="3"></b-col>
               <!-- This section is just the select that lets a user pick with list to review
                     It binds to the current object in the data section -->
               <b-col cols="6">
-                  <b-form-select size="lg" v-model="current.item" @change="onChange()">
+                  <b-form-select size="lg" v-model="current.item" @change="onChange">
                       <option v-bind:key="v.id" v-bind:value="{id: v.id, name: v.name, data: v.data}" v-for="v in vocabFiles">{{ v.name }}</option>
                   </b-form-select>
               </b-col>
@@ -40,6 +61,7 @@
 import topHeader from '../header'
 import bttmFooter from '../footer'
 import vocabTest from './vocabTest'
+import vocab0 from '../../../public/json-files/spanish-data/vocab0.json'
 import vocab1 from '../../../public/json-files/spanish-data/vocab1.json'
 import vocab2 from '../../../public/json-files/spanish-data/vocab2.json'
 import vocab3 from '../../../public/json-files/spanish-data/vocab3.json'
@@ -65,8 +87,7 @@ export default {
   data () {
     return {
       publicPath: process.env.BASE_URL,
-      vocab1,
-      vocab2,
+      splitPercent: '1',
       vocabArray: [],
       redoArray: [],
       currentIndex: 0,
@@ -97,6 +118,11 @@ export default {
           id: 0,
           name: 'Select which group to review',
           data: null
+        },
+        {
+          id: 9999,
+          name: 'Test List',
+          data: vocab0
         },
         {
           id: 1,
@@ -184,6 +210,15 @@ export default {
       this.dataChange += 1
     },
 
+    // When the user picks a different radio button for the translation direction, this sets the value
+    // Bind should work, but it doesn't for some reason, so I'm resorting to this until I figure it out
+    changeSplitPercent (value) {
+      if (value) {
+        this.splitPercent = value
+      }
+      this.onChange()
+    },
+
     // This takes the raw data, which is json, and extracts them into an array, to allow us to randomly
     // shuffle the words, and index into an array for display purposes
     getVocabArray () {
@@ -195,7 +230,7 @@ export default {
       // sometimes you're translating from english to spanish, and spanish to english.
       const vocabArray = []
       for (const d in this.current.item.data) {
-        if (Math.random() < 0.5) {
+        if (Math.random() < +this.splitPercent) {
           vocabArray.push([d, this.current.item.data[d]])
         } else {
           vocabArray.push([this.current.item.data[d], d])

@@ -38,5 +38,13 @@
         "cardText" : "This one was just a fun side-project for myself.  If you looked at my resume, you saw that I have extensive experience working in hospital labs as a medical technologist.  Well, now that I'm a developer, I decided to create an application that I *wish* I had when I was working in a lab.  Here's the short summary:  In a lab, there are a lot of critical values that MUST be called to the nurse or doctor taking care of a patient (like a critically low glucose value, something like that).  The problem is that sometimes you can get 10 of these things at the same time.  It's not really possible to call 10 nurses at the same time, so you call one and the other 9 sit there and wait.  My idea was to create an application so that you can log those calls, they show up in a list, and anyone in that lab can help out by grabbing one of those items and making the call for you.  So the tech would create a new call item, it shows up under 'Available', then someone else would click on it to bring it over to the 'InProgress' side, and then when the call is complete you click on a button to send it to the 'Done' list.",
         "cardTech" : "The front end is Vue JS and the backend is Go.",
         "cardImg" : "/img/portfolio-img/callhelper.png"
+    },
+    "6" : {
+        "id" : "6",
+        "tabTitle" : "Spanish Vocab",
+        "cardTitle" : "Spanish Vocab Review",
+        "cardText" : "This one is just another fun little side project for myself.  I'm trying to learn Spanish and I wanted a way to quickly review the vocab words that I was learning, so I built this little vocab quiz page.  I know, there are tons of things like this out there on the internet, but why use someone else's when you can build your own?  Plus it's fun to make a little tool like this; It only took a day or so to build, and I learned things in Vue that I didn't know before, so it's a win-win.",
+        "cardTech" : "The front end is Vue JS",
+        "cardImg" : "/img/portfolio-img/spanish.png"
     }
 }

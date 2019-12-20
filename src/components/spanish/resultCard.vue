@@ -7,7 +7,7 @@
     <div>
         <b-card :header-bg-variant="variant" :border-variant="variant" :header="text">
             <b-card-text>
-                <h1>{{ question }}  ---> {{ answer }}</h1>
+                <h1>{{ question }}  &#8594;  {{ answer }}</h1>
                 <b-form @submit="nextBtn" class="mt-4">
                     <b-form-input v-if="!correct" class="mt-4 mb-4" :value="userAnswer" disabled></b-form-input>
                     <b-button type="submit" @click="nextBtn" ref="nextButton" :autofocus="true" block variant="primary">Next Question</b-button>

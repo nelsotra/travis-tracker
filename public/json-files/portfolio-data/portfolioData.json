@@ -46,5 +46,13 @@
         "cardText" : "This one is just another fun little side project for myself.  I'm trying to learn Spanish and I wanted a way to quickly review the vocab words that I was learning, so I built this little vocab quiz page.  I know, there are tons of things like this out there on the internet, but why use someone else's when you can build your own?  Plus it's fun to make a little tool like this; It only took a day or so to build, and I learned things in Vue that I didn't know before, so it's a win-win.",
         "cardTech" : "The front end is Vue JS",
         "cardImg" : "/img/portfolio-img/spanish.png"
+    },
+    "7" : {
+        "id" : "7",
+        "tabTitle" : "HR Insights",
+        "cardTitle" : "HR Insights",
+        "cardText" : "HR Insights is meant to be a portal for all the Data and Analytics needs of the HR Group within HCA.  I came on this team after the product had been initially built, but it was still really new, it had only been created a few months before.  Anyway, my first tasks were to fix a bunch of bugs, which I actually really enjoy!  It's to work on something that's other people don't necessary want to do, but they definitely appreciate it when it's fixed and working properly.  Plus, it's a great way to get up to speed on a new code base.  After the bug fixes, I moved on to implemented new features, like letting users add attachments when they submit feedback, letting users save bookmarks for Power BI reports, things like that.  So far I'm loving this project, it's been a lot of fun and the team is amazing!!",
+        "cardTech" : "The front end is React, and the back end is Node",
+        "cardImg" : "/img/portfolio-img/hr_insights.png"
     }
 }

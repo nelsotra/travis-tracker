@@ -69,57 +69,57 @@
 </template>
 
 <script>
-import topHeader from "../header";
-import bttmFooter from "../footer";
-import vocabTest from "./vocabTest";
-import intro1 from "../../../public/json-files/spanish-data/intro1.json";
-import intro2 from "../../../public/json-files/spanish-data/intro2.json";
-import vocab0 from "../../../public/json-files/spanish-data/vocab0.json";
-import vocab1 from "../../../public/json-files/spanish-data/vocab1.json";
-import vocab2 from "../../../public/json-files/spanish-data/vocab2.json";
-import vocab3a from "../../../public/json-files/spanish-data/vocab3a.json";
-import vocab3b from "../../../public/json-files/spanish-data/vocab3b.json";
-import vocab4 from "../../../public/json-files/spanish-data/vocab4.json";
-import vocab5 from "../../../public/json-files/spanish-data/vocab5.json";
-import vocab6 from "../../../public/json-files/spanish-data/vocab6.json";
-import vocab7 from "../../../public/json-files/spanish-data/vocab7.json";
-import vocab8a from "../../../public/json-files/spanish-data/vocab8a.json";
-import vocab8b from "../../../public/json-files/spanish-data/vocab8b.json";
-import vocab9 from "../../../public/json-files/spanish-data/vocab9.json";
-import vocab10a from "../../../public/json-files/spanish-data/vocab10a.json";
-import vocab10b from "../../../public/json-files/spanish-data/vocab10b.json";
-import vocab11 from "../../../public/json-files/spanish-data/vocab11.json";
-import vocab12 from "../../../public/json-files/spanish-data/vocab12.json";
-import vocab13 from "../../../public/json-files/spanish-data/vocab13.json";
-import vocab14 from "../../../public/json-files/spanish-data/vocab14.json";
-import vocab15 from "../../../public/json-files/spanish-data/vocab15.json";
-import vocab16 from "../../../public/json-files/spanish-data/vocab16.json";
-import vocab17 from "../../../public/json-files/spanish-data/vocab17.json";
+import topHeader from '../header'
+import bttmFooter from '../footer'
+import vocabTest from './vocabTest'
+import intro1 from '../../../public/json-files/spanish-data/intro1.json'
+import intro2 from '../../../public/json-files/spanish-data/intro2.json'
+import vocab0 from '../../../public/json-files/spanish-data/vocab0.json'
+import vocab1 from '../../../public/json-files/spanish-data/vocab1.json'
+import vocab2 from '../../../public/json-files/spanish-data/vocab2.json'
+import vocab3a from '../../../public/json-files/spanish-data/vocab3a.json'
+import vocab3b from '../../../public/json-files/spanish-data/vocab3b.json'
+import vocab4 from '../../../public/json-files/spanish-data/vocab4.json'
+import vocab5 from '../../../public/json-files/spanish-data/vocab5.json'
+import vocab6 from '../../../public/json-files/spanish-data/vocab6.json'
+import vocab7 from '../../../public/json-files/spanish-data/vocab7.json'
+import vocab8a from '../../../public/json-files/spanish-data/vocab8a.json'
+import vocab8b from '../../../public/json-files/spanish-data/vocab8b.json'
+import vocab9 from '../../../public/json-files/spanish-data/vocab9.json'
+import vocab10a from '../../../public/json-files/spanish-data/vocab10a.json'
+import vocab10b from '../../../public/json-files/spanish-data/vocab10b.json'
+import vocab11 from '../../../public/json-files/spanish-data/vocab11.json'
+import vocab12 from '../../../public/json-files/spanish-data/vocab12.json'
+import vocab13 from '../../../public/json-files/spanish-data/vocab13.json'
+import vocab14 from '../../../public/json-files/spanish-data/vocab14.json'
+import vocab15 from '../../../public/json-files/spanish-data/vocab15.json'
+import vocab16 from '../../../public/json-files/spanish-data/vocab16.json'
+import vocab17 from '../../../public/json-files/spanish-data/vocab17.json'
 
 export default {
-  name: "SpanishHome",
+  name: 'SpanishHome',
   components: {
     topHeader,
     bttmFooter,
     vocabTest
   },
-  data() {
+  data () {
     return {
       publicPath: process.env.BASE_URL,
-      splitPercent: "1",
+      splitPercent: '1',
       vocabArray: [],
       redoArray: [],
       currentIndex: 0,
       maxIndex: 0,
-      question: "",
-      answer: "",
+      question: '',
+      answer: '',
       attempted: false,
-      userAnswer: "",
+      userAnswer: '',
       correct: false,
       numberCorrect: 0,
       numberWrong: 0,
-      displayVariant: "success",
-      displayText: "Correct!!",
+      displayVariant: 'success',
+      displayText: 'Correct!!',
       redo: false,
       done: false,
       dataChange: 0,
@@ -127,7 +127,7 @@ export default {
       current: {
         item: {
           id: 0,
-          name: "Select which group to review",
+          name: 'Select which group to review',
           data: null
         }
       },
@@ -135,178 +135,173 @@ export default {
       vocabFiles: [
         {
           id: 0,
-          name: "Select which group to review",
+          name: 'Select which group to review',
           data: null
         },
         {
           id: 9999,
-          name: "Extra",
+          name: 'Current Batch',
           data: vocab0
         },
         {
-          id: 8888,
-          name: "Intro Words 1",
-          data: intro1
-        },
-        {
           id: 7777,
-          name: "Intro Words 2",
+          name: 'DuoLingo - All',
           data: intro2
         },
         {
           id: 1,
-          name: "List 1 - Nouns",
+          name: 'List 1 - Nouns',
           data: vocab1
         },
         {
           id: 2,
-          name: "List 2: Nouns, Colors, some Verbs",
+          name: 'List 2: Nouns, Colors, some Verbs',
           data: vocab2
         },
         {
           id: 3.1,
-          name: "List 3a: Nouns 1",
+          name: 'List 3a: Nouns 1',
           data: vocab3a
         },
         {
           id: 3.2,
-          name: "List 3b: Nouns 2",
+          name: 'List 3b: Nouns 2',
           data: vocab3b
         },
         {
           id: 4,
-          name: "List 4: Adjectives",
+          name: 'List 4: Adjectives',
           data: vocab4
         },
         {
           id: 5,
-          name: "List 5: Adjectives/Adverbs",
+          name: 'List 5: Adjectives/Adverbs',
           data: vocab5
         },
         {
           id: 6,
-          name: "List 6: Verbs",
+          name: 'List 6: Verbs',
           data: vocab6
         },
         {
           id: 7,
-          name: "List 7: Verbs",
+          name: 'List 7: Verbs',
           data: vocab7
         },
         {
           id: 8.1,
-          name: "List 8a: Nouns 1",
+          name: 'List 8a: Nouns 1',
           data: vocab8a
         },
         {
           id: 8.2,
-          name: "List 8b: Nouns 2",
+          name: 'List 8b: Nouns 2',
           data: vocab8b
         },
         {
           id: 9,
-          name: "List 9: Numbers, Months, Days of Week, Seasons, Time, etc",
+          name: 'List 9: Numbers, Months, Days of Week, Seasons, Time, etc',
           data: vocab9
         },
         {
           id: 10.1,
-          name: "List 10a: Adjectives 1",
+          name: 'List 10a: Adjectives 1',
           data: vocab10a
         },
         {
           id: 10.2,
-          name: "List 10b: Adjectives 2",
+          name: 'List 10b: Adjectives 2',
           data: vocab10b
         },
         {
           id: 11,
-          name: "List 11: More words",
+          name: 'List 11: More words',
           data: vocab11
         },
         {
           id: 12,
-          name: "List 12: More words",
+          name: 'List 12: More words',
           data: vocab12
         },
         {
           id: 13,
-          name: "List 13: More words",
+          name: 'List 13: More words',
           data: vocab13
         },
         {
           id: 14,
-          name: "List 14: More words",
+          name: 'List 14: More words',
           data: vocab14
         },
         {
           id: 15,
-          name: "List 15: More words",
+          name: 'List 15: More words',
           data: vocab15
         },
         {
           id: 16,
-          name: "List 16: More words",
+          name: 'List 16: More words',
           data: vocab16
         },
         {
           id: 17,
-          name: "List 17: More words",
+          name: 'List 17: More words',
           data: vocab17
         }
       ]
-    };
+    }
   },
   methods: {
     // This gets called whenever the user picks a different list from the form select
     // It just updates the vocab array to whatever the new data source is
     // The dataChange variable is tieds to the vocabTest component, so when it updates, that will update
-    onChange() {
+    onChange () {
       if (this.current.item.data === null) {
-        this.vocabArray = [];
+        this.vocabArray = []
       } else {
-        this.vocabArray = this.getVocabArray();
+        this.vocabArray = this.getVocabArray()
       }
-      this.dataChange += 1;
+      this.dataChange += 1
     },
 
     // When the user picks a different radio button for the translation direction, this sets the value
     // Bind should work, but it doesn't for some reason, so I'm resorting to this until I figure it out
-    changeSplitPercent(value) {
+    changeSplitPercent (value) {
       if (value) {
-        this.splitPercent = value;
+        this.splitPercent = value
       }
-      this.onChange();
+      this.onChange()
     },
 
     // This takes the raw data, which is json, and extracts them into an array, to allow us to randomly
     // shuffle the words, and index into an array for display purposes
-    getVocabArray() {
+    getVocabArray () {
       if (this.current.item.data === null) {
-        return [];
+        return []
       }
 
       // This part just pushes to an array, but mixes the order based on a random number, so that
       // sometimes you're translating from english to spanish, and spanish to english.
-      const vocabArray = [];
+      const vocabArray = []
       for (const d in this.current.item.data) {
         if (Math.random() < +this.splitPercent) {
-          vocabArray.push([d, this.current.item.data[d]]);
+          vocabArray.push([d, this.current.item.data[d]])
         } else {
-          vocabArray.push([this.current.item.data[d], d]);
+          vocabArray.push([this.current.item.data[d], d])
         }
       }
 
       // Doing a random shuffle on the array, so the vocab words are always in a different order
       for (let i = 0; i < vocabArray.length - 1; i++) {
-        const j = i + Math.floor(Math.random() * (vocabArray.length - i));
-        const tmp = vocabArray[j];
-        vocabArray[j] = vocabArray[i];
-        vocabArray[i] = tmp;
+        const j = i + Math.floor(Math.random() * (vocabArray.length - i))
+        const tmp = vocabArray[j]
+        vocabArray[j] = vocabArray[i]
+        vocabArray[i] = tmp
       }
-      return vocabArray;
+      return vocabArray
     }
   }
-};
+}
 </script>
 
 <style>

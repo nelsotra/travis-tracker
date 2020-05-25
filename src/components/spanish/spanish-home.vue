@@ -72,9 +72,8 @@
 import topHeader from '../header'
 import bttmFooter from '../footer'
 import vocabTest from './vocabTest'
-import intro1 from '../../../public/json-files/spanish-data/intro1.json'
-import intro2 from '../../../public/json-files/spanish-data/intro2.json'
-import vocab0 from '../../../public/json-files/spanish-data/vocab0.json'
+import duolingoCurrent from '../../../public/json-files/spanish-data/duolingoCurrent.json'
+import duolingoAll from '../../../public/json-files/spanish-data/duolingoAll.json'
 import vocab1 from '../../../public/json-files/spanish-data/vocab1.json'
 import vocab2 from '../../../public/json-files/spanish-data/vocab2.json'
 import vocab3a from '../../../public/json-files/spanish-data/vocab3a.json'
@@ -140,13 +139,13 @@ export default {
         },
         {
           id: 9999,
-          name: 'Current Batch',
-          data: vocab0
+          name: 'Duolingo - Current',
+          data: duolingoCurrent
         },
         {
           id: 7777,
-          name: 'DuoLingo - All',
-          data: intro2
+          name: 'Duolingo - All',
+          data: duolingoAll
         },
         {
           id: 1,

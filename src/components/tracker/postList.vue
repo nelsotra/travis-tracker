@@ -131,9 +131,9 @@ export default {
       this.selectedItem = item
     },
     // Just writing image loading problems to the console
-    imageLoadError (img) {
-      console.log('Image failed to load: ' + img)
-    },
+    // imageLoadError (img) {
+    //  console.log('Image failed to load: ' + img)
+    // },
     // Clicking on the button for the map will toggle it
     toggleMap () {
       this.showMap = !this.showMap

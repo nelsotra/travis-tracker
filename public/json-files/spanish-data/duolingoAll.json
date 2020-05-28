@@ -76,6 +76,9 @@
   "desayunar | desayuno | desayunas | desayuna | desayunamos | desayunan":"to eat breakfast | to have breakfast | ...",
   "esperar | espero | esperas | espera | esperamos | esperan":"to wait | to hope | wait | ...",
   "traer | traigo | traes | trae | traemos | traen":"bring | to bring | ...",
+  "dar | doy | das | da | damos | dan":"give | to give | to have | ...",
+  "mandar | mando | mandas | manda | mandamos | mandan":"to send | send | ...",
+  "pregunatar | pregunto | preguntas | pregunta | preguntamos | preguntan":"ask | to ask | ...",
   "la niña": "the girl",
   "la mujer":"the woman",
   "el hombre":"the man",
@@ -301,7 +304,7 @@
   "inglaterra":"england",
   "europa | europeos":"europe | european",
   "portugués":"portuguese",
-  "el camarero | la camarera":"the waiter",
+  "el camarero | la camarera | el mesero | la mesera":"the waiter",
   "el celular":"the cell phone | the cell",
   "dirección":"address | direction",
   "joven":"young",
@@ -663,5 +666,6 @@
   "cuartos":"rooms | bedrooms",
   "la ducha":"the shower",
   "acá":"here",
-  "allá":"there | over there"
+  "allá":"there | over there",
+  "hermoso | hermosa":"beautiful | lovely | pretty"
 }

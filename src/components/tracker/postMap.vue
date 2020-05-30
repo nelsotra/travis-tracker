@@ -25,6 +25,7 @@ export default {
     }
   },
   mounted: function () {
+    // eslint-disable-next-line
     const bounds = new google.maps.LatLngBounds()
     const element = document.getElementById(this.mapName)
 
@@ -40,10 +41,13 @@ export default {
       return
     }
     const options = {
+      // eslint-disable-next-line
       center: new google.maps.LatLng(mapCenter.latitude, mapCenter.longitude)
     }
+    // eslint-disable-next-line
     const map = new google.maps.Map(element, options)
 
+    // eslint-disable-next-line
     var infowindow = new google.maps.InfoWindow({
       content: this.infoWindowContent,
       maxWidth: 500
@@ -53,7 +57,10 @@ export default {
     // Also check the include_post field in the json, if it's false, we exclude the point from the map
     for (let key in this.items) {
       if (this.isNumber(this.items[key].latitude) && this.isNumber(this.items[key].longitude) && this.items[key].include_post) {
+        // eslint-disable-next-line
         const position = new google.maps.LatLng(this.items[key].latitude, this.items[key].longitude)
+        
+        // eslint-disable-next-line
         const marker = new google.maps.Marker({
           position,
           map

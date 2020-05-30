@@ -59,7 +59,6 @@ export default {
       if (this.isNumber(this.items[key].latitude) && this.isNumber(this.items[key].longitude) && this.items[key].include_post) {
         // eslint-disable-next-line
         const position = new google.maps.LatLng(this.items[key].latitude, this.items[key].longitude)
-        
         // eslint-disable-next-line
         const marker = new google.maps.Marker({
           position,

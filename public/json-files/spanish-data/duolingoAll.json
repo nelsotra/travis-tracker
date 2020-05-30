@@ -474,7 +474,7 @@
   "negro":"black",
   "guapo | guapa":"good-looking | good looking | handsome",
   "rubio | rubios | rubia | rubias":"blonde | blond",
-  "moreno | morenos | morena | morenas":"brunette | dar | dark haired",
+  "moreno | morenos | morena | morenas":"brunette | dark | dark haired",
   "perezoso | perezosos | perezosa | perezosas":"lazy",
   "persona":"person",
   "estudioso | estudiosos | estudiosa | estudiosas":"studious",
@@ -683,5 +683,9 @@
   "dentro":"inside | in | within",
   "fuera":"outside | out",
   "atrás":"in the back | back | at the back",
-  "arriba":"upstairs | up"
+  "arriba":"upstairs | up",
+  "pasado | pasada":"last | past",
+  "ayer":"yesterday",
+  "fui | fuiste | (ir)":"i went | you went",
+  "viaje | viajes":"trip | trips"
 }

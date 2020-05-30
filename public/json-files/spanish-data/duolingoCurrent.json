@@ -13,7 +13,6 @@
   "seguir | sigo | sigues | sigue | seguimos | siguen":"to follow | to continue | to go on | ...",
   "coges":"can you take | you take",
   "más cercano | más cercana":"nearest | closest",
-  "siga":"continue",
   "enfrente":"opposite | in front | across",
   "derecho":"straight",
   "la carretera":"the highway",
@@ -24,5 +23,10 @@
   "dentro":"inside | in | within",
   "fuera":"outside | out",
   "atrás":"in the back | back | at the back",
-  "arriba":"upstairs | up"
+  "arriba":"upstairs | up",
+  "sueño":"sleepy",
+  "pasado | pasada":"last | past",
+  "ayer":"yesterday",
+  "fui | fuiste | (ir)":"i went | you went",
+  "viaje | viajes":"trip | trips"
 }

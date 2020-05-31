@@ -166,7 +166,7 @@
   "para":"for",
   "el queso":"the cheese",
   "el sándwich":"the sandwich",
-  "el pescado":"the fish",
+  "el pescado | el pez":"the fish",
   "la carne":"the meat",
   "con":"with",
   "sin":"without",
@@ -686,6 +686,10 @@
   "arriba":"upstairs | up",
   "pasado | pasada":"last | past",
   "ayer":"yesterday",
-  "fui | fuiste | (ir)":"i went | you went",
-  "viaje | viajes":"trip | trips"
+  "fui | fuiste | fue | fuimos | fueron | (ir)":"to go | to go out | going | ...",
+  "viaje | viajes":"trip | trips",
+  "la vaca":"the cow",
+  "el cerdo":"the pig",
+  "el búho":"the owl",
+  "el pez | (peces) | el pescado":"the fish"
 }

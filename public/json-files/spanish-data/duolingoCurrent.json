@@ -9,13 +9,9 @@
   "mandar | mando | mandas | manda | mandamos | mandan":"to send | send | ...",
   "preguntar | pregunto | preguntas | pregunta | preguntamos | preguntan":"ask | to ask | ...",
   "traer | traigo | traes | trae | traemos | traen":"bring | to bring | ...",
-  "girar | giro | giras | gira | giramos | giran":"turn | to turn | ...",
   "seguir | sigo | sigues | sigue | seguimos | siguen":"to follow | to continue | to go on | ...",
   "coges":"can you take | you take",
-  "más cercano | más cercana":"nearest | closest",
-  "enfrente":"opposite | in front | across",
   "derecho":"straight",
-  "la carretera":"the highway",
   "entre":"between | through",
   "detrás":"behind | after",
   "abajo":"down | downstairs | below",
@@ -27,6 +23,10 @@
   "sueño":"sleepy",
   "pasado | pasada":"last | past",
   "ayer":"yesterday",
-  "fui | fuiste | (ir)":"i went | you went",
-  "viaje | viajes":"trip | trips"
+  "fui | fuiste | fue | fuimos | fueron | (ir)":"to go | to go out | going | ...",
+  "viaje | viajes":"trip | trips",
+  "la vaca":"the cow",
+  "el cerdo":"the pig",
+  "el búho":"the owl",
+  "el pez | (peces) | el pescado":"the fish"
 }

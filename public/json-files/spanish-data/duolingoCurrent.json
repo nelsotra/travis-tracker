@@ -10,6 +10,7 @@
   "preguntar | pregunto | preguntas | pregunta | preguntamos | preguntan":"ask | to ask | ...",
   "traer | traigo | traes | trae | traemos | traen":"bring | to bring | ...",
   "seguir | sigo | sigues | sigue | seguimos | siguen":"to follow | to continue | to go on | ...",
+  "practicar | practico | practicas | practica | practicamos | practican":"to play | to practice | play | ...",
   "coges":"can you take | you take",
   "derecho":"straight",
   "entre":"between | through",
@@ -28,5 +29,9 @@
   "la vaca":"the cow",
   "el cerdo":"the pig",
   "el búho":"the owl",
-  "el pez | (peces) | el pescado":"the fish"
+  "el pez | (peces) | el pescado":"the fish",
+  "la nieve":"the snow",
+  "anoche":"last night",
+  "quierdo | quierda":"dear | (like a dear friend)",
+  "el barco":"the boat"
 }

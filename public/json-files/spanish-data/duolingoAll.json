@@ -82,6 +82,9 @@
   "girar | giro | giras | gira | giramos | giran":"turn | to turn | ...",
   "seguir | sigo | sigues | sigue | seguimos | siguen":"to follow | to continue | to go on | ...",
   "practicar | practico | practicas | practica | practicamos | practican":"to play | to practice | play | ...",
+  "coger | cojo | coges | coge | cogemos | cogen":"to take | take | catch | ...",
+  "elegir | elijo | eliges | elige | elegimos | eligen":"to choose | to pick | choose | ...",
+  "haber | he | has | ha, hay | hemos | han":"to have | to be | there is going to be | ...",
   "la niña": "the girl",
   "la mujer":"the woman",
   "el hombre":"the man",
@@ -696,5 +699,7 @@
   "la nieve":"the snow",
   "anoche":"last night",
   "quierdo | quierda":"dear | (like a dear friend)",
-  "el barco":"the boat"
+  "el barco":"the boat",
+  "ninguno | ningunos | ninguna":"none | any | neither",
+  "nadie":"nobody | no one | anybody"
 }

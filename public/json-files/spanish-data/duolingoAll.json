@@ -85,6 +85,7 @@
   "coger | cojo | coges | coge | cogemos | cogen":"to take | take | catch | ...",
   "elegir | elijo | eliges | elige | elegimos | eligen":"to choose | to pick | choose | ...",
   "haber | he | has | ha, hay | hemos | han":"to have | to be | there is going to be | ...",
+  "olvidar | olvido | olvidas | olvida | olvidamos | olvidan":"to forget | forget | forgot | ...",
   "la niña": "the girl",
   "la mujer":"the woman",
   "el hombre":"the man",
@@ -701,5 +702,12 @@
   "quierdo | quierda":"dear | (like a dear friend)",
   "el barco":"the boat",
   "ninguno | ningunos | ninguna":"none | any | neither",
-  "nadie":"nobody | no one | anybody"
+  "nadie":"nobody | no one | anybody",
+  "pobre | pobres":"poor",
+  "último | últimos":"last | final",
+  "completamente":"completely",
+  "segundo":"second",
+  "tercer | tercero":"third",
+  "algún":"any | one | some",
+  "gran":"great"
 }

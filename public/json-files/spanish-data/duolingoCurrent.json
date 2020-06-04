@@ -1,7 +1,7 @@
 {
   "coger | cojo | coges | coge | cogemos | cogen":"to take | take | catch | ...",
   "elegir | elijo | eliges | elige | elegimos | eligen":"to choose | to pick | choose | ...",
-  "haber | he | has | ha, hay | hemos | han":"to have | to be | there is going to be | ...",
+  "olvidar | olvido | olvidas | olvida | olvidamos | olvidan":"to forget | forget | forgot | ...",
   "ninguno | ningunos | ninguna":"none | any | neither",
   "nadie":"nobody | no one | anybody",
   "past forms of viajar (to travel) | yo - tú - él - nosotros - ustedes/ellos":"viajé | viajaste | viajó | viajamos | viajaron",
@@ -9,5 +9,12 @@
   "past forms of vivir (to live) | yo - tú - él - nosotros - ustedes/ellos":"viví | viviste | vivió | vivimos | vivieron",
   "past forms of ir (to go) | yo - tú - él - nosotros - ustedes/ellos":"fui | fuiste | fue | fuimos | fueron",
   "past forms of estar (to be) | yo - tú - él - nosotros - ustedes/ellos":"estuve | estuviste | estuvo | estuvimos | estuvieron",
-  "past forms of hacer (to do/to make) | yo - tú - él - nosotros - ustedes/ellos":"hice | hiciste | hizo | hicimos | hicieron"
+  "past forms of hacer (to do/to make) | yo - tú - él - nosotros - ustedes/ellos":"hice | hiciste | hizo | hicimos | hicieron",
+  "pobre | pobres":"poor",
+  "último | últimos":"last | final",
+  "completamente":"completely",
+  "segundo":"second",
+  "tercer | tercero":"third",
+  "algún":"any | one | some",
+  "gran":"great"
 }

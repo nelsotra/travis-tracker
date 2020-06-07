@@ -86,6 +86,10 @@
   "elegir | elijo | eliges | elige | elegimos | eligen":"to choose | to pick | choose | ...",
   "haber | he | has | ha, hay | hemos | han":"to have | to be | there is going to be | ...",
   "olvidar | olvido | olvidas | olvida | olvidamos | olvidan":"to forget | forget | forgot | ...",
+  "nevar | nievo | nievas | nieva | nevamos | nievan":"snowing | to snow | snow | ...",
+  "comenzar | comienzo | comienzas | comienza | comenzamos | comienzan":"start | starting | to begin | ...",
+  "llover | lluevo | llueves | llueve | llovemos | llueven":"to rain | rain | raining | ...",
+  "encantar | encanto | encantas | encanta | encantamos | encantan":"to love | love | ...",
   "la niña": "the girl",
   "la mujer":"the woman",
   "el hombre":"the man",
@@ -714,7 +718,13 @@
   "ahí":"there | then",
   "anuncio | anuncios":"ad | advertisement | ads | commercials | advertisements",
   "gracioso | graciosa":"funny",
-  "emocionante":"exiting",
+  "emocionante":"exciting",
   "duro | dura":"hard",
-  "oración":"sentence | prayer"
+  "oración":"sentence | prayer",
+  "caluroso | calurosa":"hot | warm",
+  "clima":"weather",
+  "encontrarte | encontrarme | encontrarnos":"to meet up",
+  "la lluvia":"the rain",
+  "el árbol":"the tree",
+  "nos vemos":"see you"
 }

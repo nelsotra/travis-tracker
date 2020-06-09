@@ -1,20 +1,13 @@
 {
-  "comenzar | comienzo | comienzas | comienza | comenzamos | comienzan":"start | starting | to begin | ...",
-  "llover | lluevo | llueves | llueve | llovemos | llueven":"to rain | rain | raining | ...",
-  "encantar | encanto | encantas | encanta | encantamos | encantan":"to love | love | ...",
   "fumar | fumo | fumas | fuma | fumamos | fumáis | fuman":"to smoke | smoking | ...",
+  "parar | paro | paras | para | paramos | paran":"stop | to stop | ...",
+  "responder | respondo | respondes | responde | respondemos | responden":"to answer | to respond | respond | ...",
+  "sentir | siento | sientes | siente | sentimos | sienten":"sit | sit down | ...",
   "algún":"any | one | some",
   "ahí":"there | then",
-  "anuncio | anuncios":"ad | advertisement | ads | commercials | advertisements",
-  "gracioso | graciosa":"funny",
-  "emocionante":"exciting",
   "oración":"sentence | prayer",
   "caluroso | calurosa":"hot | warm",
-  "encontrarte | encontrarme | encontrarnos":"to meet up",
-  "la lluvia":"the rain",
-  "el árbol":"the tree",
   "nos vemos":"see you",
-  "nacionalidad":"nationality",
   "trescientos":"300 | three hundred",
   "cuatrocientos":"400 | four hundred",
   "quinientos":"500 | five hundred",
@@ -23,5 +16,5 @@
   "entonces":"then | so",
   "ruido":"noise | noisy",
   "seiscientos":"600 | six hundred",
-  "posible":"possible"
+  "ejemplo | ejemplos":"example | examples"
 }

@@ -91,6 +91,9 @@
   "llover | lluevo | llueves | llueve | llovemos | llueven":"to rain | rain | raining | ...",
   "encantar | encanto | encantas | encanta | encantamos | encantan":"to love | love | ...",
   "fumar | fumo | fumas | fuma | fumamos | fumáis | fuman":"to smoke | smoking | ...",
+  "parar | paro | paras | para | paramos | paran":"stop | to stop | ...",
+  "responder | respondo | respondes | responde | respondemos | responden":"to answer | to respond | respond | ...",
+  "sentir | siento | sientes | siente | sentimos | sienten":"sit | sit down | ...",
   "la niña": "the girl",
   "la mujer":"the woman",
   "el hombre":"the man",
@@ -737,5 +740,6 @@
   "entonces":"then | so",
   "ruido":"noise | noisy",
   "seiscientos":"600 | six hundred",
-  "posible":"possible"
+  "posible":"possible",
+  "ejemplo | ejemplos":"example | examples"
 }

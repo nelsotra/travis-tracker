@@ -144,7 +144,7 @@ export default {
       this.currentIndex = 0
       this.numberCorrect = 0
       this.numberWrong = 0
-      this.maxIndex = Math.max(0, this.vocabArray.length - 1)
+      this.maxIndex = Math.min(100, Math.max(0, this.vocabArray.length - 1))
       this.resetValues()
       this.getValues()
     }

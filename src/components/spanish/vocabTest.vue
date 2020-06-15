@@ -144,6 +144,9 @@ export default {
       this.currentIndex = 0
       this.numberCorrect = 0
       this.numberWrong = 0
+      
+      // Sets the max index to either the length of the array or 100, because the 'All' category
+      // is getting pretty lengthy, so I wanted to limit it to something reasonable.
       this.maxIndex = Math.min(100, Math.max(0, this.vocabArray.length - 1))
       this.resetValues()
       this.getValues()

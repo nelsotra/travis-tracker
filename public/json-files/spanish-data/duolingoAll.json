@@ -143,7 +143,7 @@
   "cerrado | cerrada":"closed",
   "el supermercado":"the supermarket",
   "las personas":"the people",
-  "el restaurante":"the restuarant",
+  "el restaurante":"the restaurant",
   "la mesa":"the table",
   "cero":"zero | 0",
   "uno":"one | 1",
@@ -775,5 +775,17 @@
   "disponible":"available",
   "colega":"colleague",
   "reunión":"meeting",
-  "empresa":"company | business | firm"
+  "empresa":"company | business | firm",
+  "el vóleibol":"the volleyball",
+  "el bosque":"the forest",
+  "la galleta":"the cookie | the biscuit | the cracker",
+  "el cereal":"the cereal",
+  "alumno | alumnos | almuna | alumnas":"student | students",
+  "amable":"kind | nice",
+  "tranquilo | tranquilos | tranquila | tranquilas":"calm | quiet",
+  "la patineta":"the skateboard",
+  "buen provecho":"bon appetit",
+  "servir | sirvo | sirves | sirve | servimos | sirven":"to serve | serve | ...",
+  "pedir | pido | pides | pide | pedimos | piden":"to order | ask | to ask for | ...",
+  "a lo mejor":"maybe"
 }

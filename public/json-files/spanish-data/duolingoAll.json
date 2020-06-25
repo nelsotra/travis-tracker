@@ -896,5 +896,17 @@
   "la dentista | el dentista":"the dentist",
   "actividad | actividades":"activity | activities",
   "accidente":"accident",
-  "cigarrillos":"cigarette | cigarettes"
+  "cigarrillos":"cigarette | cigarettes",
+  "el canal":"the channel",
+  "semanal":"weekly",
+  "información":"information",
+  "la noticia | las noticias":"the news",
+  "correcto | correcta":"correct | right",
+  "archivo":"file",
+  "el documento":"the document",
+  "la revista":"the magazine",
+  "enviar | envío | envías | envía | enviamos | envían":"to send | send | getting | ...",
+  "la máquina":"the machine",
+  "el ingeniero | las ingenieras":"the engineer | the engineers",
+  "verdad":"true"
 }

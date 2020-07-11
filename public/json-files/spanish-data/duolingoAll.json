@@ -526,7 +526,7 @@
   "el almuerzo":"the lunch",
   "el desayuno":"the breakfast",
   "la tarea":"the homework",
-  "antes de":"before",
+  "antes | antes de":"before",
   "después":"after",
   "solo":"only | just | by myself",
   "cosa | cosas":"thing | things",
@@ -1146,5 +1146,18 @@
   "hockey":"hockey",
   "navegar | navego | navegas | navega | navegamos | navegan":"sail | sailing | surf | ...",
   "velero":"sailboat",
-  "prestar | presto | prestas | presta | prestamos | prestan":"lend | to lend | to borrow | ..."
+  "prestar | presto | prestas | presta | prestamos | prestan":"lend | to lend | to borrow | ...",
+  "bastante":"quite | quite a lot | enough",
+  "los obreros | orbrera":"the workers | the working-class",
+  "todavía":"yet | still | even",
+  "robar | robo | robas | roba | robamos | roban":"steal | to steal | ...",
+  "peligro":"danger",
+  "la policía":"the police | police officer",
+  "salvaje | salvajes":"wild | animals | brutal",
+  "el fuego":"the fire",
+  "la electricidad":"the electricity",
+  "nacional | nacionales":"national",
+  "extraño":"strange",
+  "robado":"stolen",
+  "terrible":"terrible | horrible"
 }

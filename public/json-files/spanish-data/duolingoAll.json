@@ -1161,7 +1161,7 @@
   "robado":"stolen",
   "terrible":"terrible | horrible",
   "la actriz | las actrices":"the actress | the acresses",
-  "deberías":"should | (you) should",
+  "deberías":"should | you should",
   "la recepcionista":"the receptionist",
   "el cliente":"the client | the customer",
   "la ocupación":"the occupation",
@@ -1172,7 +1172,7 @@
   "teclado":"keyboard",
   "el departamento":"the department",
   "conductor | conductora":"driver",
-  "copiar | copio | copias | copia | copiamos | copian":"copy | copying | ...",
+  "copiar | copio | copias | copia | copiamos | copian":"copy | to copy | copying | ...",
   "el fotógrafo | los fotógrafos | fotógrafa":"the photographer | the photographers",
   "los limpiadores":"the cleaners",
   "la madera":"the wood",
@@ -1180,5 +1180,13 @@
   "el cantante":"the singer",
   "correo":"mail | email",
   "concejo municipal":"city council",
-  "física":"physics"
+  "física":"physics",
+  "el perfume | los perfumes":"the perfume | the perfumes",
+  "cheque":"check",
+  "vendedor":"salesperson | salesman | vendor",
+  "el recibo":"the receipt",
+  "el arete | los aretes":"the earring | the earrings",
+  "el brazalete":"the bracelet",
+  "la pijama | pijamas":"the pajamas",
+  "gratis":"free"
 }

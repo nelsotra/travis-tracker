@@ -1252,7 +1252,7 @@
   "el ventilador":"the fan | the ventilator",
   "la tortilla":"the omelet | the tortilla",
   "el garaje":"the garage",
-  "lavamanos":"sink",
+  "el fregadero | lavamanos":"the sink | sink",
   "las cortinas":"the curtains",
   "rosado":"pink",
   "el bol":"the bowl",
@@ -1263,5 +1263,18 @@
   "pasillo":"hall | hallway | corridor",
   "gritar | grito | gritas | grita | gritamos | gritan":"shout | to shout | cry | ...",
   "el portón":"the gate",
-  "el fregadero":"the sink"
+  "di | diste | dio | dimos | dieron":"i gave | preterite of dar (to give) | ...",
+  "vaya":"go | wow",
+  "enterar | entero | enteras | entera | enteramos | enteran":"to find out | ...",
+  "claro | claras":"clear | light | sure",
+  "contactos":"contacts",
+  "formulario":"form",
+  "la salida":"the exit",
+  "la web":"the web",
+  "digital | digitales":"digital",
+  "asunto":"matter | issue",
+  "añadir | añado | añades | añade | añadimos | añaden":"add | to add | write | ...",
+  "hecho":"fact | incident",
+  "el software":"the software",
+  "suceder | sucedo | sucedes | sucede | sucedemos | suceden":"to happen | to follow | to succeed | ..."
 }

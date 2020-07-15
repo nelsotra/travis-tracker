@@ -8,7 +8,7 @@
   "el ventilador":"the fan | the ventilator",
   "la tortilla":"the omelet | the tortilla",
   "el garaje":"the garage",
-  "lavamanos":"sink",
+  "el fregadero | lavamanos":"the sink | sink",
   "las cortinas":"the curtains",
   "rosado":"pink",
   "el bol":"the bowl",
@@ -18,6 +18,5 @@
   "vender | vendo | vendes | vende | vendemos | venden":"sell | to sell | selling | ...",
   "pasillo":"hall | hallway | corridor",
   "gritar | grito | gritas | grita | gritamos | gritan":"shout | to shout | cry | ...",
-  "el portón":"the gate",
-  "el fregadero":"the sink"
+  "el portón":"the gate"
 }

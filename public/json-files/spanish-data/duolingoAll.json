@@ -1274,7 +1274,21 @@
   "digital | digitales":"digital",
   "asunto":"matter | issue",
   "añadir | añado | añades | añade | añadimos | añaden":"add | to add | write | ...",
-  "hecho":"fact | incident",
+  "hecho":"made | done | fact",
   "el software":"the software",
-  "suceder | sucedo | sucedes | sucede | sucedemos | suceden":"to happen | to follow | to succeed | ..."
+  "suceder | sucedo | sucedes | sucede | sucedemos | suceden":"to happen | to follow | to succeed | ...",
+  "la multitud":"the crowd",
+  "tal | tales":"such",
+  "señal | señales | (las)":"sign | signs | signals",
+  "surfear | surfeo | surfea | surfean | ...":"surfing | surf | to surf | ...",
+  "cualquier lugar":"anywhere",
+  "negativo | negativa":"negative",
+  "por cierto":"by the way",
+  "ruta | rutas":"route | routes | roads",
+  "el sonido":"the sound",
+  "la luna":"the moon",
+  "la estrella":"the star",
+  "biología":"biology",
+  "meta | metas":"goal | goals",
+  "semestre":"semester | term"
 }

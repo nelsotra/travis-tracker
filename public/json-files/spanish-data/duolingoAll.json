@@ -906,7 +906,7 @@
   "enviar | envío | envías | envía | enviamos | envían":"to send | send | getting | ...",
   "la máquina":"the machine",
   "el ingeniero | las ingenieras":"the engineer | the engineers",
-  "verdad":"true",
+  "verdad | verdadero | verdadera | verdaderas":"true",
   "el conejo":"the rabbit",
   "el elefante":"the elephant",
   "peligrosos":"dangerous",
@@ -1360,5 +1360,11 @@
   "el cuadrado":"the square",
   "espacio":"space | room",
   "imprimir":"to print",
-  "sumar | suma":"to add | add | adds | adds up"
+  "sumar | suma":"to add | add | adds | adds up",
+  "el anillo":"the ring",
+  "dorado | dorada":"gold | golden",
+  "conducir | conduzco | conduces | conduce | conducimos | conducen":"to drive | to ride | driving | ...",
+  "snowboarding":"snowboarding",
+  "atractivo | atractivos":"attractive | good looking",
+  "real":"real"
 }

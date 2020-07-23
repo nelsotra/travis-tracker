@@ -32,7 +32,7 @@
   "mirar | miro | miras | mira | miramos | miran":"to watch | to look | look | ...",
   "pintar | pinto | pintas | pinta | pintamos | pintan":"to paint | paint | painting | ...",
   "limpiar | limpio | limpias | limpia | limpiamos | limpian":"to clean | clean | ...",
-  "tocar | toco | tocas | toca | tocamos | tocan":"to play | playing | ...",
+  "tocar | toco | tocas | toca | tocamos | tocan":"touch | to touch | to play | playing | ...",
   "escuchar | escucho | escuchas | escucha | escuchamos | escuchan":"to listen | to listen to | to hear | ...",
   "buscar | busco | buscas | busca | buscamos | buscan":"to look for | look | search | ...",
   "pasar | paso | pasas | pasa | pasamos | pasan":"to spend | to pass | ...",
@@ -952,7 +952,7 @@
   "cuaderno | cuadernos":"notebook | notebooks",
   "el equipo":"the team",
   "balonmano":"handball",
-  "la corredora | los corredores":"the runner | the runners",
+  "corredor | la corredora | los corredores":"hall | the runner | the runners",
   "la carrera":"the race",
   "geografía":"geography",
   "tomé | tomaste | tomó | tomamos | tomaron":"i took | I had | i drank | ...",
@@ -1388,5 +1388,13 @@
   "el oeste":"the west",
   "la mezquita":"the mosque",
   "plata | de plata":"silver",
-  "el este":"the east"
+  "el este":"the east",
+  "ofrecer | ofrezco | ofreces | ofrece | ofrecemos | ofrecen":"to offer | to offer up | to present | ...",
+  "las uvas":"the grapes",
+  "crema":"cream",
+  "desear | deseo | deseas | desea | deseamos | desean":"desire | wish | want | wants | ...",
+  "guardar | guardo | guardas | guarda | guardamos | guardan":"to keep | to save | bored | ...",
+  "agradecer | agradezco | agradeces | agradece | agradecemos | agradecen":"thank | to thank | ...",
+  "hacia":"toward | towards | to",
+  "pedir prestado":"borrow | to borrow"
 }

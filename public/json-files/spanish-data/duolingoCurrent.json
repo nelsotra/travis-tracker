@@ -1,15 +1,11 @@
 {
-  "describir | ...":"to describe | to trace | describe | ...",
-  "señalar | señalo | señalas | señala | señalamos | señalan":"point | gave | give | ...",
-  "the cadena":"the chain",
-  "sal de":"get out | get out of",
-  "la red":"the internet | the net",
-  "retrasar | retraso | retrasas | retrasa | retrasamos | retrasan":"delay | ...",
-  "doblar | doblo | doblas | dobla | doblamos | doblan":"turned | turn | goes | ...",
-  "estacionar | estaciono | estacionas | estaciona | estacionamos | estacionan":"to park | park | parking | ...",
-  "el aguacate":"the avocado",
-  "vete":"go | veto | go away",
-  "sonar | sueno | suenas | suena | sonamos | suenan":"ring | to ring | ...",
-  "pedazo | pedazos":"piece | pieces | to be shattered",
-  "clásica":"classical"
+  "lanzar | lanzo | lanzas | lanza | lanzamos | lanzan":"to throw | throw | ...",
+  "empjuar | empujo | empujas | empuja | empujamos | empujan":"push | to push | ...",
+  "contra":"against",
+  "en medio":"in the midst | in the middle",
+  "el círculo":"the circle",
+  "halar | halo | halas | hala | halamos | halan":"pull | to pull | ...",
+  "incluir | incluyo | incluyes | incluye | incluimos | incluyen":"include | counted | ...",
+  "grabar | grabo | grabas | graba | grabamos | graban":"record | to record | recording | ...",
+  "molestar | molesto | molestas | molesta | molestamos | molestan":"bother | put | upset | ..."
 }

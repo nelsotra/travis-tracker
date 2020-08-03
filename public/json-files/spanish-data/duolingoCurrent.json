@@ -1,11 +1,11 @@
 {
-  "lanzar | lanzo | lanzas | lanza | lanzamos | lanzan":"to throw | throw | ...",
-  "empjuar | empujo | empujas | empuja | empujamos | empujan":"push | to push | ...",
-  "contra":"against",
-  "en medio":"in the midst | in the middle",
-  "el círculo":"the circle",
-  "halar | halo | halas | hala | halamos | halan":"pull | to pull | ...",
-  "incluir | incluyo | incluyes | incluye | incluimos | incluyen":"include | counted | ...",
-  "grabar | grabo | grabas | graba | grabamos | graban":"record | to record | recording | ...",
-  "molestar | molesto | molestas | molesta | molestamos | molestan":"bother | put | upset | ..."
+  "mantener | mantengo | mantienes | mantenemos | mantienen":"to keep | to support | to keep up | ...",
+  "golpear | golpeo | golpeas | golpea | golpean":"hit | hitting | to hit | ...",
+  "destruir | destruyo | destruyes | destruye | destruyen":"destroy | to destroy | ...",
+  "dejar | dejo | dejas | deja | dejamos | dejan":"let | to leave | to allow | ...",
+  "individual":"single | individual | one-off",
+  "delicioso":"delicious",
+  "el muchacho | la muchacha":"the young boy | the young girl",
+  "costar | cuesto | cuestas | cuesta | costamos | cuestan":"lost | costs | to take | ...",
+  "matar | mato | matas | mata | matamos | matan":"kill | to kill | to kill oneself | ..."
 }

@@ -1,11 +1,10 @@
 {
   "mantener | mantengo | mantienes | mantenemos | mantienen":"to keep | to support | to keep up | ...",
   "golpear | golpeo | golpeas | golpea | golpean":"hit | hitting | to hit | ...",
-  "destruir | destruyo | destruyes | destruye | destruyen":"destroy | to destroy | ...",
   "dejar | dejo | dejas | deja | dejamos | dejan":"let | to leave | to allow | ...",
-  "individual":"single | individual | one-off",
-  "delicioso":"delicious",
-  "el muchacho | la muchacha":"the young boy | the young girl",
-  "costar | cuesto | cuestas | cuesta | costamos | cuestan":"lost | costs | to take | ...",
-  "matar | mato | matas | mata | matamos | matan":"kill | to kill | to kill oneself | ..."
+  "matar | mato | matas | mata | matamos | matan":"kill | to kill | to kill oneself | ...",
+  "gramo | gramos":"gram | grams | g",
+  "centímetro | centímetros":"centimeter | centimeters | cm",
+  "recto | recta | rectas":"straight",
+  "pera | peras":"pear | pears"
 }

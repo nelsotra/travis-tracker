@@ -178,7 +178,7 @@
   "millones":"million | millions",
   "para":"for",
   "el queso":"the cheese",
-  "el sándwich":"the sandwich",
+  "el sándwich | emparedado":"the sandwich",
   "el pescado | el pez":"the fish",
   "la carne":"the meat",
   "con":"with",
@@ -1510,5 +1510,6 @@
   "a través":"across | through",
   "licencia":"license",
   "bajar | bajarte | bajarse":"to go down | to get off | ...",
-  "funcionar | funciono | funcionas | funciona | funcionamos | funcionan":"to work | go | going | ..."
+  "funcionar | funciono | funcionas | funciona | funcionamos | funcionan":"to work | go | going | ...",
+  "acerca de":"about"
 }

@@ -498,7 +498,7 @@
   "normalmente":"normally",
   "la pelota":"the ball",
   "el caballo":"the horse",
-  "el río":"the river",
+  "el río":"the river | laugh",
   "alemania | alemán":"germany | german",
   "país | países":"country | countries",
   "la gente":"people | (g)",
@@ -1199,7 +1199,7 @@
   "fácilmente":"easily",
   "caer | caigo | caes | cae | caemos | caen":"fall | to fall down | ...",
   "muerto | muertos | muerta | muertas":"dead",
-  "reír":"laugh | to laugh | to laugh at | ...",
+  "reír | reímos":"laugh | to laugh | to laugh at | ...",
   "forma":"shape | fit",
   "immediatamente":"immediately",
   "sangre":"blood",
@@ -1508,5 +1508,7 @@
   "el bolsillo":"the pocket",
   "los zapatos deportivos":"the sneakers",
   "a través":"across | through",
-  "licencia":"license"
+  "licencia":"license",
+  "bajar | bajarte | bajarse":"to go down | to get off | ...",
+  "funcionar | funciono | funcionas | funciona | funcionamos | funcionan":"to work | go | going | ..."
 }

@@ -1577,5 +1577,19 @@
   "culpa":"fault | blame",
   "entrega":"delivery | (he/she/it) delivers | (he/she/it) gives",
   "firmar | firmo | firmas | firma | firmamos | firman":"sign | signed | ...",
-  "depender | dependo | dependes | depende | dependemos | dependen":"depend | depends | (he/she/it) depends"
+  "depender | dependo | dependes | depende | dependemos | dependen":"depend | depends | (he/she/it) depends",
+  "cualquier":"any | anything",
+  "moneda":"currency | coin | piece",
+  "la moto":"the motorcycle | the scooter | the motorbike",
+  "la bola | las bolas":"the ball | the balls",
+  "las fuentes":"the fountains | the sources | the springs",
+  "aparato":"apparatus",
+  "la campana":"the bell | the hood",
+  "pluma":"pen | feather",
+  "la columna":"the column | the pillar",
+  "la bandera":"the flag",
+  "la bomba | las bombas":"the bomb | the bombs",
+  "polvo":"dust | powder",
+  "pieza":"piece | part | room",
+  "arma":"weapon | gun"
 }

@@ -12,7 +12,6 @@
   "adelante":"forward | go forward | go ahead",
   "prácticamente":"practically | virtually",
   "principalmente":"mainly | principally | chiefly",
-  "perfectamente":"perfectly",
   "únicamente":"only | solely",
   "recientemente":"recently",
   "aproximadamente":"approximately",
@@ -23,5 +22,6 @@
   "naturalmente":"naturally | of course",
   "relativamente":"relatively",
   "absolutamente":"absolutely | totally",
-  "nuevamente":"again | once again"
+  "nuevamente":"again | once again",
+  "perfectamente":"perfectly"
 }

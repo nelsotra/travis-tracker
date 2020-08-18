@@ -1,5 +1,4 @@
 {
-  "siquiera":"at least | even",
   "lograr | logro | logras | logra | logramos | logran":"to achieve | to be able to | to attain | ...",
   "iniciar | inicio | inicias | inicia | iniciamos | inician":"to start | to initiate | to begin | ...",
   "permitir | permito | permites | permite | permitimos | permiten":"allow | to allow | to permit | ...",
@@ -10,5 +9,6 @@
   "insistir | insisto | insistes | insiste | insistimos | insisten":"to insist | ...",
   "negar | niego | niegas | niega | negamos | niegan":"to deny | to refuse | ...",
   "sacar | saco | sacas | saca | sacamos | sacan":"to get | raised | to take out | ...",
-  "considerar | considero | consideras | considera | consideramos | consideran":"consider | to consider | counted | ..."
+  "considerar | considero | consideras | considera | consideramos | consideran":"consider | to consider | counted | ...",
+  "siquiera":"at least | even"
 }

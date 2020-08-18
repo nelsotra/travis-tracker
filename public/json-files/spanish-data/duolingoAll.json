@@ -1674,5 +1674,16 @@
   "insistir | insisto | insistes | insiste | insistimos | insisten":"to insist | ...",
   "negar | niego | niegas | niega | negamos | niegan":"to deny | to refuse | ...",
   "sacar | saco | sacas | saca | sacamos | sacan":"to get | raised | to take out | ...",
-  "considerar | considero | consideras | considera | consideramos | consideran":"consider | to consider | counted | ..."
+  "considerar | considero | consideras | considera | consideramos | consideran":"consider | to consider | counted | ...",
+  "partir | parto | partes | parte | partimos | parten":"leave | to leave | leaving | to cut | ...",
+  "pesar | peso | pesas | pesa | pesamos | pesan":"weigh | to weigh | to weigh out | ...",
+  "evitar | ...":"to avoid | to prevent | avoid | ...",
+  "realizar | realizo | realizas | realiza | realizamos | realizan":"to carry out | to be realized | to realize | ...",
+  "crear | creo | creas | crea | creamos | crean":"to create | creating | ...",
+  "obtener | obtengo | obtienes | obtiene | obtenemos | obtienen":"to obtain | to get | to win | to achieve | ...",
+  "establecer | establezco | estableces | establece | establecemos | establecen":"to establish | to lay down | get | ...",
+  "reglas":"rules",
+  "utilizar | utilizo | utilizas | utiliza | utilizamos | utilizan":"to use | to utilize | borrow | ...",
+  "producir | produzco | produces | produce | producimos | producen":"to produce | to generate | to give rise to | ...",
+  "resolver | ...":"to resolve | solving | to solve | ..."
 }

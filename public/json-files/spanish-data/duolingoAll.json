@@ -1685,5 +1685,20 @@
   "reglas":"rules",
   "utilizar | utilizo | utilizas | utiliza | utilizamos | utilizan":"to use | to utilize | borrow | ...",
   "producir | produzco | produces | produce | producimos | producen":"to produce | to generate | to give rise to | ...",
-  "resolver | ...":"to resolve | solving | to solve | ..."
+  "resolver | ...":"to resolve | solving | to solve | ...",
+  "dudar | ...":"doubt | to doubt | ...",
+  "salvar | salvo | salvas | salva | salvamos | salvan":"save | to save | ...",
+  "continuar | continúo | continúas | continúa | continuamos | continúan":"continue | to continue | going | ...",
+  "poseer | ...":"possess | own | owns | ...",
+  "valer | valgo | vales | vale | valemos | valen":"worth | are worth | cost | ...",
+  "derrotar | derroto | derrotas | derrota | derrotamos | derrotan":"to defeat | beat | defeat | ...",
+  "contener | contengo | contienes | contiene | contenemos | contienen":"contains | holds | to contain | ...",
+  "reconocer | reconozco | reconoces | reconoce | reconocemos | reconocen":"recognize | to recognize | to examine | to admit | ...",
+  "ocupar | ...":"takes up | take up | ...",
+  "rechazo | ...":"reject | i reject | rejection",
+  "consultar | consulto | consultas | consulta | consultamos | consultan":"consult | to consult | consultation | ...",
+  "afectar | afecto | afectas | afecta | afectamos | afectan":"affect | to affect | touch | to encumber | ...",
+  "expresar | ...":"express | to express | ...",
+  "tiro | ...":"throw | i throw | kick | ...",
+  "curar | curo | curas | cura | curamos | curan":"cure | cures | to cure | ..."
 }

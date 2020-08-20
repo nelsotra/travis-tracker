@@ -1700,5 +1700,15 @@
   "afectar | afecto | afectas | afecta | afectamos | afectan":"affect | to affect | touch | to encumber | ...",
   "expresar | ...":"express | to express | ...",
   "tiro | ...":"throw | i throw | kick | ...",
-  "curar | curo | curas | cura | curamos | curan":"cure | cures | to cure | ..."
+  "curar | curo | curas | cura | curamos | curan":"cure | cures | to cure | ...",
+  "reducir | reduzco | reduces | reduce | reducimos | reducen":"to reduce | to cut | ...",
+  "aumentar | ...":"to increase | to rise | to raise | ...",
+  "superar | ...":"to surpass | to overcome | to beat | ...",
+  "abandonar | ...":"to abandon | to withdraw | to retire | ...",
+  "aplicar | ...":"apply | to apply | to allow | ...",
+  "descubrir | descubro | descubres | descubre | descubrimos | descubren":"to discover | to find | to uncover | ...",
+  "demostrar | demuestro | demuestras | demuestra | demostramos | demuestran":"show | to show | to demonstrate | ...",
+  "recuperar | ...":"to recover | recover | ...",
+  "controlar | ...":"control | to control | ...",
+  "defender | ...":"to defend | defend | ..."
 }

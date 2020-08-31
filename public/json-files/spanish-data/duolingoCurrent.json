@@ -1,14 +1,19 @@
 {
-  "discoteca":"nightclub | dance club | club",
   "pasear | ...":"walk | to walk | to go for a walk | ...",
   "abrazo":"hug",
-  "humor":"humor | mood",
-  "carácter":"personality | nature | character",
-  "relación":"relationship | account | connection",
   "alegre | alegres":"cheerful | laughing | happier",
   "encantada | encantado":"enchanted | delighted | pleased",
-  "excusa":"escuse",
-  "boda":"wedding | marriage",
-  "celebrar":"to celebrate | to say | to perform",
-  "estado civil":"marital status"
+  "curioso | curiosa | curiosos":"curious | nosy | strange",
+  "silenciosamente":"silently | quietly",
+  "silencioso | silenciosa | silenciosas":"silent",
+  "artículo | artículos":"articles | better | best",
+  "frecuente":"frequent",
+  "causa":"cause",
+  "daño | daños":"damage",
+  "crisis":"crisis | crises",
+  "paz":"peace",
+  "escapar | ...":"escape | to escape",
+  "situación":"situation | position | location",
+  "actual":"current",
+  "publicar | ...":"publish | to publish | ..."
 }

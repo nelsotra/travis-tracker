@@ -1786,7 +1786,7 @@
   "curioso | curiosa | curiosos":"curious | nosy | strange",
   "silenciosamente":"silently | quietly",
   "silencioso | silenciosa | silenciosas":"silent",
-  "artículo | artículos":"articles | better | best",
+  "artículo | artículos":"article | articles | better | best",
   "frecuente":"frequent",
   "causa":"cause",
   "daño | daños":"damage",
@@ -1795,5 +1795,17 @@
   "escapar | ...":"escape | to escape",
   "situación":"situation | position | location",
   "actual":"current",
-  "publicar | ...":"publish | to publish | ..."
+  "publicar | ...":"publish | to publish | ...",
+  "frase | frases":"phrase | sentence | phrases",
+  "significado":"meaning",
+  "resumen":"summary",
+  "repaso":"review | reviews",
+  "resultado | resultados":"result | results | performance",
+  "memorizar":"memorize",
+  "apuntes":"notes",
+  "instructores | instructoras":"instructors",
+  "apoyar | ...":"support | to support | to back | to rest | ...",
+  "contenido":"content | contents",
+  "corregir | corrige | corriges | corrigen | ...":"correct | to correct | corrects | ...",
+  "traducción | traducciones":"translation | translations"
 }

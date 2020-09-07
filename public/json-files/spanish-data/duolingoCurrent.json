@@ -1,14 +1,16 @@
 {
-  "frase | frases":"phrase | sentence | phrases",
-  "significado":"meaning",
-  "resumen":"summary",
-  "repaso":"review | reviews",
-  "resultado | resultados":"result | results | performance",
-  "memorizar":"memorize",
-  "apuntes":"notes",
-  "instructores | instructoras":"instructors",
-  "apoyar | ...":"support | to support | to back | to rest | ...",
-  "contenido":"content | contents",
-  "corregir | corrige | corriges | corrigen | ...":"correct | to correct | corrects | ...",
-  "traducción | traducciones":"translation | translations"
+  "antibiótico | antibióticos":"antibiotic | antibiotics",
+  "farmacia":"pharmacy | drugstore",
+  "clinica":"clinic",
+  "dieta":"diet | salary",
+  "herida":"wound | wounds | hurt",
+  "análisis":"test | calculi | calculus",
+  "así":"like this | this way | like that",
+  "quemar | quemo | quemaron | ...":"burn | to burn | ...",
+  "piel":"skin | peel | fur",
+  "mareado | mareada":"dizzy",
+  "paciente":"patient | passive",
+  "estrés":"stress",
+  "codo":"elbow | tightfisted",
+  "resfriado | resfriada":"cold | (sick)"
 }

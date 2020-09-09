@@ -1838,5 +1838,20 @@
   "ventaja | ventajas":"advantage | start | benefits",
   "experiencia":"experience",
   "progreso":"progress",
-  "punto":"view | point | dot"
+  "punto":"view | point | dot",
+  "informal | informales":"casual | informal",
+  "algodón":"cotton",
+  "importa":"care | care about",
+  "calidad":"quality | status",
+  "sudadera":"sweatshirt",
+  "original":"original | different",
+  "ropa interior":"underwear",
+  "marca":"brand",
+  "sandalia":"sandal | sandals",
+  "apretado | apretada":"tight",
+  "tela":"fabric | material",
+  "faltar | ...":"lack | absence | doesn't have enough | ...",
+  "cajero automático":"ATM | atm",
+  "caja registradora":"cash register",
+  "total":"total"
 }

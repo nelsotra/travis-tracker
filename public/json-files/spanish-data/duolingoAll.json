@@ -1897,5 +1897,21 @@
   "evento":"event | case",
   "explorar | ...":"explore | to explore",
   "desconocido | desconocida":"stranger | strange | unknown",
-  "salida de emergencia":"emergency exit"
+  "salida de emergencia":"emergency exit",
+  "conexión":"connection | layover",
+  "directo":"straight | direct",
+  "destino":"destination",
+  "distancia":"distance | away",
+  "millas":"miles",
+  "código postal":"postal code",
+  "tour":"tour",
+  "distrito":"district",
+  "estados":"states",
+  "itinerario":"itinerary",
+  "antíguo | antígua":"ancient | old",
+  "espectacular":"spectacular",
+  "guiar | ...":"guide | to guide | ...",
+  "típico | típica":"traditional",
+  "ruinas":"ruins",
+  "apellido":"last name"
 }

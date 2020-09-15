@@ -1,18 +1,12 @@
 {
-  "mediano | mediana":"medium",
   "comedor":"dining room",
   "estilo":"style",
-  "adicional":"additional | extra | support",
-  "por ciento":"percent",
-  "botón":"button",
-  "sección | secciones":"section | sections",
-  "renovar | ...":"renovate | to renovate | ...",
-  "electrodoméstico":"appliance | electrical appliance",
-  "calefacción":"heating | heat",
   "raro | rara":"strange | unusual | funny",
   "deber | ...":"duty | to owe | ...",
-  "objecto":"object",
-  "material":"material | materials",
   "cobrar | ...":"charge | to charge | cash | collect",
-  "clásico | clásica":"classic"
+  "activo | activa":"active",
+  "despertador":"alarm clock",
+  "rutina":"routine",
+  "gemelo | gemela":"twins",
+  "basura":"trash | garbage"
 }

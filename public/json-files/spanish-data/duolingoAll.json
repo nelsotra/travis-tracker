@@ -1929,5 +1929,10 @@
   "objecto":"object",
   "material":"material | materials",
   "cobrar | ...":"charge | to charge | cash | collect",
-  "clásico | clásica":"classic"
+  "clásico | clásica":"classic",
+  "activo | activa":"active",
+  "despertador":"alarm clock",
+  "rutina":"routine",
+  "gemelo | gemela":"twins",
+  "basura":"trash | garbage"
 }

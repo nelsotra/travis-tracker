@@ -1,12 +1,11 @@
 {
-  "comedor":"dining room",
-  "estilo":"style",
-  "raro | rara":"strange | unusual | funny",
-  "deber | ...":"duty | to owe | ...",
-  "cobrar | ...":"charge | to charge | cash | collect",
-  "activo | activa":"active",
   "despertador":"alarm clock",
-  "rutina":"routine",
   "gemelo | gemela":"twins",
-  "basura":"trash | garbage"
+  "basura":"trash | garbage",
+  "imaginar":"to imagine | imagine | to think up",
+  "secreto | secreta":"secret",
+  "concurso":"contest",
+  "el planeta":"the planet",
+  "imaginario | imaginaria":"imaginary | fanciful | unreal",
+  "éxito":"success | successful"
 }

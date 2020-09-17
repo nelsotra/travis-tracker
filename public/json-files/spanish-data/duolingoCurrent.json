@@ -1,11 +1,18 @@
 {
-  "despertador":"alarm clock",
-  "gemelo | gemela":"twins",
-  "basura":"trash | garbage",
-  "imaginar":"to imagine | imagine | to think up",
-  "secreto | secreta":"secret",
-  "concurso":"contest",
-  "el planeta":"the planet",
-  "imaginario | imaginaria":"imaginary | fanciful | unreal",
-  "éxito":"success | successful"
+  "contabilidad":"accounting",
+  "dedicar | dedico | dedicas | dedica | dedicamos | dedican":"to work | to work in | spend | ...",
+  "calculadora":"calculator | calculating",
+  "roles":"roles",
+  "búsqueda":"search",
+  "dato":"facts | date | information",
+  "ley | leyes":"law | laws",
+  "desorganizado | desorganizada":"disorganized",
+  "asistente":"assistant",
+  "producto | productos":"product | products | results",
+  "producción":"production | output",
+  "exportar | ...":"to export | export | ...",
+  "tercio | tercios":"third | thirds",
+  "valor | valores":"value | values",
+  "beneficio":"benefit",
+  "servicio":"service"
 }

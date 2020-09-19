@@ -1784,7 +1784,7 @@
   "celebrar":"to celebrate | to say | to perform",
   "estado civil":"marital status",
   "curioso | curiosa | curiosos":"curious | nosy | strange",
-  "silenciosamente":"silently | quietly",
+  "silenciosamente":"silently | quietly",d
   "silencioso | silenciosa | silenciosas":"silent",
   "artículo | artículos":"article | articles | better | best",
   "frecuente":"frequent",
@@ -2009,5 +2009,18 @@
   "balcón":"balcony",
   "carnicería":"butcher shop",
   "comisaría":"police station",
-  "gasolinera":"gas station"
+  "gasolinera":"gas station",
+  "árbitro":"referee",
+  "torneo":"tournament",
+  "período":"period",
+  "personaje":"character",
+  "infancia":"childhood | infancy",
+  "alfabeto":"alphabet",
+  "universo":"universe",
+  "invento":"invention",
+  "atención":"attention",
+  "emergencia":"emergency",
+  "débil":"weak",
+  "pastilla":"pill",
+  "estresado | estresada":"stressed"
 }

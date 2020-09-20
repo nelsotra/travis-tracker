@@ -2022,5 +2022,15 @@
   "emergencia":"emergency",
   "débil":"weak",
   "pastilla":"pill",
-  "estresado | estresada":"stressed"
+  "estresado | estresada":"stressed",
+  "el grifo":"the faucet",
+  "el vacío | la aspiradora":"vacuum | vacuum cleaner",
+  "lavavajillas":"dishwasher",
+  "congelador":"freezer",
+  "mancha":"stain | dirty",
+  "planchar | ...":"iron | to iron | ironing | ...",
+  "barrer":"sweep",
+  "reciclar":"recycle | to recycle",
+  "ordenar":"clean up | organize",
+  "desordenado | desordenada":"messy"
 }

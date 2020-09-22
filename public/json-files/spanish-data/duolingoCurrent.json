@@ -1,18 +1,7 @@
 {
-  "el grifo":"the faucet",
-  "el vacío | la aspiradora":"vacuum | vacuum cleaner",
-  "lavavajillas":"dishwasher",
-  "congelador":"freezer",
-  "mancha":"stain | dirty",
-  "planchar | ...":"iron | to iron | ironing | ...",
-  "barrer":"sweep",
-  "reciclar":"recycle | to recycle",
-  "ordenar":"clean up | organize",
-  "desordenado | desordenada":"messy",
-  "mágico":"magical",
-  "la arena":"the sand",
-  "valiente":"brave",
-  "la hoja":"the leaf",
-  "la araña":"the spider",
-  "la cueva":"the cave"
+  "actualizar | ...":"update | to update | updating | ...",
+  "promoción":"promotion",
+  "contratar | ...":"hire | to hire | ...",
+  "montón":"heap | ton",
+  "solicitud":"application"
 }

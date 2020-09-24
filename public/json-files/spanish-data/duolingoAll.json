@@ -2104,5 +2104,21 @@
   "frecuentemente | frecuencia":"frequently",
   "escena":"scene",
   "altura":"height | altitude",
-  "protección":"protection"
+  "protección":"protection",
+  "sentado | sentada":"seated | sitting",
+  "pagado | pagada":"paid | paid for",
+  "herido":"hurt",
+  "detenido":"stopped | detained | held up",
+  "pulicado":"published | disclosed",
+  "seguido | seguida":"followed",
+  "alegría":"joy | happiness",
+  "sonrisa":"smile",
+  "tensión":"tension",
+  "placer":"pleasure",
+  "esperanza":"hope",
+  "temor":"fear",
+  "soledad":"loneliness | solitude",
+  "satisfacción":"satisfaction | fulfillment",
+  "sentimiento":"feeling | feelings",
+  "celebración":"celebration"
 }

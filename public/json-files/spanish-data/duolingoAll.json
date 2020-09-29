@@ -2333,5 +2333,20 @@
   "descubrimiento":"discovery",
   "núcleo":"nucleus | center | core",
   "observación":"observation | observance",
-  "profundidad":"depth | the depths"
+  "profundidad":"depth | the depths",
+  "poesía":"poetry",
+  "ritmo":"pace | beat | rhythm",
+  "la moda":"the fashion | the trend",
+  "flauta":"flute",
+  "disco":"disk | disc | record",
+  "arquitectura":"archcitecture",
+  "danza":"dancing | dance",
+  "orquesta":"orchestra",
+  "pasión":"passion | love",
+  "fotografía":"photograph | photography",
+  "actos":"actions | acts",
+  "actuación":"performance | acting",
+  "cuadro":"painting | picture",
+  "musical":"musical | music",
+  "letra":"handwriting | writing | lyrics | letter"
 }

@@ -1,0 +1,58 @@
+{
+    "1" : {
+        "id" : "1",
+        "tabTitle" : "Watchdog",
+        "cardTitle" : "The Watchdog UI",
+        "cardText" : "Watchdog is an application created at HCA to determine how old data in a relational database is. I did not create Watchdog, but one day we were discussing it and the lead developer mentioned that it would be nice to have a UI for it, but that he didn't have time to create it.  Being the ambitious engineer that I am, I immediately volunteered to create the UI for him. It's not a complicated UI, but it allows users to see the current state of Watchdog, add a new table, configure the settings, configure the database connections, etc.",
+        "cardTech" : "The page is made with Vue JS and a Python backend, mainly because it was easy to connect to the various databases with Python.",
+        "cardImg" : "/img/portfolio-img/watchdog.png"
+    },
+    "2" : {
+        "id" : "2",
+        "tabTitle" : "Hadoop",
+        "cardTitle" : "Hadoop Healthchecks UI",
+        "cardText" : "Part of my job involves operational work; in this case I was tasked with creating some Healthchecks to determine the state of HCA's Hadoop system and the components of it (like Hbase, Hive, Impala, Spark). The healthchecks were written in a variety of languages, but mostly Python and Kotlin.  Once finished, they were out there and running, but it wasn't easy to see their current state, so I created a system to display the current status of these processes.  The idea was that you would give it a schedule and the healthcheck would ping an API endpoint to let it know that it was successful.  If a ping was not received, or an error was received, that would be displayed as a failure.  It's fairly similar to Cronitor, if you are familiar with that service.",
+        "cardTech" : "The UI was created with React, and the backend is Go",
+        "cardImg" : "/img/portfolio-img/healthchecks.png"
+    },
+    "3" : {
+        "id" : "3",
+        "tabTitle" : "Airflow",
+        "cardTitle" : "RCPS and Airflow",
+        "cardText" : "RCPS is a data science product within HCA.  The details of what RCPS does and is used for are not relevant here, but the important thing is that it was initially setup to run on a cron-job on a server.  That's fine, it worked, but people didn't have a lot of visibility into what was happening with it.  To solve that problem, and to make it a little easier to instrument and monitor, I moved it over to Airflow.  Now, people can go to Airflow's UI Dashboard and see if the latest run worked, read the logs, kick off a manual run, etc.  It's much more user friendly, especially when combined with CI/CD for the SQL scripts and the scripts running the Airflow tasks.  Plus, each task in Airflow can be fitted with its own alerting, so we know exactly where a problem is happening.",
+        "cardTech" : "",
+        "cardImg" : "/img/portfolio-img/airflow_rcps.png"
+    },
+    "4" : {
+        "id" : "4",
+        "tabTitle" : "Data Monitor",
+        "cardTitle" : "Nate Data Monitor",
+        "cardText" : "Nate is an internal HCA application that is used directly in HCA hospitals. I did not create Nate, but they were having an issue with some of their data feeds not being current, so I volunteered my Airflow skills to create some scripts that would check their data sources and send alerts if the data in them was older than a pre-determined value.  The alerts were configured to go to a Webex Teams channel, which I hadn't done before, but turned out to be a fantastic solution, because then the entire team can see the failure alert and comment about possible solutions.  So much easier than emails or PagerDuty.",
+        "cardTech" : "The scripts in Airflow are Python",
+        "cardImg" : "/img/portfolio-img/airflow_nate.png"
+    },
+    "5" : {
+        "id" : "5",
+        "tabTitle" : "Call Helper",
+        "cardTitle" : "Critical Call Helper",
+        "cardText" : "This one was just a fun side-project for myself.  If you looked at my resume, you saw that I have extensive experience working in hospital labs as a medical technologist.  Well, now that I'm a developer, I decided to create an application that I *wish* I had when I was working in a lab.  Here's the short summary:  In a lab, there are a lot of critical values that MUST be called to the nurse or doctor taking care of a patient (like a critically low glucose value, something like that).  The problem is that sometimes you can get 10 of these things at the same time.  It's not really possible to call 10 nurses at the same time, so you call one and the other 9 sit there and wait.  My idea was to create an application so that you can log those calls, they show up in a list, and anyone in that lab can help out by grabbing one of those items and making the call for you.  So the tech would create a new call item, it shows up under 'Available', then someone else would click on it to bring it over to the 'InProgress' side, and then when the call is complete you click on a button to send it to the 'Done' list.",
+        "cardTech" : "The front end is Vue JS and the backend is Go.",
+        "cardImg" : "/img/portfolio-img/callhelper.png"
+    },
+    "6" : {
+        "id" : "6",
+        "tabTitle" : "Spanish Vocab",
+        "cardTitle" : "Spanish Vocab Review",
+        "cardText" : "This one is just another fun little side project for myself.  I'm trying to learn Spanish and I wanted a way to quickly review the vocab words that I was learning, so I built this little vocab quiz page.  I know, there are tons of things like this out there on the internet, but why use someone else's when you can build your own?  Plus it's fun to make a little tool like this; It only took a day or so to build, and I learned things in Vue that I didn't know before, so it's a win-win.",
+        "cardTech" : "The front end is Vue JS",
+        "cardImg" : "/img/portfolio-img/spanish.png"
+    },
+    "7" : {
+        "id" : "7",
+        "tabTitle" : "HR Insights",
+        "cardTitle" : "HR Insights",
+        "cardText" : "HR Insights is meant to be a portal for all the Data and Analytics needs of the HR Group within HCA.  I started on this team after the product had been initially built, but it was still really new, it had only been created a few months before.  Anyway, my first tasks were to fix a bunch of bugs, which I actually really enjoy!  It's fun to work on something that other people don't necessary want to do, but that they definitely appreciate when it's done.  Plus, it's a great way to get up to speed on a new code base.  After the bug fixes, I moved on to implemented new features, like letting users add attachments when they submit feedback, letting users save bookmarks for Power BI reports, things like that.  So far I'm loving this project, it's been a lot of fun and the team is amazing!!",
+        "cardTech" : "The front end is React, and the back end is Node",
+        "cardImg" : "/img/portfolio-img/hr_insights.png"
+    }
+}

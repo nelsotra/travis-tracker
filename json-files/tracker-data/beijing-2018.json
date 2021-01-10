@@ -1,0 +1,222 @@
+{
+    "1" : {
+        "caption" : "The wall.  You know, that Great Wall.",
+        "include_post" : true,
+        "id" : "1",
+        "latitude" : "40.35",
+        "longitude" : "116.004",
+        "date" : "2018-03-16",
+        "text" : "I decided to not waste any time and hit the wall on my first full day in Beijing.  Actually, I had dreams of going to a different section of the wall each day (there are lots of easily accessible portions of the wall day-trippable from Beijing).  But once I got there, I realized it's just a wall.  It's a nice wall, but it was a little underwhelming.  At least I went during low tourist time, so I didn't have to fight thousands of people, so yay for that.",
+        "title" : "Day 1 - The Great Wall of China",
+        "img" : "/img/beijing-2018/3-16-18.jpg"
+    },
+    "2" : {
+        "caption" : "Site of the 2008 Summer Olympics",
+        "include_post" : true,
+        "id" : "2",
+        "latitude" : "39.99",
+        "longitude" : "116.39",
+        "date" : "2018-03-16",
+        "text" : "After getting back from the wall, I started just wandering around Beijing.  I came across (or intentionally headed there) the 2008 Summer Olympic venues.  I loooove seeing things like this when they're past their prime and are a ghost of their former selves.  I like to imagine the streets crowded with people, lots of activity and just chaos everywhere.  For some reason seeing places like this empty makes me a little happy.  What does that say about me?!?",
+        "title" : "Day 1 - Beijing",
+        "img" : "/img/beijing-2018/3-16-18b.jpg"
+    },
+    "3" : {
+        "caption" : "A Beijing Hutong",
+        "include_post" : true,
+        "id" : "3",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-17",
+        "text" : "I LOVED the Hutongs!!  They're these old alleys/residential areas in Beijing that are so much fun to wander around in.  They're like a maze though, easy to get turned around, but so much fun to explore.",
+        "title" : "Day 2 - Beijing",
+        "img" : "/img/beijing-2018/3-17-18.jpg"
+    },
+    "4" : {
+        "caption" : "The Forbidden City",
+        "include_post" : true,
+        "id" : "4",
+        "latitude" : "39.92",
+        "longitude" : "116.39",
+        "date" : "2018-03-17",
+        "text" : "I did the Great Wall, so I suppose I had to do the 'other' big Beijing thing:  The Forbidden City.  Getting in wasn't as straight-forward as I thought it would be.  As a foreigner you have to go to a special ticket counter, which isn't obvious, or well-marked.  Luckily, a local took pity on me, noticed me wandered around with a confused look on my face, and pointed me in the right direction.  Never underestimate the power of looking lost and stupid.",
+        "title" : "Day 2 - Beijing",
+        "img" : "/img/beijing-2018/3-17-18b.jpg"
+    },
+    "5" : {
+        "caption" : "Mmmmm.... street food.",
+        "include_post" : true,
+        "id" : "5",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-18",
+        "text" : "As you should probably know by now, I love me some street food.  Delicious!",
+        "title" : "Day 3 - Beijing",
+        "img" : "/img/beijing-2018/3-18-18.jpg"
+    },
+    "6" : {
+        "caption" : "The Temple of Heaven",
+        "include_post" : true,
+        "id" : "6",
+        "latitude" : "39.882",
+        "longitude" : "116.406",
+        "date" : "2018-03-19",
+        "text" : "I hadn't even heard of this place, but saw something called 'The Temple of Heaven' on the map and decided to check it out.  And oh wow, this place is gorgeous!  That blue building in the pic, not a single nail was used to create it.  No nails!  How did they do it?!?  The inside is magnificent as well.  I mean, you couldn't actually go inside it, but since I was a foot taller than everyone, I could see over them as they crowded around the gated door to get a glimpse of the inside structure, and it.. was.. amazing.",
+        "title" : "Day 4 - Beijing",
+        "img" : "/img/beijing-2018/3-19-18.jpg"
+    },
+    "7" : {
+        "caption" : "Yay!  More money pics!",
+        "include_post" : true,
+        "id" : "7",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "",
+        "title" : "Extra 1",
+        "img" : "/img/beijing-2018/extra1.jpg"
+    },
+    "8" : {
+        "caption" : "Me.  The Great Wall.",
+        "include_post" : true,
+        "id" : "8",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "The obligatory selfie to prove I was really at the Great Wall.  Notice the lack of other people on the wall, this made me very happy.",
+        "title" : "Extra 2",
+        "img" : "/img/beijing-2018/extra2.jpg"
+    },
+    "9" : {
+        "caption" : "Sometimes the wall gets reallllllly steep",
+        "include_post" : true,
+        "id" : "9",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "I know it looks like that lady is posing for me, but I swear it was accidental.  I just wanted to show how steep some of the stair sections of the wall can be.",
+        "title" : "Extra 3",
+        "img" : "/img/beijing-2018/extra3.jpg"
+    },
+    "10" : {
+        "caption" : "More from the Forbidden City",
+        "include_post" : true,
+        "id" : "10",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "",
+        "title" : "Extra 4",
+        "img" : "/img/beijing-2018/extra4.jpg"
+    },
+    "11" : {
+        "caption" : "Another from the Forbidden City",
+        "include_post" : true,
+        "id" : "11",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "It was raining/snowing the day I was there, which I think makes the pictures just slightly more dramatic.",
+        "title" : "Extra 5",
+        "img" : "/img/beijing-2018/extra5.jpg"
+    },
+    "12" : {
+        "caption" : "I believe this is also in the Forbidden City",
+        "include_post" : true,
+        "id" : "12",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "Lots of alleys, corridors, whatever you want to call them.  I really liked them for some reason.",
+        "title" : "Extra 6",
+        "img" : "/img/beijing-2018/extra6.jpg"
+    },
+    "13" : {
+        "caption" : "A public bathroom in Beijing",
+        "include_post" : true,
+        "id" : "13",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "Pray that you're never wandering around in Beijing, suddenly get a gastro-intestinal problem, and have to use one of their 'public' bathrooms.  The squat toilet I can handle, but there's absolutely nothing standing between the rest of the bathroom and you and you're doing your thing.  And no, I didn't have to use the bathroom, but I did walk into one while it was in the process of being used.  Awkward.",
+        "title" : "Extra 7",
+        "img" : "/img/beijing-2018/extra7.jpg"
+    },
+    "14" : {
+        "caption" : "Beijing Roast Duck",
+        "include_post" : true,
+        "id" : "14",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "I went out of my way to find the best (well, the best for a reasonable amount of money) roast duck restaurant in Beijing.  I wasn't expecting much, but I was wrong.  It was phenomenal.  So good.  I'd highly recommend it if you're ever in the neighborhood.",
+        "title" : "Extra 8",
+        "img" : "/img/beijing-2018/extra8.jpg"
+    },
+    "15" : {
+        "caption" : "More street food!",
+        "include_post" : true,
+        "id" : "15",
+        "latitude" : "39.34",
+        "longitude" : "117.36",
+        "date" : "2018-03-20",
+        "text" : "The duck was good, but for the real China experience, you've gotta go for the fried squid on a stick.  It was amazing.  Really, I loved it.",
+        "title" : "Extra 9",
+        "img" : "/img/beijing-2018/extra9.jpg"
+    },
+    "16" : {
+        "caption" : "The Porcelain House in Tianjin",
+        "include_post" : true,
+        "id" : "16",
+        "latitude" : "39.124",
+        "longitude" : "117.202",
+        "date" : "2018-03-20",
+        "text" : "After a few days I was slightly bored with Beijing, so I decided to be adventurous and do a day trip.  I picked Tianjin.  Not sure why, maybe because it was on the coast?  And easy train ride away?  Who knows.  As I was wandering around, I discovered the Porcelain House, the outside is covered in colorful chinaware, it really is something to behold",
+        "title" : "Extra 10",
+        "img" : "/img/beijing-2018/extra10.jpg"
+    },
+    "17" : {
+        "caption" : "Something else from the Temple of Heaven?",
+        "include_post" : true,
+        "id" : "17",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "",
+        "title" : "Extra 11",
+        "img" : "/img/beijing-2018/extra11.jpg"
+    },
+    "18" : {
+        "caption" : "Tai Chi in the park",
+        "include_post" : true,
+        "id" : "18",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "Surrounding the temple of heaven is a lovely park, and while there I caught a group of people doing what I assume was Tai Chi.  I thought about joining them.  Didn't do it though.  Maybe next time?",
+        "title" : "Extra 12",
+        "img" : "/img/beijing-2018/extra12.jpg"
+    },
+    "19" : {
+        "caption" : "Steamed buns",
+        "include_post" : true,
+        "id" : "19",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "Steamed buns were everywhere in Beijing, and they were delicious.",
+        "title" : "Extra 13",
+        "img" : "/img/beijing-2018/extra13.jpg"
+    },
+    "20" : {
+        "caption" : "I think this was part of the Forbidden City?",
+        "include_post" : true,
+        "id" : "20",
+        "latitude" : "",
+        "longitude" : "",
+        "date" : "2018-03-20",
+        "text" : "I honestly don't really remember where this was, I'm guessing it was part of the Forbidden City, but that's just a decent guess.",
+        "title" : "Extra 14",
+        "img" : "/img/beijing-2018/extra14.jpg"
+    }
+}
